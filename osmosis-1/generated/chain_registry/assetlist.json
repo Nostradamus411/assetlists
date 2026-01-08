@@ -28939,6 +28939,41 @@
     {
       "denom_units": [
         {
+          "denom": "ibc/33AA30DB77B9580083EBDCF8B94A6ACE2258E00148B98EE744F990562E4D0325",
+          "exponent": 0,
+          "aliases": [
+            "microDRC",
+            "uDRC"
+          ]
+        },
+        {
+          "denom": "DRC",
+          "exponent": 6
+        }
+      ],
+      "type_asset": "ics20",
+      "base": "ibc/33AA30DB77B9580083EBDCF8B94A6ACE2258E00148B98EE744F990562E4D0325",
+      "name": "Divine",
+      "display": "DRC",
+      "symbol": "DRC",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "divine",
+            "base_denom": "uDRC",
+            "channel_id": "channel-0"
+          },
+          "chain": {
+            "channel_id": "channel-108620",
+            "path": "transfer/channel-108620/uDRC"
+          }
+        }
+      ]
+    },
+    {
+      "denom_units": [
+        {
           "denom": "ibc/759C2B22DFA2D39A9B30BDC053AB59D2376746828B876FD18887F366D3819B11",
           "exponent": 0,
           "aliases": [
@@ -44358,6 +44393,55 @@
             "base_denom": "cw20:terra12f3f5fzfzxckc0qlv3rmwwkjfhzevpwmx77345n0zuu2678vxf0sm6vvcw"
           },
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/GRDX.png"
+        }
+      ]
+    },
+    {
+      "description": "An alloy of EPIX asset variants on Osmosis.",
+      "extended_description": "Multiple EPIX variants on Osmosis comprise the liquidity backing of a tokenized transmuter pool to create an alloy of EPIX.",
+      "denom_units": [
+        {
+          "denom": "factory/osmo130tfawc7katf7jwzt2rjdranhqju929rjra3xwsrfsd85hedh3tsssy9j7/alloyed/allEPIX",
+          "exponent": 0
+        },
+        {
+          "denom": "allEPIX",
+          "exponent": 12
+        }
+      ],
+      "type_asset": "sdk.coin",
+      "address": "osmo130tfawc7katf7jwzt2rjdranhqju929rjra3xwsrfsd85hedh3tsssy9j7",
+      "base": "factory/osmo130tfawc7katf7jwzt2rjdranhqju929rjra3xwsrfsd85hedh3tsssy9j7/alloyed/allEPIX",
+      "name": "Epix",
+      "display": "allEPIX",
+      "symbol": "EPIX",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chain_name": "epix",
+            "base_denom": "aepix"
+          },
+          "provider": "Osmosis"
+        }
+      ],
+      "logo_URIs": {
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/epix/images/epix.svg"
+      },
+      "images": [
+        {
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/epix/images/epix.svg",
+          "theme": {
+            "circle": true
+          }
+        },
+        {
+          "image_sync": {
+            "chain_name": "epix",
+            "base_denom": "aepix"
+          },
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/epix/images/epix.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/epix/images/epix.svg"
         }
       ]
     }
