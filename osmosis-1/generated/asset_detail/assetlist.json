@@ -608,7 +608,7 @@
       "base": "ibc/F16FDC11A7662B86BC0B9CE61871CBACF7C20606F95E86260FD38915184B75B4",
       "name": "GenesisL1",
       "symbol": "L1",
-      "description": "L1 coin is the GenesisL1 blockchain utility, governance and EVM token"
+      "description": "L1 coin is the GenesisL1 blockchain utility, governance and EVM token\n\nGenesisL1 is a public distributed ledger for decentralized scientific data, assets, applications, and protocols, with a focus on bioinformatics, biotechnology, medicine, and machine learning."
     },
     {
       "base": "ibc/384E5DD50BDE042E1AAF51F312B55F08F95BC985C503880189258B4D9374CBBE",
@@ -5270,7 +5270,7 @@
       "twitterURL": "https://x.com/Migaloo_Zone"
     },
     {
-      "base": "ibc/FD0C5BF3009F3300961E52E4E0160D6901B1B3E7D0475766C5D960A9D3999B32",
+      "base": "ibc/E132A35DC380C8D68E99F46BC7A5083602F171D00E3BE9471541FB1AA62D8BE2",
       "name": "Mirage",
       "symbol": "MIRAGE",
       "description": "The native token of Mirage. A social platform for true discourse. Decentralized. Unstoppable.\n\nMIRAGE powers Mirage, a social platform where communities own their conversations. No corporate gatekeepers, no censorship, no single point of control. True discourse. Decentralized. Unstoppable.",
