@@ -33267,7 +33267,7 @@
     {
       "chainName": "divine",
       "sourceDenom": "uDRC",
-      "coinMinimalDenom": "ibc/E7D5845607642A90E1E6285DB54BCD0EE68ECD24545F3449BFBA40C2628FBCAF",
+      "coinMinimalDenom": "ibc/31B7E66F7236A52FE7ED2E5418CEF92C71A72DA711B373309C69C21BE8032DF7",
       "symbol": "DRC.divine",
       "decimals": 6,
       "logoURIs": {
@@ -33283,12 +33283,12 @@
             "chainId": "divine-1",
             "sourceDenom": "uDRC",
             "port": "transfer",
-            "channelId": "channel-3"
+            "channelId": "channel-0"
           },
           "chain": {
             "port": "transfer",
-            "channelId": "channel-108909",
-            "path": "transfer/channel-108909/uDRC"
+            "channelId": "channel-109096",
+            "path": "transfer/channel-109096/uDRC"
           }
         }
       ],
