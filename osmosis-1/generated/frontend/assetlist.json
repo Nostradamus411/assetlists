@@ -2816,7 +2816,6 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/decentr/images/dec.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/decentr/images/dec.svg"
       },
-      "coingeckoId": "decentr",
       "categories": [
         "dweb"
       ],
@@ -5099,7 +5098,6 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.svg"
       },
-      "coingeckoId": "kujira",
       "categories": [
         "defi"
       ],
@@ -16935,7 +16933,6 @@
       "logoURIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/doki_Logo.png"
       },
-      "coingeckoId": "doki",
       "categories": [
         "meme"
       ],
