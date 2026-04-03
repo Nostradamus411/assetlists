@@ -8356,7 +8356,6 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mars/images/mars-token-ibc.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mars/images/mars-token-ibc.svg"
       },
-      "coingeckoId": "mars-protocol-a7fcbcfb-fd61-4017-92f0-7ee9f9cc6da3",
       "categories": [
         "defi",
         "built_on_osmosis"
@@ -14950,7 +14949,6 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/page.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/page.svg"
       },
-      "coingeckoId": "page",
       "categories": [],
       "transferMethods": [
         {
@@ -22943,7 +22941,6 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/mars-token.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/mars-token.svg"
       },
-      "coingeckoId": "mars-protocol-a7fcbcfb-fd61-4017-92f0-7ee9f9cc6da3",
       "categories": [
         "defi",
         "built_on_osmosis"
@@ -30258,7 +30255,6 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.svg"
       },
-      "coingeckoId": "manifest-2",
       "categories": [],
       "transferMethods": [
         {
@@ -31204,6 +31200,57 @@
       "disabled": false,
       "preview": false,
       "listingDate": "2026-02-20T15:23:32.288Z"
+    },
+    {
+      "chainName": "akash",
+      "sourceDenom": "uact",
+      "coinMinimalDenom": "ibc/76351FA8FA49F3C74694F70B77D8CFC3603088BA01351C7BB32CE8C104547474",
+      "symbol": "ACT",
+      "decimals": 6,
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg"
+      },
+      "categories": [],
+      "transferMethods": [
+        {
+          "name": "Osmosis IBC Transfer",
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "akash",
+            "chainId": "akashnet-2",
+            "sourceDenom": "uact",
+            "port": "transfer",
+            "channelId": "channel-9"
+          },
+          "chain": {
+            "port": "transfer",
+            "channelId": "channel-1",
+            "path": "transfer/channel-1/uact"
+          }
+        }
+      ],
+      "counterparty": [
+        {
+          "chainName": "akash",
+          "sourceDenom": "uact",
+          "chainType": "cosmos",
+          "chainId": "akashnet-2",
+          "symbol": "ACT",
+          "decimals": 6,
+          "logoURIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg"
+          }
+        }
+      ],
+      "variantGroupKey": "ibc/76351FA8FA49F3C74694F70B77D8CFC3603088BA01351C7BB32CE8C104547474",
+      "name": "Akash Compute Token",
+      "isAlloyed": false,
+      "verified": false,
+      "unstable": false,
+      "disabled": false,
+      "preview": false
     },
     {
       "chainName": "aura",
@@ -33340,6 +33387,57 @@
       "preview": false
     },
     {
+      "chainName": "coreum",
+      "sourceDenom": "ucorez-core1astd8pqhs7mslk9rnygy9kzc5s2cqnwftcvmquxr7z9z78szzvzqljlc23",
+      "coinMinimalDenom": "ibc/B7D7AA538008E2A35328820B7B56F014F1AB38205D51BB13D1F84B11D362B9ED",
+      "symbol": "COREZ",
+      "decimals": 6,
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/corez.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/corez.svg"
+      },
+      "categories": [],
+      "transferMethods": [
+        {
+          "name": "Osmosis IBC Transfer",
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "coreum",
+            "chainId": "coreum-mainnet-1",
+            "sourceDenom": "ucorez-core1astd8pqhs7mslk9rnygy9kzc5s2cqnwftcvmquxr7z9z78szzvzqljlc23",
+            "port": "transfer",
+            "channelId": "channel-2"
+          },
+          "chain": {
+            "port": "transfer",
+            "channelId": "channel-2188",
+            "path": "transfer/channel-2188/ucorez-core1astd8pqhs7mslk9rnygy9kzc5s2cqnwftcvmquxr7z9z78szzvzqljlc23"
+          }
+        }
+      ],
+      "counterparty": [
+        {
+          "chainName": "coreum",
+          "sourceDenom": "ucorez-core1astd8pqhs7mslk9rnygy9kzc5s2cqnwftcvmquxr7z9z78szzvzqljlc23",
+          "chainType": "cosmos",
+          "chainId": "coreum-mainnet-1",
+          "symbol": "COREZ",
+          "decimals": 6,
+          "logoURIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/corez.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/corez.svg"
+          }
+        }
+      ],
+      "variantGroupKey": "ibc/B7D7AA538008E2A35328820B7B56F014F1AB38205D51BB13D1F84B11D362B9ED",
+      "name": "COREZ",
+      "isAlloyed": false,
+      "verified": false,
+      "unstable": false,
+      "disabled": false,
+      "preview": false
+    },
+    {
       "chainName": "crescent",
       "sourceDenom": "ubcre",
       "coinMinimalDenom": "ibc/61365041DAC5A57B92D60A3EBEB5143E209F86CECDBDD7326A6E7F8351352119",
@@ -35125,6 +35223,7 @@
       "logoURIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/nept.png"
       },
+      "coingeckoId": "neptune-2",
       "categories": [],
       "transferMethods": [
         {
@@ -39739,6 +39838,57 @@
       ],
       "variantGroupKey": "ibc/B1DA72A9BF8F97F0575AB93681D476AFE640A0CD1FB44DD016BE156EEA8B8C7A",
       "name": "Manifest",
+      "isAlloyed": false,
+      "verified": false,
+      "unstable": false,
+      "disabled": false,
+      "preview": false
+    },
+    {
+      "chainName": "manifest",
+      "sourceDenom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwr",
+      "coinMinimalDenom": "ibc/78C9FC2412DA11C71FFDDBC3DE03584AF72A50EB5C572EEB31083ACC31AD706A",
+      "symbol": "PWR",
+      "decimals": 6,
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.svg"
+      },
+      "categories": [],
+      "transferMethods": [
+        {
+          "name": "Osmosis IBC Transfer",
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "manifest",
+            "chainId": "manifest-ledger-mainnet",
+            "sourceDenom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwr",
+            "port": "transfer",
+            "channelId": "channel-0"
+          },
+          "chain": {
+            "port": "transfer",
+            "channelId": "channel-100418",
+            "path": "transfer/channel-100418/factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwr"
+          }
+        }
+      ],
+      "counterparty": [
+        {
+          "chainName": "manifest",
+          "sourceDenom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwr",
+          "chainType": "cosmos",
+          "chainId": "manifest-ledger-mainnet",
+          "symbol": "PWR",
+          "decimals": 6,
+          "logoURIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.svg"
+          }
+        }
+      ],
+      "variantGroupKey": "ibc/78C9FC2412DA11C71FFDDBC3DE03584AF72A50EB5C572EEB31083ACC31AD706A",
+      "name": "Manifest Power Token",
       "isAlloyed": false,
       "verified": false,
       "unstable": false,
