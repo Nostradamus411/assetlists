@@ -2135,7 +2135,6 @@
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/vidulum/images/vdl.svg"
         }
       ],
-      "coingecko_id": "vidulum",
       "keywords": [
         "osmosis_unstable"
       ]
@@ -2447,8 +2446,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.svg"
         }
-      ],
-      "coingecko_id": "umee"
+      ]
     },
     {
       "description": "The native token of Gravity Bridge",
@@ -15425,8 +15423,7 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/LAB.png"
         }
-      ],
-      "coingecko_id": "mad-scientists"
+      ]
     },
     {
       "description": "BackBone Labs Liquid Staked OSMO",
@@ -25226,8 +25223,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/beezee/images/vdl.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/beezee/images/vdl.svg"
         }
-      ],
-      "coingecko_id": "vidulum"
+      ]
     },
     {
       "description": "Real power moves quietly.",
@@ -27572,7 +27568,6 @@
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/maxBTC.svg"
         }
       ],
-      "coingecko_id": "maxbtc",
       "socials": {
         "website": "https://www.structured.money/",
         "telegram": "https://t.me/StructuredFi",
@@ -27613,6 +27608,40 @@
           "chain": {
             "channel_id": "channel-1",
             "path": "transfer/channel-1/uact"
+          }
+        }
+      ]
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "ibc/7E577151E593349028AAC4A9FCC33258D70749FDF3CBB48F7744262DD18FC89D",
+          "exponent": 0,
+          "aliases": [
+            "uamts"
+          ]
+        },
+        {
+          "denom": "amts",
+          "exponent": 6
+        }
+      ],
+      "type_asset": "ics20",
+      "base": "ibc/7E577151E593349028AAC4A9FCC33258D70749FDF3CBB48F7744262DD18FC89D",
+      "name": "Amitis Network",
+      "display": "amts",
+      "symbol": "AMTS",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "amitis",
+            "base_denom": "uamts",
+            "channel_id": "channel-1"
+          },
+          "chain": {
+            "channel_id": "channel-110089",
+            "path": "transfer/channel-110089/uamts"
           }
         }
       ]
@@ -29080,8 +29109,7 @@
             "path": "transfer/channel-2188/usara-core1r9gc0rnxnzpq33u82f44aufgdwvyxv4wyepyck98m9v2pxua6naqr8h03z"
           }
         }
-      ],
-      "coingecko_id": "pulsara"
+      ]
     },
     {
       "denom_units": [
@@ -29148,6 +29176,40 @@
           "chain": {
             "channel_id": "channel-2188",
             "path": "transfer/channel-2188/ucorez-core1astd8pqhs7mslk9rnygy9kzc5s2cqnwftcvmquxr7z9z78szzvzqljlc23"
+          }
+        }
+      ]
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "ibc/EFAAE3AD05AA79647A1587E363A11B6126CC83C8C0593171BB1892A39EB550DF",
+          "exponent": 0,
+          "aliases": [
+            "factory/cosmos1wdja2gcsesyl07raq9jm3rcvu0sse5zkev0h8m/Nether"
+          ]
+        },
+        {
+          "denom": "nthr",
+          "exponent": 6
+        }
+      ],
+      "type_asset": "ics20",
+      "base": "ibc/EFAAE3AD05AA79647A1587E363A11B6126CC83C8C0593171BB1892A39EB550DF",
+      "name": "Nether",
+      "display": "nthr",
+      "symbol": "NTHR",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "cosmoshub",
+            "base_denom": "factory/cosmos1wdja2gcsesyl07raq9jm3rcvu0sse5zkev0h8m/Nether",
+            "channel_id": "channel-141"
+          },
+          "chain": {
+            "channel_id": "channel-0",
+            "path": "transfer/channel-0/factory/cosmos1wdja2gcsesyl07raq9jm3rcvu0sse5zkev0h8m/Nether"
           }
         }
       ]
@@ -29865,6 +29927,40 @@
           "chain": {
             "channel_id": "channel-144",
             "path": "transfer/channel-144/gravity0x2F109021aFe75B949429fe30523Ee7C0D5B27207"
+          }
+        }
+      ]
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "ibc/34D327C2D4CEECF0F3FCAE68E2DA630C1218D91C365372918A8310BF79491615",
+          "exponent": 0,
+          "aliases": [
+            "uhzn"
+          ]
+        },
+        {
+          "denom": "HZN",
+          "exponent": 6
+        }
+      ],
+      "type_asset": "ics20",
+      "base": "ibc/34D327C2D4CEECF0F3FCAE68E2DA630C1218D91C365372918A8310BF79491615",
+      "name": "HazinaChain",
+      "display": "HZN",
+      "symbol": "HZN",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "hazinachain",
+            "base_denom": "uhzn",
+            "channel_id": "channel-1"
+          },
+          "chain": {
+            "channel_id": "channel-110100",
+            "path": "transfer/channel-110100/uhzn"
           }
         }
       ]
@@ -33657,6 +33753,40 @@
           "chain": {
             "channel_id": "channel-79840",
             "path": "transfer/channel-79840/alrz"
+          }
+        }
+      ]
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "ibc/88DBE57372690630D2DD9779C247479CE124E777C5D695FA90699F3140CEC59F",
+          "exponent": 0,
+          "aliases": [
+            "ulmn"
+          ]
+        },
+        {
+          "denom": "lmn",
+          "exponent": 6
+        }
+      ],
+      "type_asset": "ics20",
+      "base": "ibc/88DBE57372690630D2DD9779C247479CE124E777C5D695FA90699F3140CEC59F",
+      "name": "Lumen",
+      "display": "lmn",
+      "symbol": "LMN",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "lumen",
+            "base_denom": "ulmn",
+            "channel_id": "channel-1"
+          },
+          "chain": {
+            "channel_id": "channel-109674",
+            "path": "transfer/channel-109674/ulmn"
           }
         }
       ]
