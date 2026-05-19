@@ -328,7 +328,6 @@
       "name": "Vidulum (Vidulum)",
       "symbol": "VDL.vdl",
       "description": "The native token of Vidulum",
-      "coingeckoID": "vidulum",
       "websiteURL": "https://vidulum.app/"
     },
     {
@@ -376,7 +375,6 @@
       "name": "UX Chain",
       "symbol": "UMEE",
       "description": "The native token of Umee",
-      "coingeckoID": "umee",
       "websiteURL": "https://www.ux.xyz"
     },
     {
@@ -2221,8 +2219,7 @@
       "base": "factory/osmo17fel472lgzs87ekt9dvk0zqyh5gl80sqp4sk4n/LAB",
       "name": "LAB",
       "symbol": "LAB",
-      "description": "LAB - Everything is an Experiment\n\nLAB - Everything is an Experiment\n\nUse 10 $LAB tokens to mint 1 Mad Scientist NFT on Backbone Labs Osmosis Launchpad. You will then be able to trade your NFTs on the marketplace. You can also choose to hold onto your $LAB tokens as unrevealed NFTs and trade it.\n\n Fair Launch: The event was marked by the absence of whitelists (WLs), no bots and no lock, ensuring an equitable opportunity for all interested parties.\n\nPreparation for the Launch: Participants were given a 52.91-hour window to deposit $OSMO into a pool on Streamswap.\n\nThe Swap Process: After the initial deposit period, $OSMO was converted into $LAB tokens over an additional hour, allowing for a smooth transition and fair distribution.",
-      "coingeckoID": "mad-scientists"
+      "description": "LAB - Everything is an Experiment\n\nLAB - Everything is an Experiment\n\nUse 10 $LAB tokens to mint 1 Mad Scientist NFT on Backbone Labs Osmosis Launchpad. You will then be able to trade your NFTs on the marketplace. You can also choose to hold onto your $LAB tokens as unrevealed NFTs and trade it.\n\n Fair Launch: The event was marked by the absence of whitelists (WLs), no bots and no lock, ensuring an equitable opportunity for all interested parties.\n\nPreparation for the Launch: Participants were given a 52.91-hour window to deposit $OSMO into a pool on Streamswap.\n\nThe Swap Process: After the initial deposit period, $OSMO was converted into $LAB tokens over an additional hour, allowing for a smooth transition and fair distribution."
     },
     {
       "base": "factory/osmo1s3l0lcqc7tu0vpj6wdjz9wqpxv8nk6eraevje4fuwkyjnwuy82qsx3lduv/boneOsmo",
@@ -3306,9 +3303,9 @@
       "base": "ibc/CD6412358F33B372A355CF22786D8C19477C15092B56BD56188679EED8556964",
       "name": "Dragon Coin",
       "symbol": "DGN",
-      "description": "Dragon Token is the native staking and governance token of Dungeon Chain, serving as the backbone of the ecosystem. Its primary roles include staking, where users stake Dragon Tokens to secure the network, enhance its functionality, and earn rewards in return; governance, granting token holders voting rights to influence key decisions such as game onboarding, protocol updates, and community-driven initiatives; and ecosystem growth, facilitating transactions, incentivizing developers, and promoting the creation of new interchain games. Dragon Token ensures a decentralized, fair, and community-driven ecosystem, fostering the evolution of blockchain-based gaming. It plays a crucial role in driving the growth of Dungeon Chain by empowering both developers and players to participate actively in the ecosystem's governance and success.\n\nDungeon Chain is a groundbreaking, permissioned blockchain designed specifically for interchain gaming. Launched as the first permissionless ICS (Interchain Security) chain, Dungeon Chain empowers developers and players to participate in a seamless gaming ecosystem that bridges multiple blockchains. By leveraging ICS technology, it ensures robust security, scalability, and interoperability across gaming projects. Dungeon Chain features an interchain gaming platform that allows games to interact across multiple blockchains, enabling shared assets, gameplay mechanics, and player data. It is permissioned yet inclusive, offering a streamlined, transparent process for developers to onboard games while maintaining quality and security. With high transaction throughput and low latency, it provides scalability for gamers, ensuring a smooth experience even during peak usage. Additionally, its developer-friendly ecosystem includes tools, SDKs, and documentation to facilitate the creation and integration of games into the platform. Dungeon Chain's vision is to redefine how games interact with blockchain technology by creating a secure, scalable, and specialized environment for interchain games, unlocking new possibilities for player ownership, collaboration, and innovation in gaming.",
+      "description": "Dragon Token is the native staking and governance token of Dungeon Chain, serving as the backbone of the ecosystem. Its primary roles include staking, where users stake Dragon Tokens to secure the network, enhance its functionality, and earn rewards in return; governance, granting token holders voting rights to influence key decisions such as game onboarding, protocol updates, and community-driven initiatives; and ecosystem growth, facilitating transactions, incentivizing developers, and promoting the creation of new interchain games. Dragon Token ensures a decentralized, fair, and community-driven ecosystem, fostering the evolution of blockchain-based gaming. It plays a crucial role in driving the growth of Dungeon Chain by empowering both developers and players to participate actively in the ecosystem's governance and success.\n\nDungeon Chain is a sovereign Cosmos SDK blockchain designed specifically for interchain gaming. Built with native IBC interoperability and CosmWasm support, Dungeon Chain empowers developers and players to participate in a seamless gaming ecosystem that bridges multiple blockchains. It ensures robust security, scalability, and interoperability across gaming projects. Dungeon Chain features an interchain gaming platform that allows games to interact across multiple blockchains, enabling shared assets, gameplay mechanics, and player data. With high transaction throughput and low latency, it provides scalability for gamers, ensuring a smooth experience even during peak usage. Additionally, its developer-friendly ecosystem includes tools, SDKs, and documentation to facilitate the creation and integration of games into the platform. Dungeon Chain's vision is to redefine how games interact with blockchain technology by creating a secure, scalable, and specialized environment for interchain games, unlocking new possibilities for player ownership, collaboration, and innovation in gaming.",
       "coingeckoID": "dragon-coin-2",
-      "websiteURL": "https://www.cryptodungeon.org",
+      "websiteURL": "https://dungeongames.io",
       "twitterURL": "https://x.com/cryptodungeonma"
     },
     {
@@ -3818,7 +3815,6 @@
       "name": "Vidulum",
       "symbol": "VDL",
       "description": "Vidulum App Token\n\nVidulum App is your one stop, multi-currency crypto web wallet. Hold, earn, and own your crypto assets in non-custodial fashion from any device, anytime.",
-      "coingeckoID": "vidulum",
       "websiteURL": "https://vidulum.app/",
       "twitterURL": "https://x.com/VidulumApp"
     },
@@ -4203,7 +4199,7 @@
       "base": "ibc/9005151AB92A888293B05E8D0C679032F86639EC2251430565FA38CF3BB6226B",
       "name": "Gnodi",
       "symbol": "GNOD",
-      "description": "The native token of gnodi\n\nThe Gnodi Blockchain is a community-governed, decentralized infrastructure that empowers individuals to own their digital identity and data. Guided by principles of autonomy, transparency, and equity, it bridges today’s internet with a fair, participatory digital future.",
+      "description": "The native token of gnodi\n\nThe Gnodi Blockchain is a community-governed, decentralized infrastructure that empowers individuals to own their digital identity and data. Guided by principles of autonomy, transparency, and equity, it bridges today's internet with a fair, participatory digital future.",
       "websiteURL": "https://gnodiblockchain.org/"
     },
     {
@@ -4211,7 +4207,6 @@
       "name": "maxBTC",
       "symbol": "maxBTC",
       "description": "",
-      "coingeckoID": "maxbtc",
       "websiteURL": "https://www.structured.money/",
       "twitterURL": "https://x.com/StructuredFi",
       "telegramURL": "https://t.me/StructuredFi"
@@ -4223,6 +4218,12 @@
       "description": "Akash Compute Token (ACT) is the native utility token for compute on the Akash Network.",
       "websiteURL": "https://akash.network/",
       "twitterURL": "https://x.com/akashnet"
+    },
+    {
+      "base": "ibc/7E577151E593349028AAC4A9FCC33258D70749FDF3CBB48F7744262DD18FC89D",
+      "name": "Amitis Network",
+      "symbol": "AMTS",
+      "description": "The native token of the Amitis Network. AMTS powers the cooperative Layer 1 blockchain that returns 80% of transaction fees to users.\n\nAmitis Network is a cooperative Layer 1 blockchain built on the Cosmos SDK. Our philosophy is friendship through shared prosperity — the network returns 80% of transaction fees directly to users at the protocol level, making it one of the most user-aligned blockchains in the Cosmos ecosystem. Amitis features 21 fixed validator slots, a native DEX, and native liquid staking built directly into the protocol."
     },
     {
       "base": "ibc/E4673C5CDB56B4225AB1625F3B478740AE9F11E1A6BEBC1B30F8A5080D6AFBD6",
@@ -4479,7 +4480,6 @@
       "name": "Sara",
       "symbol": "SARA",
       "description": "SARA is the utility native token of the Pulsara ecosystem. The burn or mint of the $SARA token will be decided by the community through proposals and voting.",
-      "coingeckoID": "pulsara",
       "websiteURL": "https://www.pulsara.io",
       "twitterURL": "https://x.com/pulsara_io"
     },
@@ -4499,6 +4499,12 @@
       "description": "$COREZ is the chillest coin on Coreum, built for stakers who believe slow and steady wins the race.",
       "websiteURL": "https://coreezy.xyz",
       "twitterURL": "https://x.com/CoreezyVibes"
+    },
+    {
+      "base": "ibc/EFAAE3AD05AA79647A1587E363A11B6126CC83C8C0593171BB1892A39EB550DF",
+      "name": "Nether",
+      "symbol": "NTHR",
+      "description": "Nether is a tokenfactory token on the Cosmos Hub."
     },
     {
       "base": "ibc/61365041DAC5A57B92D60A3EBEB5143E209F86CECDBDD7326A6E7F8351352119",
@@ -4625,6 +4631,12 @@
       "name": "OccamFi",
       "symbol": "OCC",
       "description": "Gravity Bridge OCC"
+    },
+    {
+      "base": "ibc/34D327C2D4CEECF0F3FCAE68E2DA630C1218D91C365372918A8310BF79491615",
+      "name": "HazinaChain",
+      "symbol": "HZN",
+      "description": "The native staking and governance token of HazinaChain"
     },
     {
       "base": "ibc/2CDA7CA33077911B2BF5E5D3423B6CC76E1093A7F8A6D876943C2AF69CBC9875",
@@ -5296,6 +5308,17 @@
       "description": "Native staking token of Lorenzo: LRZ (alrz)\n\nLorenzo aims to be the premier Bitcoin platform for yield-bearing token issuance, trading, and settlement.",
       "websiteURL": "https://www.lorenzo-protocol.xyz/",
       "twitterURL": "https://x.com/LorenzoProtocol"
+    },
+    {
+      "base": "ibc/88DBE57372690630D2DD9779C247479CE124E777C5D695FA90699F3140CEC59F",
+      "name": "Lumen",
+      "symbol": "LMN",
+      "description": "The native staking token of Lumen.\n\nLumen is a Cosmos SDK chain focused on DNS auctions, release distribution, and gateway settlement flows.",
+      "websiteURL": "https://lumen-network.org/",
+      "twitterURL": "https://x.com/LumenStack",
+      "telegramURL": "https://t.me/+HBWh_cUJCrZiODE0",
+      "discordURL": "https://discord.gg/DwK6V9shKc",
+      "githubURL": "https://github.com/network-lumen/"
     },
     {
       "base": "ibc/B1DA72A9BF8F97F0575AB93681D476AFE640A0CD1FB44DD016BE156EEA8B8C7A",
