@@ -289,7 +289,7 @@
       "categories": [
         "nft_protocol"
       ],
-      "_comment": "Stargaze $STARS"
+      "_comment": "Stargaze (Stargaze) $STARS.stars"
     },
     {
       "chain_name": "chihuahua",
@@ -5631,7 +5631,7 @@
       "base_denom": "uxion",
       "path": "transfer/channel-89321/uxion",
       "osmosis_verified": true,
-      "_comment": "Xion $XION"
+      "_comment": "Verona $VERONA"
     },
     {
       "chain_name": "osmosis",

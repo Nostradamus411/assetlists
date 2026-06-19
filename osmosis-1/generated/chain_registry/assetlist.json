@@ -248,8 +248,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.svg"
         }
-      ],
-      "coingecko_id": "axlwbtc"
+      ]
     },
     {
       "description": "Tether's USD stablecoin on Axelar",
@@ -1041,7 +1040,7 @@
       "coingecko_id": "terrausd"
     },
     {
-      "description": "The native token of Stargaze",
+      "description": "(Deprecated) STARS bridged from legacy Stargaze. STARS has migrated to the Cosmos Hub.",
       "denom_units": [
         {
           "denom": "ibc/987C17B11ABC2B20019178ACE62929FE9840202CE79498E29FE8E5CB02B7C0A4",
@@ -1059,7 +1058,7 @@
       "base": "ibc/987C17B11ABC2B20019178ACE62929FE9840202CE79498E29FE8E5CB02B7C0A4",
       "name": "Stargaze",
       "display": "stars",
-      "symbol": "STARS",
+      "symbol": "STARS.legacy",
       "traces": [
         {
           "type": "ibc",
@@ -1087,8 +1086,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.svg"
         }
-      ],
-      "coingecko_id": "stargaze"
+      ]
     },
     {
       "description": "The native token of Chihuahua Chain",
@@ -1980,8 +1978,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmdx.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmdx.svg"
         }
-      ],
-      "coingecko_id": "comdex"
+      ]
     },
     {
       "description": "Native token for the cheqd network",
@@ -21838,8 +21835,7 @@
             "circle": true
           }
         }
-      ],
-      "coingecko_id": "mantra-dao"
+      ]
     },
     {
       "description": "The native staking and governance token of AtomOne",
@@ -22380,7 +22376,8 @@
       ]
     },
     {
-      "description": "XION is the first walletless L1 blockchain purpose built for consumer adoption through chain abstraction.",
+      "description": "Verona is the intelligence layer for AI.",
+      "extended_description": "Verona is the intelligence layer for AI. It makes user-verified data portable, private, and programmable, so agents can transact on information the user actually owns.",
       "denom_units": [
         {
           "denom": "ibc/2E3784772E70F7B3A638BA88F65C8BE125D3CDB6E28C6AABC51098C94F5E16A5",
@@ -22394,15 +22391,16 @@
           "denom": "XION",
           "exponent": 6,
           "aliases": [
-            "xion"
+            "xion",
+            "VERONA"
           ]
         }
       ],
       "type_asset": "ics20",
       "base": "ibc/2E3784772E70F7B3A638BA88F65C8BE125D3CDB6E28C6AABC51098C94F5E16A5",
-      "name": "Xion",
-      "display": "XION",
-      "symbol": "XION",
+      "name": "Verona",
+      "display": "VERONA",
+      "symbol": "VERONA",
       "traces": [
         {
           "type": "ibc",
@@ -22418,7 +22416,8 @@
         }
       ],
       "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.png"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/verona-main.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/verona-main.svg"
       },
       "images": [
         {
@@ -22426,7 +22425,8 @@
             "chain_name": "xion",
             "base_denom": "uxion"
           },
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/verona-main.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/verona-main.svg"
         }
       ],
       "coingecko_id": "xion-2"
@@ -24578,8 +24578,7 @@
           },
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/dNTRN.svg"
         }
-      ],
-      "coingecko_id": "drop-staked-ntrn"
+      ]
     },
     {
       "description": "Fractionalized Crypto Hamsters",
@@ -26304,8 +26303,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDN.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDN.svg"
         }
-      ],
-      "coingecko_id": "noble-dollar-usdn"
+      ]
     },
     {
       "description": "Formation Of $hit Tokens",
@@ -26335,7 +26333,6 @@
       ]
     },
     {
-      "description": "The native token of Hippo Protocol.",
       "denom_units": [
         {
           "denom": "ibc/955E5E0BED298F85956121C3BD627CEB12B858A9EB7C1ED24B1515A658318CE4",
@@ -26343,12 +26340,16 @@
           "aliases": [
             "ahp"
           ]
+        },
+        {
+          "denom": "hp",
+          "exponent": 18
         }
       ],
       "type_asset": "ics20",
       "base": "ibc/955E5E0BED298F85956121C3BD627CEB12B858A9EB7C1ED24B1515A658318CE4",
       "name": "Hippo Protocol",
-      "display": "ahp",
+      "display": "hp",
       "symbol": "HP",
       "traces": [
         {
@@ -26356,24 +26357,12 @@
           "counterparty": {
             "chain_name": "hippoprotocol",
             "base_denom": "ahp",
-            "channel_id": "channel-0"
+            "channel_id": "channel-104931"
           },
           "chain": {
             "channel_id": "channel-104931",
             "path": "transfer/channel-104931/ahp"
           }
-        }
-      ],
-      "logo_URIs": {
-        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/hippoprotocol/images/logo.svg"
-      },
-      "images": [
-        {
-          "image_sync": {
-            "chain_name": "hippoprotocol",
-            "base_denom": "ahp"
-          },
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/hippoprotocol/images/logo.svg"
         }
       ],
       "coingecko_id": "hippo-protocol"
@@ -29233,6 +29222,56 @@
       }
     },
     {
+      "description": "The native STARS token, migrated from Stargaze to the Cosmos Hub.",
+      "denom_units": [
+        {
+          "denom": "ibc/68BAF19F76BAC04C4CEA06325EF91D43E8637AE43EAC7887CE6211B4B99E1EC0",
+          "exponent": 0,
+          "aliases": [
+            "factory/cosmos1s8qx0zvz8yd6e4x0mqmqf7fr9vvfn6226hkvrq/ustars"
+          ]
+        },
+        {
+          "denom": "stars",
+          "exponent": 6
+        }
+      ],
+      "type_asset": "ics20",
+      "base": "ibc/68BAF19F76BAC04C4CEA06325EF91D43E8637AE43EAC7887CE6211B4B99E1EC0",
+      "name": "Stargaze",
+      "display": "stars",
+      "symbol": "STARS",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "cosmoshub",
+            "base_denom": "factory/cosmos1s8qx0zvz8yd6e4x0mqmqf7fr9vvfn6226hkvrq/ustars",
+            "channel_id": "channel-141"
+          },
+          "chain": {
+            "channel_id": "channel-0",
+            "path": "transfer/channel-0/factory/cosmos1s8qx0zvz8yd6e4x0mqmqf7fr9vvfn6226hkvrq/ustars"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/stars.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/stars.svg"
+      },
+      "images": [
+        {
+          "image_sync": {
+            "chain_name": "cosmoshub",
+            "base_denom": "factory/cosmos1s8qx0zvz8yd6e4x0mqmqf7fr9vvfn6226hkvrq/ustars"
+          },
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/stars.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/stars.svg"
+        }
+      ],
+      "coingecko_id": "stargaze"
+    },
+    {
       "denom_units": [
         {
           "denom": "ibc/61365041DAC5A57B92D60A3EBEB5143E209F86CECDBDD7326A6E7F8351352119",
@@ -30016,6 +30055,54 @@
           }
         }
       ]
+    },
+    {
+      "description": "The native token of Hippo Protocol.",
+      "denom_units": [
+        {
+          "denom": "ibc/24C3429B835A84801EFEFC28C8CBDF787C4067D971CB6E510BB525FA462CCE1C",
+          "exponent": 0,
+          "aliases": [
+            "ahp"
+          ]
+        },
+        {
+          "denom": "hp",
+          "exponent": 18
+        }
+      ],
+      "type_asset": "ics20",
+      "base": "ibc/24C3429B835A84801EFEFC28C8CBDF787C4067D971CB6E510BB525FA462CCE1C",
+      "name": "Hippo Protocol",
+      "display": "hp",
+      "symbol": "HP",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "hippoprotocol",
+            "base_denom": "ahp",
+            "channel_id": "channel-1"
+          },
+          "chain": {
+            "channel_id": "channel-110277",
+            "path": "transfer/channel-110277/ahp"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/hippoprotocol/images/logo.svg"
+      },
+      "images": [
+        {
+          "image_sync": {
+            "chain_name": "hippoprotocol",
+            "base_denom": "ahp"
+          },
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/hippoprotocol/images/logo.svg"
+        }
+      ],
+      "coingecko_id": "hippo-protocol"
     },
     {
       "denom_units": [
@@ -44539,6 +44626,94 @@
           }
         }
       ]
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "ibc/897E03F5F866333ED0CD1F732E6A7E86D9B79D59970BC2F8BC4A77A47737F16C",
+          "exponent": 0,
+          "aliases": [
+            "lira"
+          ]
+        },
+        {
+          "denom": "TURK",
+          "exponent": 18
+        }
+      ],
+      "type_asset": "ics20",
+      "base": "ibc/897E03F5F866333ED0CD1F732E6A7E86D9B79D59970BC2F8BC4A77A47737F16C",
+      "name": "Turkchain",
+      "display": "TURK",
+      "symbol": "TURK",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "turkchain",
+            "base_denom": "lira",
+            "channel_id": "channel-1"
+          },
+          "chain": {
+            "channel_id": "channel-110319",
+            "path": "transfer/channel-110319/lira"
+          }
+        }
+      ]
+    },
+    {
+      "description": "WOLO is the fixed-supply native token of WoloChain.",
+      "extended_description": "WOLO powers AoE2WAR betting, staking, rewards, and settlement for Age of Empires II matches.",
+      "denom_units": [
+        {
+          "denom": "ibc/D09120C7085DFA412DF77608DAD3A4797F5F097A038DA0C2E1D1426FC9CD836D",
+          "exponent": 0,
+          "aliases": [
+            "uwolo"
+          ]
+        },
+        {
+          "denom": "wolo",
+          "exponent": 6
+        }
+      ],
+      "type_asset": "ics20",
+      "base": "ibc/D09120C7085DFA412DF77608DAD3A4797F5F097A038DA0C2E1D1426FC9CD836D",
+      "name": "WoloChain",
+      "display": "wolo",
+      "symbol": "WOLO",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "wolochain",
+            "base_denom": "uwolo",
+            "channel_id": "channel-0"
+          },
+          "chain": {
+            "channel_id": "channel-110224",
+            "path": "transfer/channel-110224/uwolo"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/wolochain/images/wolo.png"
+      },
+      "images": [
+        {
+          "image_sync": {
+            "chain_name": "wolochain",
+            "base_denom": "uwolo"
+          },
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/wolochain/images/wolo.png",
+          "theme": {
+            "circle": true
+          }
+        }
+      ],
+      "socials": {
+        "website": "https://aoe2war.com"
+      }
     },
     {
       "description": "PUNDIX token is the native token that functions within the Pundi X ecosystem, including PundiX Chain and XPOS.",

@@ -37,8 +37,7 @@
       "base": "ibc/D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F",
       "name": "Wrapped Bitcoin (Ethereum via Axelar)",
       "symbol": "WBTC.eth.axl",
-      "description": "Wrapped Bitcoin on Axelar",
-      "coingeckoID": "axlwbtc"
+      "description": "Wrapped Bitcoin on Axelar"
     },
     {
       "base": "ibc/8242AD24008032E457D2E12D46588FD39FB54FB29680C6C7663D296B383C37C4",
@@ -159,10 +158,9 @@
     },
     {
       "base": "ibc/987C17B11ABC2B20019178ACE62929FE9840202CE79498E29FE8E5CB02B7C0A4",
-      "name": "Stargaze",
-      "symbol": "STARS",
-      "description": "Stargaze is a decentralized blockchain platform designed specifically for non-fungible tokens (NFTs), enabling creators to mint, trade, and interact with NFTs in a fully decentralized environment.\n\nStargaze is an innovative platform in the Cosmos ecosystem focused on NFTs. It provides a decentralized space where creators can mint, trade, and manage their NFTs with ease. The platform's decentralized nature ensures that creators retain full control over their digital assets, enhancing security and ownership rights. Stargaze's user-friendly interface and robust infrastructure make it an ideal choice for artists and collectors looking to engage with NFTs in a decentralized manner.",
-      "coingeckoID": "stargaze",
+      "name": "Stargaze (Stargaze)",
+      "symbol": "STARS.stars",
+      "description": "(Deprecated) STARS bridged from legacy Stargaze. STARS has migrated to the Cosmos Hub.\n\nStargaze is an innovative platform in the Cosmos ecosystem focused on NFTs. It provides a decentralized space where creators can mint, trade, and manage their NFTs with ease. The platform's decentralized nature ensures that creators retain full control over their digital assets, enhancing security and ownership rights. Stargaze's user-friendly interface and robust infrastructure make it an ideal choice for artists and collectors looking to engage with NFTs in a decentralized manner.",
       "websiteURL": "https://www.stargaze.zone/",
       "twitterURL": "https://x.com/StargazeZone"
     },
@@ -304,7 +302,6 @@
       "name": "Comdex",
       "symbol": "CMDX",
       "description": "Native Token of Comdex Protocol",
-      "coingeckoID": "comdex",
       "websiteURL": "https://comdex.one/"
     },
     {
@@ -3253,7 +3250,6 @@
       "name": "MANTRA (MANTRA)",
       "symbol": "MANTRA.mantra",
       "description": "The deprecated native token of MANTRA before $OM to $MANTRA Redenomination\n\nThe first RWA Layer 1 Blockchain, capable of adherence and enforcement of real world regulatory requirements.",
-      "coingeckoID": "mantra-dao",
       "websiteURL": "https://www.mantrachain.io/",
       "twitterURL": "https://x.com/MANTRA_Chain"
     },
@@ -3356,11 +3352,11 @@
     },
     {
       "base": "ibc/2E3784772E70F7B3A638BA88F65C8BE125D3CDB6E28C6AABC51098C94F5E16A5",
-      "name": "Xion",
-      "symbol": "XION",
-      "description": "XION is the first walletless L1 blockchain purpose built for consumer adoption through chain abstraction.\n\nXION is the first walletless L1 blockchain purpose built for consumer adoption through chain abstraction. Utilizing protocol-level implementations related to abstracted accounts, signatures, fees, interoperability, and more, XION empowers developers to build secure, intuitive, and seamless user experiences.",
+      "name": "Verona",
+      "symbol": "VERONA",
+      "description": "Verona is the intelligence layer for AI.\n\nVerona is the intelligence layer for AI. It makes user-verified data portable, private, and programmable, so agents can transact on information the user actually owns.",
       "coingeckoID": "xion-2",
-      "websiteURL": "https://xion.burnt.com",
+      "websiteURL": "https://verona.dev",
       "twitterURL": "https://x.com/burnt_xion",
       "telegramURL": "https://t.me/xion_announcements",
       "discordURL": "https://discord.com/invite/burnt",
@@ -3706,7 +3702,6 @@
       "name": "dNTRN",
       "symbol": "dNTRN",
       "description": "Drop staked NTRN\n\nDrop protocol token for the interchain liquidity",
-      "coingeckoID": "drop-staked-ntrn",
       "websiteURL": "https://www.drop.money/",
       "twitterURL": "https://x.com/Dropdotmoney"
     },
@@ -3939,7 +3934,6 @@
       "name": "Namada",
       "symbol": "NAM",
       "description": "The native token of Namada.\n\nNamada is the Composable Privacy Layer of the Multichain. It is a proof-of-stake layer-1 blockchain that protects users’ personal data by providing a shielded asset hub and enabling shielded cross-chain transactions. Namada is capable of supporting any asset and can be used to retrofit data protection to existing chains, dapps, tokens, and NFTs.\nPrimarily built in Rust, Namada uses CometBFT consensus and the IBC (Inter-Blockchain Communication) protocol for multichain interoperability, but can be upgraded to support additional ecosystems beyond IBC. By leveraging advanced cryptographic standards like zk-SNARKs and its potential for interoperability, Namada positions itself as a useful cryptographic primitive for users to protect their on-chain data while interoperating with a wide variety of other blockchains and protocols.",
-      "coingeckoID": "namada",
       "websiteURL": "https://namada.net/",
       "twitterURL": "https://x.com/namada"
     },
@@ -3977,8 +3971,7 @@
       "base": "ibc/0C39BD03B5C57A1753A9B73164705871A9B549F1A5226CFD7E39BE7BF73CF8CF",
       "name": "Noble Dollar",
       "symbol": "USDN",
-      "description": "USDN token\n\nUSDN is a yielding stablecoin collateral-backed by short-duration U.S. Treasury Bills.",
-      "coingeckoID": "noble-dollar-usdn"
+      "description": "USDN token\n\nUSDN is a yielding stablecoin collateral-backed by short-duration U.S. Treasury Bills."
     },
     {
       "base": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/fost",
@@ -4509,6 +4502,15 @@
       "twitterURL": "https://x.com/Underworld_NFTs"
     },
     {
+      "base": "ibc/68BAF19F76BAC04C4CEA06325EF91D43E8637AE43EAC7887CE6211B4B99E1EC0",
+      "name": "Stargaze",
+      "symbol": "STARS",
+      "description": "The native STARS token, migrated from Stargaze to the Cosmos Hub.",
+      "coingeckoID": "stargaze",
+      "websiteURL": "https://www.stargaze.zone/",
+      "twitterURL": "https://x.com/StargazeZone"
+    },
+    {
       "base": "ibc/61365041DAC5A57B92D60A3EBEB5143E209F86CECDBDD7326A6E7F8351352119",
       "name": "Bonded Crescent",
       "symbol": "bCRE",
@@ -4647,6 +4649,15 @@
       "name": "HazinaChain",
       "symbol": "HZN",
       "description": "The native staking and governance token of HazinaChain"
+    },
+    {
+      "base": "ibc/24C3429B835A84801EFEFC28C8CBDF787C4067D971CB6E510BB525FA462CCE1C",
+      "name": "Hippo Protocol",
+      "symbol": "HP.hippoprotocol",
+      "description": "The native token of Hippo Protocol.\n\nOne Protocol. Every Patient. Infinite Possibility.",
+      "coingeckoID": "hippo-protocol",
+      "websiteURL": "https://hippoprotocol.ai/",
+      "twitterURL": "https://x.com/Hippo_Protocol"
     },
     {
       "base": "ibc/2CDA7CA33077911B2BF5E5D3423B6CC76E1093A7F8A6D876943C2AF69CBC9875",
@@ -7195,6 +7206,20 @@
       "name": "Eris Protocol LUNA/ampLUNA ampLP",
       "symbol": "LUNA-ampLUNA-ampLP",
       "description": "Eris Protocol LUNA/ampLUNA ampLP"
+    },
+    {
+      "base": "ibc/897E03F5F866333ED0CD1F732E6A7E86D9B79D59970BC2F8BC4A77A47737F16C",
+      "name": "Turkchain",
+      "symbol": "TURK",
+      "description": "Native token of Turkchain\n\nTurkchain is a Cosmos SDK and EVM compatible blockchain focused on interoperability, DeFi and Web3 infrastructure.",
+      "websiteURL": "https://turkscan.com"
+    },
+    {
+      "base": "ibc/D09120C7085DFA412DF77608DAD3A4797F5F097A038DA0C2E1D1426FC9CD836D",
+      "name": "WoloChain",
+      "symbol": "WOLO",
+      "description": "WOLO is the fixed-supply native token of WoloChain.\n\nWOLO powers AoE2WAR betting, staking, rewards, and settlement for Age of Empires II matches.",
+      "websiteURL": "https://aoe2war.com"
     }
   ]
 }
