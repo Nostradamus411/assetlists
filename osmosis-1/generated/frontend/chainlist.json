@@ -227,7 +227,7 @@
           "coinDenom": "OM",
           "coinMinimalDenom": "ibc/164807F6226F91990F358C6467EEE8B162E437BDCD3DADEC3F0CE20693720795",
           "coinDecimals": 6,
-          "coinGeckoId": "mantra-dao",
+          "coinGeckoId": "mantra",
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Prim-Col.png"
         },
         {
@@ -331,11 +331,11 @@
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/bld.png"
         },
         {
-          "coinDenom": "XION",
+          "coinDenom": "VERONA",
           "coinMinimalDenom": "ibc/2E3784772E70F7B3A638BA88F65C8BE125D3CDB6E28C6AABC51098C94F5E16A5",
           "coinDecimals": 6,
           "coinGeckoId": "xion-2",
-          "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.png"
+          "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/verona-main.png"
         },
         {
           "coinDenom": "WYND",
@@ -753,7 +753,7 @@
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stdydx.png"
         },
         {
-          "coinDenom": "STARS",
+          "coinDenom": "STARS.legacy",
           "coinMinimalDenom": "ibc/987C17B11ABC2B20019178ACE62929FE9840202CE79498E29FE8E5CB02B7C0A4",
           "coinDecimals": 6,
           "coinGeckoId": "stargaze",
@@ -945,7 +945,7 @@
           "coinDenom": "WBTC",
           "coinMinimalDenom": "ibc/D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F",
           "coinDecimals": 8,
-          "coinGeckoId": "axlwbtc",
+          "coinGeckoId": "wrapped-bitcoin",
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.png"
         },
         {
@@ -1045,7 +1045,6 @@
           "coinDenom": "CMDX",
           "coinMinimalDenom": "ibc/EA3E1640F9B1532AB129A571203A0B9F789A7F14BB66E350DCBFA18E1A1931F0",
           "coinDecimals": 6,
-          "coinGeckoId": "comdex",
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmdx.png"
         },
         {
@@ -1310,7 +1309,7 @@
           "coinDenom": "OM",
           "coinMinimalDenom": "ibc/164807F6226F91990F358C6467EEE8B162E437BDCD3DADEC3F0CE20693720795",
           "coinDecimals": 6,
-          "coinGeckoId": "mantra-dao",
+          "coinGeckoId": "mantra",
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Prim-Col.png"
         },
         {
@@ -1414,11 +1413,11 @@
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/bld.png"
         },
         {
-          "coinDenom": "XION",
+          "coinDenom": "VERONA",
           "coinMinimalDenom": "ibc/2E3784772E70F7B3A638BA88F65C8BE125D3CDB6E28C6AABC51098C94F5E16A5",
           "coinDecimals": 6,
           "coinGeckoId": "xion-2",
-          "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.png"
+          "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/verona-main.png"
         },
         {
           "coinDenom": "WYND",
@@ -1836,7 +1835,7 @@
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stdydx.png"
         },
         {
-          "coinDenom": "STARS",
+          "coinDenom": "STARS.legacy",
           "coinMinimalDenom": "ibc/987C17B11ABC2B20019178ACE62929FE9840202CE79498E29FE8E5CB02B7C0A4",
           "coinDecimals": 6,
           "coinGeckoId": "stargaze",
@@ -2028,7 +2027,7 @@
           "coinDenom": "WBTC",
           "coinMinimalDenom": "ibc/D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F",
           "coinDecimals": 8,
-          "coinGeckoId": "axlwbtc",
+          "coinGeckoId": "wrapped-bitcoin",
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.png"
         },
         {
@@ -2128,7 +2127,6 @@
           "coinDenom": "CMDX",
           "coinMinimalDenom": "ibc/EA3E1640F9B1532AB129A571203A0B9F789A7F14BB66E350DCBFA18E1A1931F0",
           "coinDecimals": 6,
-          "coinGeckoId": "comdex",
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmdx.png"
         },
         {
@@ -2642,7 +2640,6 @@
           "coinDenom": "NAM",
           "coinMinimalDenom": "ibc/C7110DEC66869DAE9BE9C3C60F4B5313B16A2204AE020C3B0527DD6B322386A3",
           "coinDecimals": 6,
-          "coinGeckoId": "namada",
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/namada/images/namada.svg"
         },
         {
@@ -2762,10 +2759,10 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://rpc.osmosis.zone/"
+            "address": "https://rpc-osmosis.keplr.app"
           },
           {
-            "address": "https://rpc-osmosis.keplr.app"
+            "address": "https://rpc.osmosis.zone/"
           },
           {
             "address": "https://rpc.lavenderfive.com:443/osmosis"
@@ -2818,10 +2815,10 @@
         ],
         "rest": [
           {
-            "address": "https://lcd.osmosis.zone/"
+            "address": "https://lcd-osmosis.keplr.app"
           },
           {
-            "address": "https://lcd-osmosis.keplr.app"
+            "address": "https://lcd.osmosis.zone/"
           },
           {
             "address": "https://rest.osmosis.goldenratiostaking.net"
@@ -3044,6 +3041,13 @@
           "coinMinimalDenom": "factory/cosmos1wdja2gcsesyl07raq9jm3rcvu0sse5zkev0h8m/Nether",
           "coinDecimals": 6,
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/nthr.png"
+        },
+        {
+          "coinDenom": "STARS",
+          "coinMinimalDenom": "factory/cosmos1s8qx0zvz8yd6e4x0mqmqf7fr9vvfn6226hkvrq/ustars",
+          "coinDecimals": 6,
+          "coinGeckoId": "stargaze",
+          "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/stars.png"
         }
       ],
       "description": "The Cosmos Hub is the flagship blockchain of the Cosmos ecosystem, launched in 2019. Today, it provides multichain services to other Cosmos blockchains, including the IBC Eureka bridge between the Cosmos ecosystem and Ethereum.",
@@ -3062,12 +3066,6 @@
             "address": "https://cosmos-rpc.quickapi.com:443"
           },
           {
-            "address": "https://cosmos-rpc.onivalidator.com"
-          },
-          {
-            "address": "https://rpc-cosmoshub.whispernode.com:443"
-          },
-          {
             "address": "https://rpc.lavenderfive.com:443/cosmoshub"
           },
           {
@@ -3077,31 +3075,16 @@
             "address": "https://go.getblock.io/17515cb3ec0e43b7817f182e5de6066a"
           },
           {
-            "address": "https://rpc-cosmoshub.pupmos.network"
-          },
-          {
-            "address": "https://rpc-cosmoshub.cosmos-spaces.cloud"
-          },
-          {
             "address": "https://cosmos-rpc.polkachu.com"
           },
           {
             "address": "https://cosmos-rpc.staketab.org:443"
           },
           {
-            "address": "https://rpc-cosmoshub-ia.cosmosia.notional.ventures/"
-          },
-          {
-            "address": "https://rpc-cosmoshub.architectnodes.com"
-          },
-          {
             "address": "https://rpc.cosmos.dragonstake.io"
           },
           {
             "address": "https://cosmoshub.rpc.stakin-nodes.com"
-          },
-          {
-            "address": "https://rpc.cosmos.bh.rocks"
           },
           {
             "address": "https://cosmos-rpc.rockrpc.net"
@@ -3116,9 +3099,6 @@
             "address": "https://rpc.cosmos.nodestake.org"
           },
           {
-            "address": "https://cosmos.rpc.silknodes.io"
-          },
-          {
             "address": "https://cosmos-rpc.publicnode.com:443"
           },
           {
@@ -3128,13 +3108,7 @@
             "address": "https://rpc.cosmoshub.goldenratiostaking.net"
           },
           {
-            "address": "https://rpc-cosmos-hub-01.stakeflow.io"
-          },
-          {
             "address": "https://cosmos-rpc.w3coins.io"
-          },
-          {
-            "address": "https://rpc-cosmoshub.mms.team"
           },
           {
             "address": "https://community.nuxian-node.ch:6797/gaia/trpc"
@@ -3150,9 +3124,6 @@
           },
           {
             "address": "https://public.stakewolle.com/cosmos/cosmoshub/rpc"
-          },
-          {
-            "address": "https://rpc-cosmos.kewrnode.com"
           },
           {
             "address": "https://rpc.cosmoshub-4.citizenweb3.com"
@@ -3205,15 +3176,6 @@
             "address": "https://rest.lavenderfive.com:443/cosmoshub"
           },
           {
-            "address": "https://api-cosmoshub.pupmos.network"
-          },
-          {
-            "address": "https://api-cosmoshub.cosmos-spaces.cloud"
-          },
-          {
-            "address": "https://api-cosmoshub-ia.cosmosia.notional.ventures/"
-          },
-          {
             "address": "https://cosmos-rest.staketab.org"
           },
           {
@@ -3223,13 +3185,7 @@
             "address": "https://cosmoshub.rest.stakin-nodes.com"
           },
           {
-            "address": "https://rest-cosmoshub.architectnodes.com"
-          },
-          {
             "address": "https://rest-cosmoshub.ecostake.com"
-          },
-          {
-            "address": "https://lcd-cosmoshub.whispernode.com:443"
           },
           {
             "address": "https://cosmos-lcd.easy2stake.com"
@@ -3247,13 +3203,7 @@
             "address": "https://cosmoshub.api.kjnodes.com"
           },
           {
-            "address": "https://api-cosmos-hub-01.stakeflow.io"
-          },
-          {
             "address": "https://cosmos-api.w3coins.io"
-          },
-          {
-            "address": "https://api-cosmoshub.mms.team"
           },
           {
             "address": "https://community.nuxian-node.ch:6797/gaia/crpc"
@@ -3269,9 +3219,6 @@
           },
           {
             "address": "https://public.stakewolle.com/cosmos/cosmoshub/rest"
-          },
-          {
-            "address": "https://rest-cosmos.kewrnode.com"
           },
           {
             "address": "https://cosmos-api.stakeandrelax.net"
@@ -5077,6 +5024,12 @@
           "coinMinimalDenom": "cw20:secret197dvnt9yjxwn8sjdlx05f7zuk27lsdxtfnwxse",
           "coinDecimals": 6,
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shill.png"
+        },
+        {
+          "coinDenom": "SNVR",
+          "coinMinimalDenom": "cw20:secret1d6qvapy96q94etwlnc7j33dlzmenz4j70w3ew7",
+          "coinDecimals": 9,
+          "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/snvr.png"
         }
       ],
       "description": "Secret Network is the first blockchain with customizable privacy. You get to choose what you share, with whom, and how. This protects users, and empowers developers to build a better Web3.",
@@ -5093,9 +5046,6 @@
           },
           {
             "address": "https://1rpc.io/scrt-rpc"
-          },
-          {
-            "address": "https://secretnetwork-rpc.highstakes.ch"
           },
           {
             "address": "https://rpc.mainnet.secretsaturn.net"
@@ -5119,9 +5069,6 @@
           },
           {
             "address": "https://1rpc.io/scrt-lcd"
-          },
-          {
-            "address": "https://secretnetwork-api.highstakes.ch"
           },
           {
             "address": "https://lcd.mainnet.secretsaturn.net"
@@ -5220,9 +5167,6 @@
             "address": "https://akash-mainnet-rpc.cosmonautstakes.com:443"
           },
           {
-            "address": "https://akash-rpc.w3coins.io"
-          },
-          {
             "address": "https://akash-rpc.publicnode.com:443"
           },
           {
@@ -5249,13 +5193,7 @@
             "address": "https://akash-api.kleomedes.network"
           },
           {
-            "address": "https://api-akash-01.stakeflow.io"
-          },
-          {
             "address": "https://akash-mainnet-rest.cosmonautstakes.com:443"
-          },
-          {
-            "address": "https://akash-api.w3coins.io"
           },
           {
             "address": "https://akash-rest.publicnode.com"
@@ -5476,10 +5414,10 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://rpc.sentineldao.com"
+            "address": "https://rpc-sentinel.keplr.app"
           },
           {
-            "address": "https://rpc-sentinel.keplr.app"
+            "address": "https://rpc.sentineldao.com"
           },
           {
             "address": "https://rpc.saudi.dvpn-x.com"
@@ -5541,10 +5479,10 @@
         ],
         "rest": [
           {
-            "address": "https://api.sentineldao.com"
+            "address": "https://lcd-sentinel.keplr.app"
           },
           {
-            "address": "https://lcd-sentinel.keplr.app"
+            "address": "https://api.sentineldao.com"
           },
           {
             "address": "https://api.saudi.dvpn-x.com"
@@ -5697,10 +5635,10 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://rpc.core.persistence.one"
+            "address": "https://rpc-persistence.keplr.app"
           },
           {
-            "address": "https://rpc-persistence.keplr.app"
+            "address": "https://rpc.core.persistence.one"
           },
           {
             "address": "https://rpc-persistent-ia.cosmosia.notional.ventures/"
@@ -5765,10 +5703,10 @@
         ],
         "rest": [
           {
-            "address": "https://rest.core.persistence.one"
+            "address": "https://lcd-persistence.keplr.app"
           },
           {
-            "address": "https://lcd-persistence.keplr.app"
+            "address": "https://rest.core.persistence.one"
           },
           {
             "address": "https://api-persistent-ia.cosmosia.notional.ventures/"
@@ -6067,7 +6005,7 @@
     },
     {
       "chain_name": "starname",
-      "status": "live",
+      "status": "killed",
       "networkType": "mainnet",
       "prettyName": "Starname",
       "chain_id": "iov-mainnet-ibc",
@@ -7136,9 +7074,6 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://ixo.ibs.team/rpc"
-          },
-          {
             "address": "https://ixo-rpc.ibs.team"
           },
           {
@@ -7155,6 +7090,9 @@
           },
           {
             "address": "https://rpc.lavenderfive.com:443/impacthub"
+          },
+          {
+            "address": "https://ixo.ibs.team/rpc"
           },
           {
             "address": "https://ixo-rpc.bluestake.net:443"
@@ -7577,6 +7515,9 @@
         ],
         "rest": [
           {
+            "address": "https://bitsong.tdrsys.com"
+          },
+          {
             "address": "https://lcd.explorebitsong.com"
           },
           {
@@ -7587,9 +7528,6 @@
           },
           {
             "address": "https://rest-bitsong.architectnodes.com"
-          },
-          {
-            "address": "https://bitsong.tdrsys.com"
           },
           {
             "address": "https://api.bitsong.mathnodes.com"
@@ -7949,7 +7887,6 @@
         "coinDenom": "CMDX",
         "coinMinimalDenom": "ucmdx",
         "coinDecimals": 6,
-        "coinGeckoId": "comdex",
         "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmdx.png"
       },
       "feeCurrencies": [
@@ -7957,7 +7894,6 @@
           "coinDenom": "CMDX",
           "coinMinimalDenom": "ucmdx",
           "coinDecimals": 6,
-          "coinGeckoId": "comdex",
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmdx.png"
         }
       ],
@@ -7966,7 +7902,6 @@
           "coinDenom": "CMDX",
           "coinMinimalDenom": "ucmdx",
           "coinDecimals": 6,
-          "coinGeckoId": "comdex",
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmdx.png"
         },
         {
@@ -8166,7 +8101,10 @@
             "address": "https://cheq-rpc.kleomedes.network"
           },
           {
-            "address": "https://cheqd.srvs.vnodesv.net/rpc"
+            "address": "https://cheqd-rpc.vnodesv.net"
+          },
+          {
+            "address": "https://cheqd2-rpc.vnodesv.net"
           },
           {
             "address": "https://cheqd-rpc.publicnode.com:443"
@@ -8207,7 +8145,10 @@
             "address": "https://cheq-api.kleomedes.network"
           },
           {
-            "address": "https://api.cheqd.srvs.vnodesv.net"
+            "address": "https://cheqd-api.vnodesv.net"
+          },
+          {
+            "address": "https://cheqd2-api.vnodesv.net"
           },
           {
             "address": "https://cheqd-rest.publicnode.com"
@@ -8228,7 +8169,7 @@
     },
     {
       "chain_name": "stargaze",
-      "status": "live",
+      "status": "killed",
       "networkType": "mainnet",
       "prettyName": "Stargaze",
       "chain_id": "stargaze-1",
@@ -8247,18 +8188,16 @@
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.svg"
       },
       "stakeCurrency": {
-        "coinDenom": "STARS",
+        "coinDenom": "STARS.legacy",
         "coinMinimalDenom": "ustars",
         "coinDecimals": 6,
-        "coinGeckoId": "stargaze",
         "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.png"
       },
       "feeCurrencies": [
         {
-          "coinDenom": "STARS",
+          "coinDenom": "STARS.legacy",
           "coinMinimalDenom": "ustars",
           "coinDecimals": 6,
-          "coinGeckoId": "stargaze",
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.png",
           "gasPriceStep": {
             "low": 1,
@@ -8269,10 +8208,9 @@
       ],
       "currencies": [
         {
-          "coinDenom": "STARS",
+          "coinDenom": "STARS.legacy",
           "coinMinimalDenom": "ustars",
           "coinDecimals": 6,
-          "coinGeckoId": "stargaze",
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.png"
         },
         {
@@ -8788,6 +8726,9 @@
       "apis": {
         "rpc": [
           {
+            "address": "https://lum-rpc.stakerhouse.com"
+          },
+          {
             "address": "https://node0.mainnet.lum.network/rpc"
           },
           {
@@ -8798,9 +8739,6 @@
           },
           {
             "address": "https://rpc.lavenderfive.com:443/lumnetwork"
-          },
-          {
-            "address": "https://lum-rpc.stakerhouse.com"
           },
           {
             "address": "https://lumnetwork_mainnet_rpc.chain.whenmoonwhenlambo.money"
@@ -8981,10 +8919,10 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://desmos-rpc.staketab.org:443"
+            "address": "https://rpc.mainnet.desmos.network"
           },
           {
-            "address": "https://rpc.mainnet.desmos.network"
+            "address": "https://desmos-rpc.staketab.org:443"
           },
           {
             "address": "https://rpc.desmos.bronbro.io:443"
@@ -9151,10 +9089,10 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://rpc-sommelier.keplr.app"
+            "address": "https://sommelier-rpc.polkachu.com"
           },
           {
-            "address": "https://sommelier-rpc.polkachu.com"
+            "address": "https://rpc-sommelier.keplr.app"
           },
           {
             "address": "https://rpc-sommelier.pupmos.network"
@@ -9354,6 +9292,9 @@
       "apis": {
         "rpc": [
           {
+            "address": "https://band.ibs.team:443/rpc"
+          },
+          {
             "address": "https://band-rpc.ibs.team"
           },
           {
@@ -9361,9 +9302,6 @@
           },
           {
             "address": "https://rpc-bandchain-ia.cosmosia.notional.ventures/"
-          },
-          {
-            "address": "https://band.ibs.team:443/rpc"
           },
           {
             "address": "https://bandchain-mainnet-rpc.autostake.com:443"
@@ -9398,10 +9336,10 @@
         ],
         "rest": [
           {
-            "address": "https://band-api.ibs.team"
+            "address": "https://laozi1.bandchain.org/api"
           },
           {
-            "address": "https://laozi1.bandchain.org/api"
+            "address": "https://band-api.ibs.team"
           },
           {
             "address": "https://api-bandchain-ia.cosmosia.notional.ventures/"
@@ -9576,10 +9514,10 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://rpc-umee.keplr.app"
+            "address": "https://umee-rpc.polkachu.com"
           },
           {
-            "address": "https://umee-rpc.polkachu.com"
+            "address": "https://rpc-umee.keplr.app"
           },
           {
             "address": "https://rpc-umee-ia.cosmosia.notional.ventures/"
@@ -9961,10 +9899,10 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://rpc.decentr.chaintools.tech/"
+            "address": "https://poseidon.mainnet.decentr.xyz"
           },
           {
-            "address": "https://poseidon.mainnet.decentr.xyz"
+            "address": "https://rpc.decentr.chaintools.tech/"
           },
           {
             "address": "https://decentr.rpc.m.stavr.tech:443"
@@ -9978,13 +9916,13 @@
         ],
         "rest": [
           {
-            "address": "https://api.decentr.chaintools.tech/"
-          },
-          {
             "address": "https://rest.mainnet.decentr.xyz"
           },
           {
             "address": "https://decentr.api.m.stavr.tech"
+          },
+          {
+            "address": "https://api.decentr.chaintools.tech/"
           }
         ]
       },
@@ -10047,10 +9985,10 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://rpc.shentu.org:443"
+            "address": "https://shenturpc.noopsbycertik.com/"
           },
           {
-            "address": "https://shenturpc.noopsbycertik.com/"
+            "address": "https://rpc.shentu.org:443"
           },
           {
             "address": "https://shentu-rpc.polkachu.com"
@@ -10091,10 +10029,10 @@
         ],
         "rest": [
           {
-            "address": "https://rest.shentu.org/"
+            "address": "https://rest.noopsbycertik.com"
           },
           {
-            "address": "https://rest.noopsbycertik.com"
+            "address": "https://rest.shentu.org/"
           },
           {
             "address": "https://shentu-api.polkachu.com"
@@ -11030,6 +10968,9 @@
       "apis": {
         "rpc": [
           {
+            "address": "https://rpc.lavenderfive.com:443/injective"
+          },
+          {
             "address": "https://injective-rpc.polkachu.com"
           },
           {
@@ -11037,9 +10978,6 @@
           },
           {
             "address": "https://rpc.injective.goldenratiostaking.net"
-          },
-          {
-            "address": "https://rpc.lavenderfive.com:443/injective"
           },
           {
             "address": "https://rpc-injective-01.stakeflow.io"
@@ -11053,13 +10991,13 @@
         ],
         "rest": [
           {
+            "address": "https://rest.lavenderfive.com:443/injective"
+          },
+          {
             "address": "https://injective-api.polkachu.com"
           },
           {
             "address": "https://injective-api.highstakes.ch"
-          },
-          {
-            "address": "https://rest.lavenderfive.com:443/injective"
           },
           {
             "address": "https://injective-rest.publicnode.com"
@@ -11367,6 +11305,9 @@
       "apis": {
         "rpc": [
           {
+            "address": "https://mantle-rpc.dungeon.games"
+          },
+          {
             "address": "https://rpc.assetmantle.one/"
           },
           {
@@ -11383,12 +11324,12 @@
           },
           {
             "address": "https://assetmantle-rpc.publicnode.com:443"
-          },
-          {
-            "address": "https://mantle-rpc.dungeon.games"
           }
         ],
         "rest": [
+          {
+            "address": "https://mantle-lcd.dungeon.games"
+          },
           {
             "address": "https://rest.assetmantle.one/"
           },
@@ -11406,9 +11347,6 @@
           },
           {
             "address": "https://assetmantle-rest.publicnode.com"
-          },
-          {
-            "address": "https://mantle-lcd.dungeon.games"
           }
         ]
       },
@@ -11721,7 +11659,7 @@
     },
     {
       "chain_name": "evmos",
-      "status": "live",
+      "status": "killed",
       "networkType": "mainnet",
       "prettyName": "Evmos",
       "chain_id": "evmos_9001-2",
@@ -12498,31 +12436,19 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://rpc.data.kava.io"
+            "address": "https://rpc-kava.keplr.app"
           },
           {
-            "address": "https://rpc-kava.keplr.app"
+            "address": "https://rpc.data.kava.io"
           },
           {
             "address": "https://kava-rpc.polkachu.com"
           },
           {
-            "address": "https://rpc-kava-ia.cosmosia.notional.ventures/"
-          },
-          {
             "address": "https://kava-mainnet-rpc.autostake.com:443"
           },
           {
-            "address": "https://kava.ibs.team:443/rpc"
-          },
-          {
-            "address": "https://rpc-kava-01.stakeflow.io"
-          },
-          {
             "address": "https://kava-rpc.publicnode.com:443"
-          },
-          {
-            "address": "https://kava.drpc.org"
           },
           {
             "address": "https://rpc.kava.nodestake.org"
@@ -12533,25 +12459,16 @@
         ],
         "rest": [
           {
-            "address": "https://api.data.kava.io/"
-          },
-          {
             "address": "https://lcd-kava.keplr.app"
           },
           {
-            "address": "https://api-kava-ia.cosmosia.notional.ventures/"
+            "address": "https://api.data.kava.io/"
           },
           {
             "address": "https://kava-api.polkachu.com"
           },
           {
             "address": "https://kava-mainnet-lcd.autostake.com:443"
-          },
-          {
-            "address": "https://kava.ibs.team:443/api"
-          },
-          {
-            "address": "https://api-kava-01.stakeflow.io"
           },
           {
             "address": "https://kava-rest.publicnode.com"
@@ -12737,7 +12654,6 @@
           "coinDenom": "CMDX",
           "coinMinimalDenom": "ibc/3607EB5B5E64DD1C0E12E07F077FF470D5BC4706AFCBC98FE1BA960E5AE4CE07",
           "coinDecimals": 6,
-          "coinGeckoId": "comdex",
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmdx.png",
           "gasPriceStep": {
             "low": 0.65943,
@@ -12903,7 +12819,6 @@
           "coinDenom": "CMDX",
           "coinMinimalDenom": "ibc/3607EB5B5E64DD1C0E12E07F077FF470D5BC4706AFCBC98FE1BA960E5AE4CE07",
           "coinDecimals": 6,
-          "coinGeckoId": "comdex",
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmdx.png"
         },
         {
@@ -13425,9 +13340,6 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://kujira.ibs.team:443/rpc"
-          },
-          {
             "address": "https://rpc.lavenderfive.com:443/kujira"
           },
           {
@@ -13438,6 +13350,9 @@
           },
           {
             "address": "https://rpc-kujira-ia.cosmosia.notional.ventures/"
+          },
+          {
+            "address": "https://kujira.ibs.team:443/rpc"
           },
           {
             "address": "https://rpc-kujira.starsquid.io"
@@ -13475,9 +13390,6 @@
         ],
         "rest": [
           {
-            "address": "https://kujira.ibs.team:443/api"
-          },
-          {
             "address": "https://kujira-api.theamsolutions.info"
           },
           {
@@ -13494,6 +13406,9 @@
           },
           {
             "address": "https://kujira-lcd.wildsage.io/"
+          },
+          {
+            "address": "https://kujira.ibs.team:443/api"
           },
           {
             "address": "https://api-kujira.starsquid.io"
@@ -13536,7 +13451,7 @@
     },
     {
       "chain_name": "tgrade",
-      "status": "live",
+      "status": "killed",
       "networkType": "mainnet",
       "prettyName": "Tgrade",
       "chain_id": "tgrade-mainnet-1",
@@ -14418,13 +14333,13 @@
       "apis": {
         "rpc": [
           {
+            "address": "https://agoric-rpc.polkachu.com"
+          },
+          {
             "address": "https://agoric.rpc.kjnodes.com"
           },
           {
             "address": "https://main.rpc.agoric.net:443"
-          },
-          {
-            "address": "https://agoric-rpc.polkachu.com"
           },
           {
             "address": "https://agoric-mainnet-rpc.autostake.com:443"
@@ -15003,9 +14918,6 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://rebus.rpc.liveraven.net"
-          },
-          {
             "address": "https://api.mainnet.rebus.money:26657"
           },
           {
@@ -15025,6 +14937,9 @@
           },
           {
             "address": "https://rebus-mainnet-rpc.autostake.com:443"
+          },
+          {
+            "address": "https://rebus.rpc.liveraven.net"
           },
           {
             "address": "https://rebus-rpc.publicnode.com:443"
@@ -15161,10 +15076,10 @@
         ],
         "rest": [
           {
-            "address": "https://teritori-api.polkachu.com"
+            "address": "https://rest.mainnet.teritori.com/"
           },
           {
-            "address": "https://rest.mainnet.teritori.com/"
+            "address": "https://teritori-api.polkachu.com"
           },
           {
             "address": "https://teritori.api.m.stavr.tech"
@@ -15216,7 +15131,7 @@
     },
     {
       "chain_name": "lambda",
-      "status": "live",
+      "status": "killed",
       "networkType": "mainnet",
       "prettyName": "Lambda",
       "chain_id": "lambda_92000-1",
@@ -15366,10 +15281,10 @@
         ],
         "rest": [
           {
-            "address": "https://rest.unification.chainmasters.ninja"
+            "address": "https://rest.unification.io"
           },
           {
-            "address": "https://rest.unification.io"
+            "address": "https://rest.unification.chainmasters.ninja"
           },
           {
             "address": "https://rest.unification.chainmasters.ninja/"
@@ -15439,9 +15354,6 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://rpc-jackal.nodeist.net"
-          },
-          {
             "address": "https://rpc.jackalprotocol.com"
           },
           {
@@ -15455,6 +15367,9 @@
           },
           {
             "address": "https://rpc.jackal.nodestake.org"
+          },
+          {
+            "address": "https://rpc-jackal.nodeist.net"
           },
           {
             "address": "https://jackal-rpc.polkachu.com"
@@ -15498,7 +15413,7 @@
         ],
         "rest": [
           {
-            "address": "https://public.stakewolle.com/cosmos/jackal/rest"
+            "address": "https://jackal.api.pocket.network"
           },
           {
             "address": "https://api.jackalprotocol.com"
@@ -15537,6 +15452,9 @@
             "address": "https://jackal.api.skynodejs.net"
           },
           {
+            "address": "https://public.stakewolle.com/cosmos/jackal/rest"
+          },
+          {
             "address": "https://api.jackal.silentvalidator.com"
           },
           {
@@ -15547,9 +15465,6 @@
           },
           {
             "address": "https://jackal-api.noders.services"
-          },
-          {
-            "address": "https://jackal.api.pocket.network"
           }
         ]
       },
@@ -15640,13 +15555,13 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://rpc-2.getbze.com"
-          },
-          {
             "address": "https://rpc.getbze.com"
           },
           {
             "address": "https://rpc-1.getbze.com"
+          },
+          {
+            "address": "https://rpc-2.getbze.com"
           },
           {
             "address": "https://beezee_mainnet_rpc.chain.whenmoonwhenlambo.money"
@@ -15913,10 +15828,10 @@
         ],
         "rest": [
           {
-            "address": "https://lcd.medas-digital.io:1317"
+            "address": "https://lcd.medas-digital.io:1317/"
           },
           {
-            "address": "https://lcd.medas-digital.io:1317/"
+            "address": "https://lcd.medas-digital.io:1317"
           },
           {
             "address": "https://medasdigital_mainnet_api.chain.whenmoonwhenlambo.money"
@@ -15936,7 +15851,7 @@
     },
     {
       "chain_name": "onomy",
-      "status": "live",
+      "status": "killed",
       "networkType": "mainnet",
       "prettyName": "Onomy",
       "chain_id": "onomy-mainnet-1",
@@ -16092,6 +16007,9 @@
       "apis": {
         "rpc": [
           {
+            "address": "https://rpc.planq.roomit.xyz"
+          },
+          {
             "address": "https://rpc.planq.network/"
           },
           {
@@ -16113,9 +16031,6 @@
             "address": "https://rpc.planq.indonode.net"
           },
           {
-            "address": "https://rpc.planq.roomit.xyz"
-          },
-          {
             "address": "https://planq.rpc.skynodejs.net"
           },
           {
@@ -16129,6 +16044,9 @@
           }
         ],
         "rest": [
+          {
+            "address": "https://api.planq.roomit.xyz"
+          },
           {
             "address": "https://rest.planq.network/"
           },
@@ -16146,9 +16064,6 @@
           },
           {
             "address": "https://api.planq.indonode.net"
-          },
-          {
-            "address": "https://api.planq.roomit.xyz"
           },
           {
             "address": "https://planq.api.skynodejs.net"
@@ -16606,10 +16521,10 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://rpc.quicksilver.zone:443"
+            "address": "https://rpc-quicksilver.keplr.app"
           },
           {
-            "address": "https://rpc-quicksilver.keplr.app"
+            "address": "https://rpc.quicksilver.zone:443"
           },
           {
             "address": "https://quicksilver-rpc.lavenderfive.com:443"
@@ -16942,7 +16857,6 @@
           "coinDenom": "USDN",
           "coinMinimalDenom": "uusdn",
           "coinDecimals": 6,
-          "coinGeckoId": "noble-dollar-usdn",
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDN.png"
         }
       ],
@@ -16950,10 +16864,10 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://noble-rpc.polkachu.com"
+            "address": "https://rpc.lavenderfive.com:443/noble"
           },
           {
-            "address": "https://rpc.lavenderfive.com:443/noble"
+            "address": "https://noble-rpc.polkachu.com"
           },
           {
             "address": "https://noble-rpc.owallet.io"
@@ -17165,7 +17079,7 @@
     },
     {
       "chain_name": "omniflixhub",
-      "status": "live",
+      "status": "killed",
       "networkType": "mainnet",
       "prettyName": "OmniFlix",
       "chain_id": "omniflixhub-1",
@@ -17418,7 +17332,6 @@
           "coinDenom": "WBTC",
           "coinMinimalDenom": "wbtc-satoshi",
           "coinDecimals": 8,
-          "coinGeckoId": "axlwbtc",
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.png"
         },
         {
@@ -17681,9 +17594,6 @@
             "address": "https://axelar-rpc.quickapi.com:443"
           },
           {
-            "address": "https://rpc-axelar.cosmos-spaces.cloud"
-          },
-          {
             "address": "https://axelar-rpc.pops.one:443"
           },
           {
@@ -17693,22 +17603,10 @@
             "address": "https://rpc-1.axelar.nodes.guru:443"
           },
           {
-            "address": "https://rpc-axelar-ia.cosmosia.notional.ventures/"
-          },
-          {
             "address": "https://axelar-rpc.polkachu.com"
           },
           {
             "address": "https://axelar.rpc.stakin-nodes.com"
-          },
-          {
-            "address": "https://rpc.axelar.bh.rocks"
-          },
-          {
-            "address": "https://axelar-rpc.validatrium.club"
-          },
-          {
-            "address": "https://rpc-axelar.whispernode.com:443"
           },
           {
             "address": "https://axelar.rpc.quantnode.xyz/"
@@ -17723,13 +17621,7 @@
             "address": "https://axelar.ibs.team:443/rpc"
           },
           {
-            "address": "https://rpc-axelar-01.stakeflow.io"
-          },
-          {
             "address": "https://axelar-rpc.staketab.org:443"
-          },
-          {
-            "address": "https://axelar-rpc.w3coins.io"
           },
           {
             "address": "https://axelar-rpc.publicnode.com:443"
@@ -17749,31 +17641,16 @@
             "address": "https://axelar-lcd.quickapi.com:443"
           },
           {
-            "address": "https://api-axelar.cosmos-spaces.cloud"
-          },
-          {
             "address": "https://axelar-lcd.qubelabs.io:443"
           },
           {
             "address": "https://api-1.axelar.nodes.guru:443"
           },
           {
-            "address": "https://api-axelar-ia.cosmosia.notional.ventures/"
-          },
-          {
             "address": "https://axelar-api.polkachu.com"
           },
           {
             "address": "https://axelar.rest.stakin-nodes.com"
-          },
-          {
-            "address": "https://api.axelar.bh.rocks"
-          },
-          {
-            "address": "https://axelar-api.validatrium.club"
-          },
-          {
-            "address": "https://lcd-axelar.whispernode.com:443"
           },
           {
             "address": "https://axelar-mainnet-lcd.autostake.com:443"
@@ -17785,13 +17662,7 @@
             "address": "https://axelar.ibs.team:443/api"
           },
           {
-            "address": "https://api-axelar-01.stakeflow.io"
-          },
-          {
             "address": "https://axelar-rest.staketab.org"
-          },
-          {
-            "address": "https://axelar-api.w3coins.io"
           },
           {
             "address": "https://axelar-rest.publicnode.com"
@@ -17966,10 +17837,10 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://rpc-gitopia.keplr.app"
+            "address": "https://gitopia-rpc.polkachu.com:443"
           },
           {
-            "address": "https://gitopia-rpc.polkachu.com:443"
+            "address": "https://rpc-gitopia.keplr.app"
           },
           {
             "address": "https://rpc.lavenderfive.com:443/gitopia"
@@ -18055,6 +17926,9 @@
         ],
         "rest": [
           {
+            "address": "https://api.gitopia.roomit.xyz"
+          },
+          {
             "address": "https://lcd-gitopia.keplr.app"
           },
           {
@@ -18101,9 +17975,6 @@
           },
           {
             "address": "https://mainnet-gitopia-api.konsortech.xyz"
-          },
-          {
-            "address": "https://api.gitopia.roomit.xyz"
           },
           {
             "address": "https://gitopia-api.moonbridge.org"
@@ -18307,7 +18178,7 @@
             "address": "https://pirin-cl.nolus.network:26657"
           },
           {
-            "address": "rpc.nolus.network"
+            "address": "https://rpc.nolus.network"
           },
           {
             "address": "https://nolus-mainnet-rpc.autostake.com:443"
@@ -18342,7 +18213,7 @@
             "address": "https://pirin-cl.nolus.network:1317"
           },
           {
-            "address": "lcd.nolus.network"
+            "address": "https://lcd.nolus.network"
           },
           {
             "address": "https://nolus-mainnet-lcd.autostake.com:443"
@@ -18656,7 +18527,6 @@
           "coinDenom": "dNTRN",
           "coinMinimalDenom": "factory/neutron1frc0p5czd9uaaymdkug2njz7dc7j65jxukp9apmt9260a8egujkspms2t2/udntrn",
           "coinDecimals": 6,
-          "coinGeckoId": "drop-staked-ntrn",
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/dNTRN.svg"
         },
         {
@@ -18756,10 +18626,10 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://rpc-lb.neutron.org"
+            "address": "https://rpc-neutron.keplr.app"
           },
           {
-            "address": "https://rpc-neutron.keplr.app"
+            "address": "https://rpc-lb.neutron.org"
           },
           {
             "address": "https://rpc-solara.neutron-1.neutron.org"
@@ -18768,16 +18638,16 @@
             "address": "https://rpc-vertexa.neutron-1.neutron.org"
           },
           {
+            "address": "https://rpc.neutron.solva.solutions:443"
+          },
+          {
+            "address": "https://rpc-archive.neutron.solva.solutions:443"
+          },
+          {
             "address": "https://rpc.novel.remedy.tm.p2p.org"
           },
           {
             "address": "https://rpc.lavenderfive.com:443/neutron"
-          },
-          {
-            "address": "https://rpc-neutron.whispernode.com"
-          },
-          {
-            "address": "https://rpc-neutron.cosmos-spaces.cloud"
           },
           {
             "address": "https://neutron-rpc.publicnode.com:443"
@@ -18797,10 +18667,10 @@
         ],
         "rest": [
           {
-            "address": "https://rest-lb.neutron.org"
+            "address": "https://lcd-neutron.keplr.app"
           },
           {
-            "address": "https://lcd-neutron.keplr.app"
+            "address": "https://rest-lb.neutron.org"
           },
           {
             "address": "https://rest-solara.neutron-1.neutron.org"
@@ -18815,16 +18685,16 @@
             "address": "https://rest-pulsarix.neutron-1.neutron.org"
           },
           {
+            "address": "https://rest.neutron.solva.solutions:443"
+          },
+          {
+            "address": "https://rest-archive.neutron.solva.solutions:443"
+          },
+          {
             "address": "https://api.novel.remedy.tm.p2p.org"
           },
           {
             "address": "https://rest.lavenderfive.com:443/neutron"
-          },
-          {
-            "address": "https://lcd-neutron.whispernode.com"
-          },
-          {
-            "address": "https://api-neutron.cosmos-spaces.cloud"
           },
           {
             "address": "https://neutron-rest.publicnode.com"
@@ -19250,6 +19120,9 @@
       "apis": {
         "rpc": [
           {
+            "address": "https://realio-rpc.noders.services"
+          },
+          {
             "address": "https://realio-rpc.genznodes.dev"
           },
           {
@@ -19272,9 +19145,6 @@
           },
           {
             "address": "https://realio.declab.pro:26622"
-          },
-          {
-            "address": "https://realio-rpc.noders.services"
           },
           {
             "address": "https://realio_rio_mainnet_rpc.chain.whenmoonwhenlambo.money"
@@ -19819,6 +19689,9 @@
       "apis": {
         "rpc": [
           {
+            "address": "https://rpc-empowerchain.mzonder.com:443"
+          },
+          {
             "address": "https://empower-rpc.polkachu.com"
           },
           {
@@ -19829,9 +19702,6 @@
           },
           {
             "address": "http://empw.rpc.m.stavr.tech:22057"
-          },
-          {
-            "address": "https://rpc-empowerchain.mzonder.com:443"
           },
           {
             "address": "https://empower-rpc.w3coins.io"
@@ -20008,9 +19878,6 @@
         ],
         "rest": [
           {
-            "address": "https://kyve.api.liveraven.net"
-          },
-          {
             "address": "https://api-eu-1.kyve.network"
           },
           {
@@ -20030,6 +19897,9 @@
           },
           {
             "address": "https://api.kyve.nodestake.org"
+          },
+          {
+            "address": "https://kyve.api.liveraven.net"
           },
           {
             "address": "https://api-kyve.mms.team"
@@ -20147,10 +20017,10 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://rpc.sei-apis.com"
+            "address": "https://sei-rpc.polkachu.com"
           },
           {
-            "address": "https://sei-rpc.polkachu.com"
+            "address": "https://rpc.sei-apis.com"
           },
           {
             "address": "https://rpc.lavenderfive.com:443/sei"
@@ -20176,10 +20046,10 @@
         ],
         "rest": [
           {
-            "address": "https://rest.sei-apis.com"
+            "address": "https://sei-api.polkachu.com"
           },
           {
-            "address": "https://sei-api.polkachu.com"
+            "address": "https://rest.sei-apis.com"
           },
           {
             "address": "https://rest.lavenderfive.com:443/sei"
@@ -20263,9 +20133,6 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://passage-rpc.stakeandrelax.net"
-          },
-          {
             "address": "https://rpc-passage.ecostake.com"
           },
           {
@@ -20297,6 +20164,9 @@
           },
           {
             "address": "https://passage-rpc.publicnode.com:443"
+          },
+          {
+            "address": "https://passage-rpc.stakeandrelax.net"
           },
           {
             "address": "https://rpc-passage.mainnet.validatrium.club"
@@ -21317,6 +21187,9 @@
         ],
         "rest": [
           {
+            "address": "https://rest.lavenderfive.com:443/celestia"
+          },
+          {
             "address": "https://public-celestia-lcd.numia.xyz"
           },
           {
@@ -21330,9 +21203,6 @@
           },
           {
             "address": "https://api.celestia.nodestake.org"
-          },
-          {
-            "address": "https://rest.lavenderfive.com:443/celestia"
           },
           {
             "address": "https://api-celestia-01.stakeflow.io"
@@ -21484,16 +21354,13 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://dydx-rpc.polkachu.com/"
-          },
-          {
             "address": "https://dydx-rpc.kingnodes.com:443"
           },
           {
-            "address": "https://dydx-dao-rpc.polkachu.com"
+            "address": "https://dydx-rpc.polkachu.com/"
           },
           {
-            "address": "https://dydx-mainnet-full-rpc.public.blastapi.io"
+            "address": "https://dydx-dao-rpc.polkachu.com"
           },
           {
             "address": "https://rpc.lavenderfive.com:443/dydx"
@@ -21502,13 +21369,7 @@
             "address": "https://dydx-mainnet-rpc.autostake.com:443"
           },
           {
-            "address": "https://rpc-dydx.cosmos-spaces.cloud"
-          },
-          {
             "address": "https://dydx-rpc.publicnode.com:443"
-          },
-          {
-            "address": "https://rpc-dydx.cros-nest.com:443"
           },
           {
             "address": "https://dydx-rpc.enigma-validator.com"
@@ -21518,9 +21379,6 @@
           },
           {
             "address": "https://dydx-rpc.noders.services"
-          },
-          {
-            "address": "https://dydx.interstellar-lounge.org"
           }
         ],
         "rest": [
@@ -21534,9 +21392,6 @@
             "address": "https://dydx-dao-api.polkachu.com"
           },
           {
-            "address": "https://dydx-mainnet-full-lcd.public.blastapi.io"
-          },
-          {
             "address": "https://dydx-rest.kingnodes.com:443"
           },
           {
@@ -21546,22 +21401,13 @@
             "address": "https://dydx-mainnet-lcd.autostake.com:443"
           },
           {
-            "address": "https://api-dydx.cosmos-spaces.cloud"
-          },
-          {
             "address": "https://dydx-rest.publicnode.com"
-          },
-          {
-            "address": "https://rest-dydx.cros-nest.com:443"
           },
           {
             "address": "https://dydx-lcd.enigma-validator.com"
           },
           {
             "address": "https://dydx-api.noders.services"
-          },
-          {
-            "address": "https://dydx-rest.interstellar-lounge.org"
           }
         ]
       },
@@ -21576,7 +21422,7 @@
     },
     {
       "chain_name": "fxcore",
-      "status": "live",
+      "status": "killed",
       "networkType": "mainnet",
       "prettyName": "Pundi AIFX",
       "chain_id": "fxcore",
@@ -22828,6 +22674,9 @@
       "apis": {
         "rpc": [
           {
+            "address": "https://mainnet-humans-rpc.konsortech.xyz"
+          },
+          {
             "address": "https://rpc.humans.nodestake.top"
           },
           {
@@ -22852,9 +22701,6 @@
             "address": "https://humans-rpc.anyvalid.com:26627"
           },
           {
-            "address": "https://mainnet-humans-rpc.konsortech.xyz"
-          },
-          {
             "address": "http://65.21.46.90:5657"
           },
           {
@@ -22872,6 +22718,9 @@
         ],
         "rest": [
           {
+            "address": "https://humans-mainnet-api.itrocket.net"
+          },
+          {
             "address": "https://api.humans.nodestake.top"
           },
           {
@@ -22879,9 +22728,6 @@
           },
           {
             "address": "https://humans.api.kjnodes.com"
-          },
-          {
-            "address": "https://humans-mainnet-api.itrocket.net"
           },
           {
             "address": "https://humans-rest.staketab.org"
@@ -23144,6 +22990,9 @@
         ],
         "rest": [
           {
+            "address": "http://api.c4e.stakeup.tech"
+          },
+          {
             "address": "https://lcd.c4e.io"
           },
           {
@@ -23178,9 +23027,6 @@
           },
           {
             "address": "https://api.c4e.silentvalidator.com"
-          },
-          {
-            "address": "http://api.c4e.stakeup.tech"
           },
           {
             "address": "http://chain4energy-rpc.stakeangle.com:1317"
@@ -23526,6 +23372,9 @@
         ],
         "rest": [
           {
+            "address": "https://api.nibiru.roomit.xyz"
+          },
+          {
             "address": "https://lcd.nibiru.fi:443"
           },
           {
@@ -23563,9 +23412,6 @@
           },
           {
             "address": "https://nibiru-rest.publicnode.com"
-          },
-          {
-            "address": "https://api.nibiru.roomit.xyz"
           },
           {
             "address": "https://nibiru_mainnet_api.chain.whenmoonwhenlambo.money"
@@ -23668,7 +23514,7 @@
     },
     {
       "chain_name": "dhealth",
-      "status": "live",
+      "status": "killed",
       "networkType": "mainnet",
       "prettyName": "dHealth",
       "chain_id": "dhealth",
@@ -23870,6 +23716,9 @@
       "apis": {
         "rpc": [
           {
+            "address": "https://rpc.lavenderfive.com:443/saga"
+          },
+          {
             "address": "https://rpc-saga.keplr.app"
           },
           {
@@ -23889,9 +23738,6 @@
           },
           {
             "address": "https://rpc.saga.bronbro.io:443"
-          },
-          {
-            "address": "https://rpc.lavenderfive.com:443/saga"
           },
           {
             "address": "https://saga-rpc.stakeandrelax.net"
@@ -23996,6 +23842,9 @@
       "apis": {
         "rpc": [
           {
+            "address": "https://rpc.shidoscan.net"
+          },
+          {
             "address": "https://tendermint.shidoscan.com/"
           },
           {
@@ -24003,9 +23852,6 @@
           },
           {
             "address": "https://rpc.kenseishido.com"
-          },
-          {
-            "address": "https://rpc.shidoscan.net"
           },
           {
             "address": "https://shidochain_mainnet_rpc.chain.whenmoonwhenlambo.money"
@@ -24028,6 +23874,9 @@
         ],
         "rest": [
           {
+            "address": "https://api.shidoscan.net"
+          },
+          {
             "address": "https://swagger.shidoscan.com/"
           },
           {
@@ -24035,9 +23884,6 @@
           },
           {
             "address": "https://api.kenseishido.com"
-          },
-          {
-            "address": "https://api.shidoscan.net"
           },
           {
             "address": "https://shidochain_mainnet_api.chain.whenmoonwhenlambo.money"
@@ -24122,10 +23968,10 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://rpc.cifer.ai"
+            "address": "https://cif_node.cifer.ai"
           },
           {
-            "address": "https://cif_node.cifer.ai"
+            "address": "https://rpc.cifer.ai"
           },
           {
             "address": "http://119.59.126.109:26657"
@@ -24202,9 +24048,6 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://rpc.lavenderfive.com:443/seda"
-          },
-          {
             "address": "https://rpc.mainnet.seda.xyz"
           },
           {
@@ -24215,6 +24058,9 @@
           },
           {
             "address": "https://seda.rpc.kjnodes.com"
+          },
+          {
+            "address": "https://rpc.lavenderfive.com:443/seda"
           },
           {
             "address": "https://seda-rpc.kleomedes.network/"
@@ -24444,10 +24290,10 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://lcd-mainnet.firmachain.dev:26657"
+            "address": "https://rpc-explorer-mainnet.firmachain.dev"
           },
           {
-            "address": "https://rpc-explorer-mainnet.firmachain.dev"
+            "address": "https://lcd-mainnet.firmachain.dev:26657"
           },
           {
             "address": "https://firma.rpc.m.stavr.tech:443"
@@ -24470,10 +24316,10 @@
         ],
         "rest": [
           {
-            "address": "https://lcd-mainnet.firmachain.dev:1317"
+            "address": "https://lcd-explorer-mainnet.firmachain.dev"
           },
           {
-            "address": "https://lcd-explorer-mainnet.firmachain.dev"
+            "address": "https://lcd-mainnet.firmachain.dev:1317"
           },
           {
             "address": "https://firma.api.m.stavr.tech"
@@ -24554,10 +24400,10 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://lava.tendermintrpc.lava.build"
+            "address": "https://lava-rpc.w3coins.io"
           },
           {
-            "address": "https://lava-rpc.w3coins.io"
+            "address": "https://lava.tendermintrpc.lava.build"
           },
           {
             "address": "https://lava-rpc.w3coins.io:443"
@@ -24619,10 +24465,10 @@
         ],
         "rest": [
           {
-            "address": "https://lava.rest.lava.build"
+            "address": "https://lava-api.w3coins.io"
           },
           {
-            "address": "https://lava-api.w3coins.io"
+            "address": "https://lava.rest.lava.build"
           },
           {
             "address": "https://lava-api.finteh.org:443"
@@ -24692,7 +24538,7 @@
     },
     {
       "chain_name": "routerchain",
-      "status": "live",
+      "status": "killed",
       "networkType": "mainnet",
       "prettyName": "Router Protocol",
       "chain_id": "router_9600-1",
@@ -26889,7 +26735,6 @@
           "coinDenom": "OM",
           "coinMinimalDenom": "uom",
           "coinDecimals": 6,
-          "coinGeckoId": "mantra-dao",
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Prim-Col.png"
         },
         {
@@ -27321,10 +27166,10 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://rpc.dungeongames.io"
+            "address": "https://dungeon-wallet.rpc.quasarstaking.ai"
           },
           {
-            "address": "https://dungeon-wallet.rpc.quasarstaking.ai"
+            "address": "https://rpc.dungeongames.io"
           },
           {
             "address": "https://rpc-dungeon-1.seraphim.zone"
@@ -27338,10 +27183,10 @@
         ],
         "rest": [
           {
-            "address": "https://api.dungeongames.io"
+            "address": "https://dungeon-wallet.api.quasarstaking.ai"
           },
           {
-            "address": "https://dungeon-wallet.api.quasarstaking.ai"
+            "address": "https://api.dungeongames.io"
           },
           {
             "address": "https://api-dungeon-1.seraphim.zone"
@@ -27463,7 +27308,7 @@
       "chain_name": "xion",
       "status": "live",
       "networkType": "mainnet",
-      "prettyName": "Xion",
+      "prettyName": "Verona",
       "chain_id": "xion-mainnet-1",
       "bech32Prefix": "xion",
       "bech32Config": {
@@ -27476,22 +27321,23 @@
       },
       "slip44": 118,
       "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt.png"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/verona-main.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/verona-main.svg"
       },
       "stakeCurrency": {
-        "coinDenom": "XION",
+        "coinDenom": "VERONA",
         "coinMinimalDenom": "uxion",
         "coinDecimals": 6,
         "coinGeckoId": "xion-2",
-        "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.png"
+        "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/verona-main.png"
       },
       "feeCurrencies": [
         {
-          "coinDenom": "XION",
+          "coinDenom": "VERONA",
           "coinMinimalDenom": "uxion",
           "coinDecimals": 6,
           "coinGeckoId": "xion-2",
-          "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.png",
+          "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/verona-main.png",
           "gasPriceStep": {
             "low": 0.001,
             "average": 0.001,
@@ -27501,14 +27347,14 @@
       ],
       "currencies": [
         {
-          "coinDenom": "XION",
+          "coinDenom": "VERONA",
           "coinMinimalDenom": "uxion",
           "coinDecimals": 6,
           "coinGeckoId": "xion-2",
-          "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.png"
+          "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/verona-main.png"
         }
       ],
-      "description": "XION is the first walletless L1 blockchain purpose built for consumer adoption through chain abstraction.",
+      "description": "Verona is the intelligence layer for AI.",
       "apis": {
         "rpc": [
           {
@@ -27716,7 +27562,7 @@
             "address": "https://elys-mainnet-rpc.autostake.com:443"
           },
           {
-            "address": "https://elys.srvs.vnodesv.net/rpc"
+            "address": "https://elys-rpc.vnodesv.net"
           }
         ],
         "rest": [
@@ -27748,7 +27594,7 @@
             "address": "https://elys-mainnet-lcd.autostake.com:443"
           },
           {
-            "address": "https://rest.elys.srvs.vnodesv.net"
+            "address": "https://elys-api.vnodesv.net"
           }
         ]
       },
@@ -28194,7 +28040,7 @@
     },
     {
       "chain_name": "nillion",
-      "status": "live",
+      "status": "killed",
       "networkType": "mainnet",
       "prettyName": "Nillion",
       "chain_id": "nillion-1",
@@ -28451,10 +28297,10 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://babylon.nodes.guru/rpc"
+            "address": "https://babylon-rpc.polkachu.com"
           },
           {
-            "address": "https://babylon-rpc.polkachu.com"
+            "address": "https://babylon.nodes.guru/rpc"
           },
           {
             "address": "https://babylon-archive.nodes.guru/rpc"
@@ -28618,7 +28464,7 @@
     },
     {
       "chain_name": "milkyway",
-      "status": "live",
+      "status": "killed",
       "networkType": "mainnet",
       "prettyName": "MilkyWay",
       "chain_id": "milkyway",
@@ -29346,13 +29192,13 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://symphony-rpc.cogwheel.zone/"
-          },
-          {
             "address": "https://rpc-main-symphony.vinjan.xyz"
           },
           {
             "address": "https://symphony.rpc.nodeshub.online/"
+          },
+          {
+            "address": "https://symphony-rpc.cogwheel.zone/"
           },
           {
             "address": "https://rpc-m.symphony.vinjan-inc.com"
@@ -30161,10 +30007,10 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://mirage.vote/chain/rpc"
+            "address": "https://mirage.talk/chain/rpc"
           },
           {
-            "address": "https://mirage.talk/chain/rpc"
+            "address": "https://mirage.vote/chain/rpc"
           }
         ],
         "rest": [
@@ -30518,6 +30364,20 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/shareledger/images/token.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/shareledger/images/token.svg"
+      }
+    },
+    {
+      "chain_name": "turkchain",
+      "prettyName": "Turkchain",
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/turkchain/images/turkchain.png"
+      }
+    },
+    {
+      "chain_name": "wolochain",
+      "prettyName": "WoloChain",
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/wolochain/images/wolo.png"
       }
     }
   ]
