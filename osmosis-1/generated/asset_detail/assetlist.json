@@ -69,7 +69,10 @@
       "description": "ATOM is the native cryptocurrency of the Cosmos network, designed to facilitate interoperability between multiple blockchains through its innovative hub-and-spoke model.\n\nATOM, the native cryptocurrency of the Cosmos network, is essential for achieving the project's goal of creating an 'Internet of Blockchains.' Launched in 2019, Cosmos aims to solve the scalability, usability, and interoperability issues prevalent in existing blockchain ecosystems. The Cosmos Hub, the central blockchain of the network, uses ATOM for transaction fees, staking, and governance. By staking ATOM, users can earn rewards and participate in governance, influencing decisions on network upgrades and changes.\n\nCosmos leverages the Tendermint consensus algorithm to achieve high transaction throughput and fast finality. Its Inter-Blockchain Communication (IBC) protocol enables seamless data and value transfer between different blockchains, fostering a highly interconnected and collaborative ecosystem. The flexibility and scalability offered by Cosmos have attracted numerous projects, enhancing its utility and adoption. ATOM's role in securing the network and facilitating governance underscores its importance in the broader blockchain landscape.",
       "coingeckoID": "cosmos",
       "websiteURL": "https://cosmos.network",
-      "twitterURL": "https://x.com/cosmoshub"
+      "twitterURL": "https://x.com/cosmoshub",
+      "telegramURL": "https://t.me/CosmosOG",
+      "discordURL": "https://discord.com/invite/interchain",
+      "redditURL": "https://www.reddit.com/r/cosmosnetwork/"
     },
     {
       "base": "ibc/E6931F78057F7CC5DA0FD6CEF82FF39373A6E0452BF1FD76910B93292CF356C1",
@@ -234,8 +237,7 @@
       "base": "ibc/1DC495FCEFDA068A3820F903EDBD78B942FBD204D7E93D3BA2B432E9669D1A59",
       "name": "e-Money",
       "symbol": "NGM",
-      "description": "e-Money NGM staking token. In addition to earning staking rewards the token is bought back and burned based on e-Money stablecoin inflation.",
-      "coingeckoID": "e-money"
+      "description": "e-Money NGM staking token. In addition to earning staking rewards the token is bought back and burned based on e-Money stablecoin inflation."
     },
     {
       "base": "ibc/5973C068568365FFF40DEDCF1A1CB7582B6116B731CD31A12231AE25E20B871F",
@@ -255,7 +257,6 @@
       "name": "Impact Hub",
       "symbol": "IXO",
       "description": "The native token of the Internet of Impacts of inter-connected networks, powered by IXO Protocol blockchains.",
-      "coingeckoID": "ixo",
       "websiteURL": "https://www.ixo.world/"
     },
     {
@@ -332,7 +333,6 @@
       "name": "Desmos",
       "symbol": "DSM",
       "description": "The native token of Desmos",
-      "coingeckoID": "desmos",
       "websiteURL": "https://desmos.network/"
     },
     {
@@ -439,7 +439,10 @@
       "description": "Injective is a decentralized exchange protocol that enables fast, secure, and fully decentralized trading of derivatives, futures, and spot markets.\n\nInjective Protocol is a cutting-edge decentralized exchange (DEX) platform facilitating fully decentralized trading of derivatives, futures, and spot markets. Built on the Cosmos SDK, Injective leverages layer-2 scaling solutions for high-speed transactions with low fees, ensuring an efficient trading experience. The platform's design eliminates intermediaries, giving users complete control over their assets and trades.\n\nThe Injective ecosystem is powered by its native token, INJ, used for governance, staking, and fee reduction. By staking INJ, users can participate in network governance, influencing key decisions and protocol upgrades. Injective's features include cross-chain trading, allowing seamless asset trading across different blockchains, and a decentralized order book for transparency and security. Injective transforms the DeFi space with a comprehensive, decentralized solution for trading various financial instruments.",
       "coingeckoID": "injective-protocol",
       "websiteURL": "https://injective.com/",
-      "twitterURL": "https://x.com/Injective_"
+      "twitterURL": "https://x.com/Injective",
+      "telegramURL": "https://t.me/joininjective",
+      "discordURL": "https://discord.com/invite/injective",
+      "redditURL": "https://www.reddit.com/r/injective/"
     },
     {
       "base": "ibc/204A582244FC241613DBB50B04D1D454116C58C4AF7866C186AA0D6EEAD42780",
@@ -800,8 +803,7 @@
       "base": "ibc/5DD1F95ED336014D00CE2520977EC71566D282F9749170ADC83A392E0EA7426A",
       "name": "Stride Staked STARS",
       "symbol": "stSTARS",
-      "description": "",
-      "coingeckoID": "stride-staked-stars"
+      "description": ""
     },
     {
       "base": "ibc/C3FC4DED273E7D1DD2E7BAA3317EC9A53CD3252B577AA33DC00D9DF2BDF3ED5C",
@@ -875,7 +877,6 @@
       "name": "Unification",
       "symbol": "FUND",
       "description": "Staking and governance coin for the Unification Blockchain\n\nFundamentally, the Unification Blockchain Toolkit comprises two core branches: Blockchain Business products, to welcome traditional enterprises into the Web3 economy; and Permissionless Products, an open-access toolkit to power and enrich Dapps on Ethereum/EVM networks",
-      "coingeckoID": "unification",
       "websiteURL": "https://unification.com",
       "twitterURL": "https://x.com/UnificationUND"
     },
@@ -917,8 +918,7 @@
       "base": "ibc/D0E5BF2940FB58D9B283A339032DE88111407AAD7D94A7F1F3EB78874F8616D4",
       "name": "SCRT Staking Derivatives",
       "symbol": "stkd-SCRT",
-      "description": "The native token cw20 for SCRT Staking Derivatives on Secret Network",
-      "coingeckoID": "stkd-scrt"
+      "description": "The native token cw20 for SCRT Staking Derivatives on Secret Network"
     },
     {
       "base": "ibc/C822645522FC3EECF817609AA38C24B64D04F5C267A23BCCF8F2E3BC5755FA88",
@@ -993,8 +993,7 @@
       "base": "ibc/CAA179E40F0266B0B29FB5EAA288FB9212E628822265D4141EBD1C47C3CBFCBC",
       "name": "PSTAKE staked ATOM",
       "symbol": "stkATOM",
-      "description": "(Deprecated) PSTAKE Liquid-Staked ATOM",
-      "coingeckoID": "stkatom"
+      "description": "(Deprecated) PSTAKE Liquid-Staked ATOM"
     },
     {
       "base": "ibc/E27CD305D33F150369AB526AEB6646A76EC3FFB1A6CA58A663B5DE657A89D55D",
@@ -1194,8 +1193,7 @@
       "base": "ibc/A76EB6ECF4E3E2D4A23C526FD1B48FDD42F171B206C9D2758EF778A7826ADD68",
       "name": "Nature Carbon Ton",
       "symbol": "NCT",
-      "description": "Nature Carbon Ton (NCT) is a carbon token standard backed 1:1 by carbon credits issued by Verra, a global leader in the voluntary carbon market. NCT credits on Regen Network have been tokenized by Toucan.earth.",
-      "coingeckoID": "toucan-protocol-nature-carbon-tonne"
+      "description": "Nature Carbon Ton (NCT) is a carbon token standard backed 1:1 by carbon credits issued by Verra, a global leader in the voluntary carbon market. NCT credits on Regen Network have been tokenized by Toucan.earth."
     },
     {
       "base": "ibc/0E4FA664327BD40B32803EE84A77F145834C0281B7F82B65521333B3669FA0BA",
@@ -1263,8 +1261,7 @@
       "base": "ibc/8A025A1E70101E39DE0C0F153E582A30806D3DA16795F6D868A3AA247D2DEDF7",
       "name": "Silk",
       "symbol": "SILK",
-      "description": "The native token cw20 for Silk on Secret Network",
-      "coingeckoID": "silk-bcec1136-561c-4706-a42c-8b67d0d7f7d2"
+      "description": "The native token cw20 for Silk on Secret Network"
     },
     {
       "base": "ibc/912275A63A565BFD80734AEDFFB540132C51E446EAC41483B26EDE8A557C71CF",
@@ -1638,15 +1635,13 @@
       "base": "factory/osmo1s794h9rxggytja3a4pmwul53u98k06zy2qtrdvjnfuxruh7s8yjs6cyxgd/ucdt",
       "name": "CDT Stablecoin",
       "symbol": "CDT",
-      "description": "Membrane's CDP-style stablecoin called CDT",
-      "coingeckoID": "collateralized-debt-token"
+      "description": "Membrane's CDP-style stablecoin called CDT"
     },
     {
       "base": "factory/osmo1s794h9rxggytja3a4pmwul53u98k06zy2qtrdvjnfuxruh7s8yjs6cyxgd/umbrn",
       "name": "Membrane",
       "symbol": "MBRN",
-      "description": "Membrane's protocol token",
-      "coingeckoID": "membrane"
+      "description": "Membrane's protocol token"
     },
     {
       "base": "ibc/A1830DECC0B742F0B2044FF74BE727B5CF92C9A28A9235C3BACE4D24A23504FA",
@@ -3338,7 +3333,10 @@
       "symbol": "amATOM",
       "description": "The advance token for ATOM denominated vaults on Amulet Protocol",
       "websiteURL": "https://cosmos.network",
-      "twitterURL": "https://x.com/cosmoshub"
+      "twitterURL": "https://x.com/cosmoshub",
+      "telegramURL": "https://t.me/CosmosOG",
+      "discordURL": "https://discord.com/invite/interchain",
+      "redditURL": "https://www.reddit.com/r/cosmosnetwork/"
     },
     {
       "base": "factory/osmo1qnglc04tmhg32uc4kxlxh55a5cmhj88cpa3rmtly484xqu82t79sfv94w0/alloyed/allXRP",
@@ -4256,6 +4254,14 @@
       "description": "ZigCoin from Ethereum via Axelar Bridge"
     },
     {
+      "base": "ibc/D6ED8CCF01DE2F86D0D8A9605A8535A66C930697E986616227506EBDE8B8AC91",
+      "name": "Coinbase Wrapped DOGE",
+      "symbol": "axl-cbDOGE",
+      "description": "Coinbase Wrapped DOGE on Axelar",
+      "websiteURL": "https://dogecoin.com/",
+      "twitterURL": "https://x.com/dogecoin"
+    },
+    {
       "base": "ibc/3C6083B60A22901AF765E72B7D032BB97453CD447DB9E19BE97302E62582D2A8",
       "name": "Crypto2Mars",
       "symbol": "C2M",
@@ -4587,7 +4593,6 @@
       "name": "Pundi AIFX",
       "symbol": "PUNDIAI",
       "description": "PUNDIAI is an ERC-20 utility and governance token of Pundi AI ecosystem, including Pundi AI Data Platform, Pundi AI Marketplace, Pundi AIFX Omni Layer and Pundi MM AI Agent Launcher.\n\nPundiAI is the token rebrand of Function X (FX token) to align with the project's evolving AI and data-driven focus, updating tokenomics to reflect current value, enhancing market perception, improving user adoption, and possibly supporting technical or ecosystem improvements.",
-      "coingeckoID": "pundi-aifx",
       "websiteURL": "https://fx.pundi.ai",
       "twitterURL": "https://x.com/PundiAI"
     },
@@ -4632,6 +4637,14 @@
       "name": "Avalanche USD Coin (Wormhole)",
       "symbol": "avalanche.USDC.wh",
       "description": "Avalanche USD Coin (Wormhole), Avalanche USDC, factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/5ZLmAZpcbaP4EGyihSmpfwryzDr84h51tboV392BCjW4"
+    },
+    {
+      "base": "ibc/C9FADE15CBFACDF6A5B762100EDD999835CDBACD16D4BD2127ACC4EA40D0B276",
+      "name": "Gonka",
+      "symbol": "GNK",
+      "description": "Coins for the Gonka network.\n\nGonka is a decentralized AI infrastructure designed to optimize computational power specifically for AI model training and inference, offering a competitive alternative to traditional centralized cloud providers. Centralized systems are often expensive, monopolistic, and carry risks of censorship, whereas existing decentralized networks frequently waste resources on non-productive tasks, such as network security.\n\nWe introduce an innovative consensus mechanism that ensures nearly 100% of computational resources are used for meaningful AI tasks, maximizing efficiency and minimizing operational costs.",
+      "twitterURL": "https://x.com/gonka_ai",
+      "discordURL": "https://discord.com/invite/RADwCT2U6R"
     },
     {
       "base": "ibc/CBC60FC96BD21708D3B60B2E4AD949E0DA07C67EFE6A8D463298806CD507A9CF",
@@ -4825,6 +4838,15 @@
       "websiteURL": "https://agora.finance"
     },
     {
+      "base": "ibc/2D804D4EB2A53964059510EA1E9BC41871DC0E35E3D93C5C83D90EA8783C3770",
+      "name": "HELIXPOINT",
+      "symbol": "HELIXPOINT",
+      "description": "HELIXPOINT is the points token on Injective, launched on Trippy Pump (SHROOM Pad)",
+      "websiteURL": "https://wenpoints.xyz",
+      "twitterURL": "https://x.com/helixpoints",
+      "telegramURL": "https://t.me/helixpoints"
+    },
+    {
       "base": "ibc/2AE297399A20F5CCC7F943901CB050AE40EC4E8804D73050ADC5BB2B8128DD4C",
       "name": "NEXX GEN AI",
       "symbol": "NEXX",
@@ -4962,8 +4984,7 @@
       "base": "ibc/B1F5B3E97E0A21EAEC9E98F19F33965044350B5A21E19DD5FD6B90D715EBB30F",
       "name": "AQLA",
       "symbol": "AQLA",
-      "description": "The Aqualibre project's token",
-      "coingeckoID": "aqualibre"
+      "description": "The Aqualibre project's token"
     },
     {
       "base": "ibc/690EB0A0CA0DA2DC1E9CF62FB23C935AE5C7E9F57919CF89690521D5D70948A7",
@@ -5433,6 +5454,13 @@
       "description": "Liquid Staked WHALE-wBTC Alliance LP",
       "websiteURL": "https://app.migaloo.zone",
       "twitterURL": "https://x.com/Migaloo_Zone"
+    },
+    {
+      "base": "ibc/8B84D6340B0340917D3E2E3A17B4BE962F5593637AD7E42F6AE61D6A00ACE713",
+      "name": "MuCoin",
+      "symbol": "MUC",
+      "description": "MUC is the native staking, governance and transaction fee token of the MuCoin blockchain.\n\nMuCoin is a Cosmos SDK blockchain created for the MuCoin ecosystem and inspired by the world of MU Online.",
+      "websiteURL": "https://mucoin.org"
     },
     {
       "base": "ibc/0FC38457AF15A8BD1962BB97DDF1AB5EF4C74C5BFDAEF00289A9C405CBD609B0",
@@ -6869,6 +6897,13 @@
       "name": "Realio Security Token",
       "symbol": "RST",
       "description": "A hybrid equity token that represent ownership of the Realio Ecosystem and provides utility functions on the Network."
+    },
+    {
+      "base": "ibc/DBAA4846F611A7603EFCE6F9F46F4F561D48B1F492A576022F000614A17089CE",
+      "name": "Safrochain",
+      "symbol": "SAF",
+      "description": "The native staking, governance, and fee token of Safrochain, a mobile-first mobile-money-powered blockchain connecting mobile wallets to on-chain finance and interoperable digital rails.\n\nSafrochain is building a mobile-first, mobile-money-powered blockchain that connects blockchain infrastructure to mobile money networks—turning mobile wallets into gateways to stablecoins, programmable finance, cross-border settlement, and lower-cost interoperable transfers across operators and borders.",
+      "websiteURL": "https://safrochain.com"
     },
     {
       "base": "ibc/D59DB4C0B161B04CFD4B83E583AB557752EC7C56D4A170FF75A6D1CF1946F603",
