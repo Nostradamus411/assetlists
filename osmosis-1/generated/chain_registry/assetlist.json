@@ -1538,8 +1538,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/ngm.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/ngm.svg"
         }
-      ],
-      "coingecko_id": "e-money"
+      ]
     },
     {
       "description": "e-Money EUR stablecoin. Audited and backed by fiat EUR deposits and government bonds.",
@@ -1684,8 +1683,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthub/images/ixo.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthub/images/ixo.svg"
         }
-      ],
-      "coingecko_id": "ixo"
+      ]
     },
     {
       "description": "The BCNA coin is the transactional token within the BitCanna network, serving the legal cannabis industry through its payment network, supply chain and trust network.",
@@ -2183,8 +2181,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/desmos/images/dsm.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/desmos/images/dsm.svg"
         }
-      ],
-      "coingecko_id": "desmos"
+      ]
     },
     {
       "description": "Native token of Dig Chain",
@@ -5555,8 +5552,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/ststars.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/ststars.svg"
         }
-      ],
-      "coingecko_id": "stride-staked-stars"
+      ]
     },
     {
       "description": "Solarbank DAO Governance Token for speeding up the shift to renewable and green energy",
@@ -6098,8 +6094,7 @@
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/unification/images/fund.svg",
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/unification/images/fund.png"
         }
-      ],
-      "coingecko_id": "unification"
+      ]
     },
     {
       "description": "The native staking and governance token of Jackal.",
@@ -6405,8 +6400,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/stkd-scrt.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/stkd-scrt.svg"
         }
-      ],
-      "coingecko_id": "stkd-scrt"
+      ]
     },
     {
       "description": "BeeZee native blockchain",
@@ -6912,8 +6906,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkatom.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkatom.svg"
         }
-      ],
-      "coingecko_id": "stkatom"
+      ]
     },
     {
       "description": "The native staking and governance token of the Dyson Protocol",
@@ -8399,8 +8392,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/regen/images/nct.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/regen/images/nct.svg"
         }
-      ],
-      "coingecko_id": "toucan-protocol-nature-carbon-tonne"
+      ]
     },
     {
       "description": "Celestims",
@@ -8941,8 +8933,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/silk.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/silk.svg"
         }
-      ],
-      "coingecko_id": "silk-bcec1136-561c-4706-a42c-8b67d0d7f7d2"
+      ]
     },
     {
       "description": "Mille: the 1000th token on osmosis",
@@ -11559,8 +11550,7 @@
         {
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/CDT.svg"
         }
-      ],
-      "coingecko_id": "collateralized-debt-token"
+      ]
     },
     {
       "description": "Membrane's protocol token",
@@ -11586,8 +11576,7 @@
         {
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/MBRN.svg"
         }
-      ],
-      "coingecko_id": "membrane"
+      ]
     },
     {
       "description": "The native token of SGE Network",
@@ -27843,6 +27832,40 @@
     {
       "denom_units": [
         {
+          "denom": "ibc/D6ED8CCF01DE2F86D0D8A9605A8535A66C930697E986616227506EBDE8B8AC91",
+          "exponent": 0,
+          "aliases": [
+            "cbdoge-satoshi"
+          ]
+        },
+        {
+          "denom": "cbdoge",
+          "exponent": 8
+        }
+      ],
+      "type_asset": "ics20",
+      "base": "ibc/D6ED8CCF01DE2F86D0D8A9605A8535A66C930697E986616227506EBDE8B8AC91",
+      "name": "Coinbase Wrapped DOGE",
+      "display": "cbdoge",
+      "symbol": "axl-cbDOGE",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "axelar",
+            "base_denom": "cbdoge-satoshi",
+            "channel_id": "channel-3"
+          },
+          "chain": {
+            "channel_id": "channel-208",
+            "path": "transfer/channel-208/cbdoge-satoshi"
+          }
+        }
+      ]
+    },
+    {
+      "denom_units": [
+        {
           "denom": "ibc/3C6083B60A22901AF765E72B7D032BB97453CD447DB9E19BE97302E62582D2A8",
           "exponent": 0,
           "aliases": [
@@ -29695,8 +29718,7 @@
             "path": "transfer/channel-2716/apundiai"
           }
         }
-      ],
-      "coingecko_id": "pundi-aifx"
+      ]
     },
     {
       "denom_units": [
@@ -29949,6 +29971,55 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png",
           "theme": {
             "circle": true
+          }
+        }
+      ]
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "ibc/C9FADE15CBFACDF6A5B762100EDD999835CDBACD16D4BD2127ACC4EA40D0B276",
+          "exponent": 0,
+          "aliases": [
+            "nanogonka",
+            "ngonka"
+          ]
+        },
+        {
+          "denom": "ugonka",
+          "exponent": 3,
+          "aliases": [
+            "microgonka"
+          ]
+        },
+        {
+          "denom": "mgonka",
+          "exponent": 6,
+          "aliases": [
+            "milligonka"
+          ]
+        },
+        {
+          "denom": "gonka",
+          "exponent": 9
+        }
+      ],
+      "type_asset": "ics20",
+      "base": "ibc/C9FADE15CBFACDF6A5B762100EDD999835CDBACD16D4BD2127ACC4EA40D0B276",
+      "name": "Gonka",
+      "display": "gonka",
+      "symbol": "GNK",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "gonka",
+            "base_denom": "ngonka",
+            "channel_id": "channel-1"
+          },
+          "chain": {
+            "channel_id": "channel-108157",
+            "path": "transfer/channel-108157/ngonka"
           }
         }
       ]
@@ -31041,6 +31112,40 @@
     {
       "denom_units": [
         {
+          "denom": "ibc/2D804D4EB2A53964059510EA1E9BC41871DC0E35E3D93C5C83D90EA8783C3770",
+          "exponent": 0,
+          "aliases": [
+            "factory/inj13j2rpnlwl30c02d4pzukykwfeyyhelvry9cqte/shroom_8_be9bddf36b94db69"
+          ]
+        },
+        {
+          "denom": "HELIXPOINT",
+          "exponent": 18
+        }
+      ],
+      "type_asset": "ics20",
+      "base": "ibc/2D804D4EB2A53964059510EA1E9BC41871DC0E35E3D93C5C83D90EA8783C3770",
+      "name": "HELIXPOINT",
+      "display": "HELIXPOINT",
+      "symbol": "HELIXPOINT",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "injective",
+            "base_denom": "factory/inj13j2rpnlwl30c02d4pzukykwfeyyhelvry9cqte/shroom_8_be9bddf36b94db69",
+            "channel_id": "channel-8"
+          },
+          "chain": {
+            "channel_id": "channel-122",
+            "path": "transfer/channel-122/factory/inj13j2rpnlwl30c02d4pzukykwfeyyhelvry9cqte/shroom_8_be9bddf36b94db69"
+          }
+        }
+      ]
+    },
+    {
+      "denom_units": [
+        {
           "denom": "ibc/2AE297399A20F5CCC7F943901CB050AE40EC4E8804D73050ADC5BB2B8128DD4C",
           "exponent": 0,
           "aliases": [
@@ -31818,8 +31923,7 @@
             "path": "transfer/channel-259/factory/kujira1xe0awk5planmtsmjel5xtx2hzhqdw5p8z66yqd/uaqla"
           }
         }
-      ],
-      "coingecko_id": "aqualibre"
+      ]
     },
     {
       "denom_units": [
@@ -34449,6 +34553,40 @@
           "chain": {
             "channel_id": "channel-642",
             "path": "transfer/channel-642/factory/migaloo1zsptvkg5aeg4tjksgv7vp4x5s9p5euqrh9jl3sfdv48wtnrhftlszsvmu5/uwhalex"
+          }
+        }
+      ]
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "ibc/8B84D6340B0340917D3E2E3A17B4BE962F5593637AD7E42F6AE61D6A00ACE713",
+          "exponent": 0,
+          "aliases": [
+            "umuc"
+          ]
+        },
+        {
+          "denom": "MUC",
+          "exponent": 6
+        }
+      ],
+      "type_asset": "ics20",
+      "base": "ibc/8B84D6340B0340917D3E2E3A17B4BE962F5593637AD7E42F6AE61D6A00ACE713",
+      "name": "MuCoin",
+      "display": "MUC",
+      "symbol": "MUC",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "mucoin",
+            "base_denom": "umuc",
+            "channel_id": "channel-0"
+          },
+          "chain": {
+            "channel_id": "channel-110556",
+            "path": "transfer/channel-110556/umuc"
           }
         }
       ]
@@ -42509,6 +42647,41 @@
           "chain": {
             "channel_id": "channel-1424",
             "path": "transfer/channel-1424/arst"
+          }
+        }
+      ]
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "ibc/DBAA4846F611A7603EFCE6F9F46F4F561D48B1F492A576022F000614A17089CE",
+          "exponent": 0,
+          "aliases": [
+            "microsaf",
+            "usaf"
+          ]
+        },
+        {
+          "denom": "saf",
+          "exponent": 6
+        }
+      ],
+      "type_asset": "ics20",
+      "base": "ibc/DBAA4846F611A7603EFCE6F9F46F4F561D48B1F492A576022F000614A17089CE",
+      "name": "Safrochain",
+      "display": "saf",
+      "symbol": "SAF",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "safrochain",
+            "base_denom": "usaf",
+            "channel_id": "channel-1"
+          },
+          "chain": {
+            "channel_id": "channel-110497",
+            "path": "transfer/channel-110497/usaf"
           }
         }
       ]
