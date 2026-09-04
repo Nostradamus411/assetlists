@@ -4188,6 +4188,7 @@
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/genesisl1/images/l1.svg"
         }
       ],
+      "coingecko_id": "genesisl1",
       "keywords": [
         "osmosis_unstable"
       ]
@@ -5202,8 +5203,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/usdx.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/usdx.svg"
         }
-      ],
-      "coingecko_id": "usdx"
+      ]
     },
     {
       "description": "BLD is the token used to secure the Agoric chain through staking and to backstop Inter Protocol.",
@@ -11243,7 +11243,7 @@
       "base": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4",
       "name": "USDC",
       "display": "usdc",
-      "symbol": "USDC",
+      "symbol": "USDC.n",
       "traces": [
         {
           "type": "ibc",
@@ -11268,8 +11268,8 @@
             "chain_name": "ethereum",
             "base_denom": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
           },
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg",
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg",
           "theme": {
             "circle": true
           }
@@ -31194,6 +31194,41 @@
     {
       "denom_units": [
         {
+          "denom": "ibc/2FEB645FC9CAA36146C29079A07840B1FDE96468FB62211AD669E767B770F72E",
+          "exponent": 0,
+          "aliases": [
+            "factory/inj13j2rpnlwl30c02d4pzukykwfeyyhelvry9cqte/shroom_0_3b4d31d5571b97db"
+          ]
+        },
+        {
+          "denom": "MOTION",
+          "exponent": 18
+        }
+      ],
+      "type_asset": "ics20",
+      "base": "ibc/2FEB645FC9CAA36146C29079A07840B1FDE96468FB62211AD669E767B770F72E",
+      "name": "Motion",
+      "display": "MOTION",
+      "symbol": "MOTION",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "injective",
+            "base_denom": "factory/inj13j2rpnlwl30c02d4pzukykwfeyyhelvry9cqte/shroom_0_3b4d31d5571b97db",
+            "channel_id": "channel-8"
+          },
+          "chain": {
+            "channel_id": "channel-122",
+            "path": "transfer/channel-122/factory/inj13j2rpnlwl30c02d4pzukykwfeyyhelvry9cqte/shroom_0_3b4d31d5571b97db"
+          }
+        }
+      ],
+      "coingecko_id": "motion-6"
+    },
+    {
+      "denom_units": [
+        {
           "denom": "ibc/2AE297399A20F5CCC7F943901CB050AE40EC4E8804D73050ADC5BB2B8128DD4C",
           "exponent": 0,
           "aliases": [
@@ -42972,6 +43007,43 @@
     {
       "denom_units": [
         {
+          "denom": "ibc/FB26E04E71EACCCCCD6D81F0F7666D5567C3A1686E2AC577FCC03F28F5B5874F",
+          "exponent": 0,
+          "aliases": [
+            "usovr"
+          ]
+        },
+        {
+          "denom": "sovr",
+          "exponent": 6,
+          "aliases": [
+            "SOVR"
+          ]
+        }
+      ],
+      "type_asset": "ics20",
+      "base": "ibc/FB26E04E71EACCCCCD6D81F0F7666D5567C3A1686E2AC577FCC03F28F5B5874F",
+      "name": "Sovren",
+      "display": "sovr",
+      "symbol": "SOVR",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "sovr",
+            "base_denom": "usovr",
+            "channel_id": "channel-0"
+          },
+          "chain": {
+            "channel_id": "channel-110679",
+            "path": "transfer/channel-110679/usovr"
+          }
+        }
+      ]
+    },
+    {
+      "denom_units": [
+        {
           "denom": "ibc/764F53CE03456AE392B5DA23935497E6428C33DC60A4B05FC03E10B635DB67E8",
           "exponent": 0,
           "aliases": [
@@ -43637,6 +43709,40 @@
           "chain": {
             "channel_id": "channel-104867",
             "path": "transfer/channel-104867/uvnd"
+          }
+        }
+      ]
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "ibc/6CF86ACC0BC170B45A41FFAA138B062CFA454D919490B79CCAA8491B3B4B420D",
+          "exponent": 0,
+          "aliases": [
+            "utail"
+          ]
+        },
+        {
+          "denom": "TAIL",
+          "exponent": 6
+        }
+      ],
+      "type_asset": "ics20",
+      "base": "ibc/6CF86ACC0BC170B45A41FFAA138B062CFA454D919490B79CCAA8491B3B4B420D",
+      "name": "TAIL Network",
+      "display": "TAIL",
+      "symbol": "TAIL",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "tail",
+            "base_denom": "utail",
+            "channel_id": "channel-0"
+          },
+          "chain": {
+            "channel_id": "channel-110566",
+            "path": "transfer/channel-110566/utail"
           }
         }
       ]
@@ -45002,6 +45108,103 @@
       "socials": {
         "website": "https://aoe2war.com"
       }
+    },
+    {
+      "description": "USD Coin issued natively on Injective by Circle",
+      "denom_units": [
+        {
+          "denom": "ibc/794C7D7F3B857713878A3A1927251FA6AC1EEE520424C1F6FAFE9BA26D476138",
+          "exponent": 0
+        },
+        {
+          "denom": "usdc",
+          "exponent": 6
+        }
+      ],
+      "base": "ibc/794C7D7F3B857713878A3A1927251FA6AC1EEE520424C1F6FAFE9BA26D476138",
+      "name": "Injective USDC",
+      "display": "usdc",
+      "symbol": "USDC.inj",
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
+      },
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "injective",
+            "base_denom": "erc20:0xa00C59fF5a080D2b954d0c75e46E22a0c371235a",
+            "channel_id": "channel-8"
+          },
+          "chain": {
+            "channel_id": "channel-122",
+            "path": "transfer/channel-122/erc20:0xa00C59fF5a080D2b954d0c75e46E22a0c371235a"
+          }
+        }
+      ],
+      "type_asset": "ics20",
+      "images": [
+        {
+          "image_sync": {
+            "chain_name": "injective",
+            "base_denom": "erc20:0xa00C59fF5a080D2b954d0c75e46E22a0c371235a"
+          },
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg",
+          "theme": {
+            "circle": true
+          }
+        }
+      ],
+      "coingecko_id": "usd-coin"
+    },
+    {
+      "description": "An alloy of USDC asset variants on Osmosis.",
+      "extended_description": "Multiple USD Coin variants on Osmosis comprise the liquidity backing of a tokenized transmuter pool to create an alloy of USDC.",
+      "denom_units": [
+        {
+          "denom": "factory/osmo147h5x9pcj7lm0cttlaefx6sqq5vdfnmwfcqxkmjd7exqm9gc7grqhr75m0/alloyed/allUSDC",
+          "exponent": 0
+        },
+        {
+          "denom": "allUSDC",
+          "exponent": 6
+        }
+      ],
+      "type_asset": "sdk.coin",
+      "address": "osmo147h5x9pcj7lm0cttlaefx6sqq5vdfnmwfcqxkmjd7exqm9gc7grqhr75m0",
+      "base": "factory/osmo147h5x9pcj7lm0cttlaefx6sqq5vdfnmwfcqxkmjd7exqm9gc7grqhr75m0/alloyed/allUSDC",
+      "name": "USD Coin",
+      "display": "allUSDC",
+      "symbol": "USDC",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chain_name": "ethereum",
+            "base_denom": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+          },
+          "provider": "Osmosis"
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
+      },
+      "images": [
+        {
+          "image_sync": {
+            "chain_name": "ethereum",
+            "base_denom": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+          },
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg",
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png",
+          "theme": {
+            "circle": true
+          }
+        }
+      ]
     },
     {
       "description": "PUNDIX token is the native token that functions within the Pundi X ecosystem, including PundiX Chain and XPOS.",
