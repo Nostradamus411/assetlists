@@ -614,7 +614,10 @@
       "name": "GenesisL1",
       "symbol": "L1",
       "description": "L1 coin is the GenesisL1 blockchain utility, governance and EVM token\n\nGenesisL1 is a public distributed ledger for decentralized scientific data, assets, applications, and protocols, with a focus on bioinformatics, biotechnology, medicine, and machine learning.",
-      "websiteURL": "https://GenesisL1.com"
+      "coingeckoID": "genesisl1",
+      "websiteURL": "https://genesisl1.com",
+      "twitterURL": "https://x.com/genesis_L1",
+      "telegramURL": "https://t.me/Genesis_L1"
     },
     {
       "base": "ibc/384E5DD50BDE042E1AAF51F312B55F08F95BC985C503880189258B4D9374CBBE",
@@ -752,8 +755,7 @@
       "base": "ibc/C78F65E1648A3DFE0BAEB6C4CDA69CC2A75437F1793C0E6386DFDA26393790AE",
       "name": "Kava USDX",
       "symbol": "USDX",
-      "description": "The native stablecoin of Kava",
-      "coingeckoID": "usdx"
+      "description": "The native stablecoin of Kava"
     },
     {
       "base": "ibc/2DA9C149E9AD2BD27FEFA635458FB37093C256C1A940392634A16BEA45262604",
@@ -4855,6 +4857,16 @@
       "telegramURL": "https://t.me/helixpoints"
     },
     {
+      "base": "ibc/2FEB645FC9CAA36146C29079A07840B1FDE96468FB62211AD669E767B770F72E",
+      "name": "Motion",
+      "symbol": "MOTION",
+      "description": "MOTION is the token of Motionism on Injective, launched on Trippy Pump (SHROOM Pad). Nothing happens until something moves.",
+      "coingeckoID": "motion-6",
+      "websiteURL": "https://motionism.xyz",
+      "twitterURL": "https://x.com/motionismxyz",
+      "telegramURL": "https://t.me/motionismxyz"
+    },
+    {
       "base": "ibc/2AE297399A20F5CCC7F943901CB050AE40EC4E8804D73050ADC5BB2B8128DD4C",
       "name": "NEXX GEN AI",
       "symbol": "NEXX",
@@ -6962,6 +6974,14 @@
       "twitterURL": "https://x.com/SideProtocol"
     },
     {
+      "base": "ibc/FB26E04E71EACCCCCD6D81F0F7666D5567C3A1686E2AC577FCC03F28F5B5874F",
+      "name": "Sovren",
+      "symbol": "SOVR",
+      "description": "SOVR is the sole unit of account of the Sovren Layer 1: staking, governance, gas, and service payments.\n\nSovren is a Layer 1 blockchain built with the Cosmos SDK and CometBFT consensus that settles payment for infrastructure work. Licensed node operators supply storage, bandwidth, content delivery, compute and vector search. That capacity is offered as conventional cloud services through Triton Cloud and is also consumed by Sovren Technologies' own applications, including Parler, Play, Pay and Shop. Every processed request produces a signed cryptographic receipt, and operator weight derives from verified delivery. SOVR pays transaction fees, is staked to secure the chain under proof-of-stake consensus, carries governance rights over protocol parameters and upgrades, and settles payment to node operators for services delivered. Holders can also use SOVR to pay for Triton Cloud services. The sovr-1 mainnet produced its genesis block on 6 May 2026. Maximum supply is fixed at 1,000,000,000 SOVR.",
+      "websiteURL": "https://sovrentech.io",
+      "twitterURL": "https://x.com/sovrentech"
+    },
+    {
       "base": "ibc/764F53CE03456AE392B5DA23935497E6428C33DC60A4B05FC03E10B635DB67E8",
       "name": "rIRIS",
       "symbol": "rIRIS",
@@ -7078,6 +7098,13 @@
       "name": "Harmony VND",
       "symbol": "HVND",
       "description": "Harmonized VND"
+    },
+    {
+      "base": "ibc/6CF86ACC0BC170B45A41FFAA138B062CFA454D919490B79CCAA8491B3B4B420D",
+      "name": "TAIL Network",
+      "symbol": "TAIL",
+      "description": "The native token of TAIL Network",
+      "websiteURL": "https://trusttails.io"
     },
     {
       "base": "ibc/AF5CF6B225B1C03E7F9C2A1AE80CB3BED4E2E7D7F79D5B85679EC2E6925C7289",

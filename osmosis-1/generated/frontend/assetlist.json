@@ -4629,6 +4629,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/genesisl1/images/l1.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/genesisl1/images/l1.svg"
       },
+      "coingeckoId": "genesisl1",
       "categories": [
         "ai",
         "nft_protocol"
@@ -5771,7 +5772,6 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/usdx.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/usdx.svg"
       },
-      "coingeckoId": "usdx",
       "categories": [
         "stablecoin",
         "defi"
@@ -12676,7 +12676,7 @@
           "sourceDenom": "uusdc",
           "chainType": "cosmos",
           "chainId": "noble-1",
-          "symbol": "USDC",
+          "symbol": "USDC.n",
           "decimals": 6,
           "logoURIs": {
             "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png",
@@ -35677,6 +35677,56 @@
       "preview": false
     },
     {
+      "chainName": "injective",
+      "sourceDenom": "factory/inj13j2rpnlwl30c02d4pzukykwfeyyhelvry9cqte/shroom_0_3b4d31d5571b97db",
+      "coinMinimalDenom": "ibc/2FEB645FC9CAA36146C29079A07840B1FDE96468FB62211AD669E767B770F72E",
+      "symbol": "MOTION",
+      "decimals": 18,
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/motion.png"
+      },
+      "coingeckoId": "motion-6",
+      "categories": [],
+      "transferMethods": [
+        {
+          "name": "Osmosis IBC Transfer",
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "injective",
+            "chainId": "injective-1",
+            "sourceDenom": "factory/inj13j2rpnlwl30c02d4pzukykwfeyyhelvry9cqte/shroom_0_3b4d31d5571b97db",
+            "port": "transfer",
+            "channelId": "channel-8"
+          },
+          "chain": {
+            "port": "transfer",
+            "channelId": "channel-122",
+            "path": "transfer/channel-122/factory/inj13j2rpnlwl30c02d4pzukykwfeyyhelvry9cqte/shroom_0_3b4d31d5571b97db"
+          }
+        }
+      ],
+      "counterparty": [
+        {
+          "chainName": "injective",
+          "sourceDenom": "factory/inj13j2rpnlwl30c02d4pzukykwfeyyhelvry9cqte/shroom_0_3b4d31d5571b97db",
+          "chainType": "cosmos",
+          "chainId": "injective-1",
+          "symbol": "MOTION",
+          "decimals": 18,
+          "logoURIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/motion.png"
+          }
+        }
+      ],
+      "variantGroupKey": "ibc/2FEB645FC9CAA36146C29079A07840B1FDE96468FB62211AD669E767B770F72E",
+      "name": "Motion",
+      "isAlloyed": false,
+      "verified": false,
+      "unstable": false,
+      "disabled": false,
+      "preview": false
+    },
+    {
       "chainName": "juno",
       "sourceDenom": "factory/juno1qly4zcmzr2gyxtze5yt9chv2srczwwunppxjfh/NEXX",
       "coinMinimalDenom": "ibc/2AE297399A20F5CCC7F943901CB050AE40EC4E8804D73050ADC5BB2B8128DD4C",
@@ -49564,6 +49614,57 @@
       "preview": false
     },
     {
+      "chainName": "sovr",
+      "sourceDenom": "usovr",
+      "coinMinimalDenom": "ibc/FB26E04E71EACCCCCD6D81F0F7666D5567C3A1686E2AC577FCC03F28F5B5874F",
+      "symbol": "SOVR",
+      "decimals": 6,
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sovr/images/sovr.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sovr/images/sovr.svg"
+      },
+      "categories": [],
+      "transferMethods": [
+        {
+          "name": "Osmosis IBC Transfer",
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "sovr",
+            "chainId": "sovr-1",
+            "sourceDenom": "usovr",
+            "port": "transfer",
+            "channelId": "channel-0"
+          },
+          "chain": {
+            "port": "transfer",
+            "channelId": "channel-110679",
+            "path": "transfer/channel-110679/usovr"
+          }
+        }
+      ],
+      "counterparty": [
+        {
+          "chainName": "sovr",
+          "sourceDenom": "usovr",
+          "chainType": "cosmos",
+          "chainId": "sovr-1",
+          "symbol": "SOVR",
+          "decimals": 6,
+          "logoURIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sovr/images/sovr.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sovr/images/sovr.svg"
+          }
+        }
+      ],
+      "variantGroupKey": "ibc/FB26E04E71EACCCCCD6D81F0F7666D5567C3A1686E2AC577FCC03F28F5B5874F",
+      "name": "Sovren",
+      "isAlloyed": false,
+      "verified": false,
+      "unstable": false,
+      "disabled": false,
+      "preview": false
+    },
+    {
       "chainName": "stafihub",
       "sourceDenom": "uriris",
       "coinMinimalDenom": "ibc/764F53CE03456AE392B5DA23935497E6428C33DC60A4B05FC03E10B635DB67E8",
@@ -50313,6 +50414,55 @@
       ],
       "variantGroupKey": "ibc/9805A3715F1C315D3753397FFCEFF284F55771AA3975429997D314F4BA73D18B",
       "name": "Harmony VND",
+      "isAlloyed": false,
+      "verified": false,
+      "unstable": false,
+      "disabled": false,
+      "preview": false
+    },
+    {
+      "chainName": "tail",
+      "sourceDenom": "utail",
+      "coinMinimalDenom": "ibc/6CF86ACC0BC170B45A41FFAA138B062CFA454D919490B79CCAA8491B3B4B420D",
+      "symbol": "TAIL",
+      "decimals": 6,
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/tail/images/logo-mark.png"
+      },
+      "categories": [],
+      "transferMethods": [
+        {
+          "name": "Osmosis IBC Transfer",
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "tail",
+            "chainId": "tail-1",
+            "sourceDenom": "utail",
+            "port": "transfer",
+            "channelId": "channel-0"
+          },
+          "chain": {
+            "port": "transfer",
+            "channelId": "channel-110566",
+            "path": "transfer/channel-110566/utail"
+          }
+        }
+      ],
+      "counterparty": [
+        {
+          "chainName": "tail",
+          "sourceDenom": "utail",
+          "chainType": "cosmos",
+          "chainId": "tail-1",
+          "symbol": "TAIL",
+          "decimals": 6,
+          "logoURIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/tail/images/logo-mark.png"
+          }
+        }
+      ],
+      "variantGroupKey": "ibc/6CF86ACC0BC170B45A41FFAA138B062CFA454D919490B79CCAA8491B3B4B420D",
+      "name": "TAIL Network",
       "isAlloyed": false,
       "verified": false,
       "unstable": false,
