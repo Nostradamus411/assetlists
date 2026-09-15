@@ -22,5 +22,6 @@
   "name": "Epix",
   "symbol": "EPIX",
   "websiteURL": "https://epix.zone/",
-  "twitterURL": "https://x.com/zone_epix"
+  "twitterURL": "https://x.com/zone_epix",
+  "coingeckoID": "epix"
 }
