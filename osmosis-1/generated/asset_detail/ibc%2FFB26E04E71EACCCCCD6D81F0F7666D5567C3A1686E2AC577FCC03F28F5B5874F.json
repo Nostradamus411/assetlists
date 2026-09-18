@@ -3,5 +3,6 @@
   "name": "Sovren",
   "symbol": "SOVR",
   "websiteURL": "https://sovrentech.io",
-  "twitterURL": "https://x.com/sovrentech"
+  "twitterURL": "https://x.com/sovrentech",
+  "coingeckoID": "sovren"
 }
