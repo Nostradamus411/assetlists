@@ -31264,6 +31264,40 @@
     {
       "denom_units": [
         {
+          "denom": "ibc/863B6B2B3A314BF44CF11F1C79B7EE3BBC7B79480AABF20C0C8083DDFDD7D479",
+          "exponent": 0,
+          "aliases": [
+            "factory/inj1dg3nxn4z36p2sqem4cy2jsdjf4ytk8cn256jjx/T42"
+          ]
+        },
+        {
+          "denom": "T42",
+          "exponent": 6
+        }
+      ],
+      "type_asset": "ics20",
+      "base": "ibc/863B6B2B3A314BF44CF11F1C79B7EE3BBC7B79480AABF20C0C8083DDFDD7D479",
+      "name": "TeaForTwo",
+      "display": "T42",
+      "symbol": "T42",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "injective",
+            "base_denom": "factory/inj1dg3nxn4z36p2sqem4cy2jsdjf4ytk8cn256jjx/T42",
+            "channel_id": "channel-8"
+          },
+          "chain": {
+            "channel_id": "channel-122",
+            "path": "transfer/channel-122/factory/inj1dg3nxn4z36p2sqem4cy2jsdjf4ytk8cn256jjx/T42"
+          }
+        }
+      ]
+    },
+    {
+      "denom_units": [
+        {
           "denom": "ibc/2AE297399A20F5CCC7F943901CB050AE40EC4E8804D73050ADC5BB2B8128DD4C",
           "exponent": 0,
           "aliases": [
