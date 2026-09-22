@@ -4874,6 +4874,12 @@
       "telegramURL": "https://t.me/motionismxyz"
     },
     {
+      "base": "ibc/863B6B2B3A314BF44CF11F1C79B7EE3BBC7B79480AABF20C0C8083DDFDD7D479",
+      "name": "TeaForTwo",
+      "symbol": "T42",
+      "description": "The answer was always 42. 42,000. Never more."
+    },
+    {
       "base": "ibc/2AE297399A20F5CCC7F943901CB050AE40EC4E8804D73050ADC5BB2B8128DD4C",
       "name": "NEXX GEN AI",
       "symbol": "NEXX",
