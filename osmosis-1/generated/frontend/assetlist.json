@@ -34548,6 +34548,55 @@
       "preview": false
     },
     {
+      "chainName": "hyve",
+      "sourceDenom": "ahyve",
+      "coinMinimalDenom": "ibc/FD06E4149AA81F2CBD5B603DAF1C711C308650BE2C1CB86D8E2ED21B4E9E6A09",
+      "symbol": "HYVE",
+      "decimals": 18,
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/hyve/images/hyve.png"
+      },
+      "categories": [],
+      "transferMethods": [
+        {
+          "name": "Osmosis IBC Transfer",
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "hyve",
+            "chainId": "hyve_7847-1",
+            "sourceDenom": "ahyve",
+            "port": "transfer",
+            "channelId": "channel-10"
+          },
+          "chain": {
+            "port": "transfer",
+            "channelId": "channel-110655",
+            "path": "transfer/channel-110655/ahyve"
+          }
+        }
+      ],
+      "counterparty": [
+        {
+          "chainName": "hyve",
+          "sourceDenom": "ahyve",
+          "chainType": "cosmos",
+          "chainId": "hyve_7847-1",
+          "symbol": "HYVE",
+          "decimals": 18,
+          "logoURIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/hyve/images/hyve.png"
+          }
+        }
+      ],
+      "variantGroupKey": "ibc/FD06E4149AA81F2CBD5B603DAF1C711C308650BE2C1CB86D8E2ED21B4E9E6A09",
+      "name": "HyveChain",
+      "isAlloyed": false,
+      "verified": false,
+      "unstable": false,
+      "disabled": false,
+      "preview": false
+    },
+    {
       "chainName": "injective",
       "sourceDenom": "factory/inj1cdwt8g7nxgtg2k4fn8sj363mh9ahkw2qt0vrnc/ampINJ",
       "coinMinimalDenom": "ibc/2CDA7CA33077911B2BF5E5D3423B6CC76E1093A7F8A6D876943C2AF69CBC9875",
