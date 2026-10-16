@@ -28343,6 +28343,40 @@
     {
       "denom_units": [
         {
+          "denom": "ibc/26201350CB5096C2B8C0585A2871C519BFEBC73EEEC287396934B85F60E7AA5E",
+          "exponent": 0,
+          "aliases": [
+            "ug24"
+          ]
+        },
+        {
+          "denom": "g24",
+          "exponent": 6
+        }
+      ],
+      "type_asset": "ics20",
+      "base": "ibc/26201350CB5096C2B8C0585A2871C519BFEBC73EEEC287396934B85F60E7AA5E",
+      "name": "BLG24",
+      "display": "g24",
+      "symbol": "G24",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "blg24",
+            "base_denom": "ug24",
+            "channel_id": "channel-1"
+          },
+          "chain": {
+            "channel_id": "channel-111099",
+            "path": "transfer/channel-111099/ug24"
+          }
+        }
+      ]
+    },
+    {
+      "denom_units": [
+        {
           "denom": "ibc/FDFCC8A906432FA7EFBA430062DA860883F5DDC77B8D64AFA2EE6CD5DC54B6A2",
           "exponent": 0,
           "aliases": [
@@ -29363,7 +29397,8 @@
       ]
     },
     {
-      "description": "pARTy (ART) - where art meets party in the interchain. A fair-launched community art token minted natively on Cosmos Hub via tokenfactory.",
+      "description": "pARTy (ART) - where art meets Cosmos. A fair-launched community token minted natively on Cosmos Hub and used for trading art on inscription.zone",
+      "extended_description": "ART is the main token of pARTy, a project that promotes art in Cosmos and was founded by one of the largest Cosmos art collectors - mosquito. ART token is used for one of pARTy's products - an inscription marketplace. Inscription.zone is a platform for permanent on-chain art inscriptions on the Cosmos Hub. The token is used as the currency to mint and trade artworks.\n\nThe max supply of ART is 2,541. The supply is held in the project's vault and is released through smart-contract staking to holders of pARTy NFT collections. 1% of IZ trading volume is burned. No token supply was assigned to the team and no NFTs were airdropped to anyone, the funds from NFT sales were transferred to artists who participated in pARTy collections. The main website for pARTy (pic.zone) includes our own ART token explorer with many stats. The ecosystem includes also cosmos.zone portal, a place which works as an encyclopedia for Cosmos art with live chat and analytics. On top of this pARTy is running pARTy TV - a Youtube channel for Cosmos art featuring news, reviews and interviews.",
       "denom_units": [
         {
           "denom": "ibc/7D72341AF4AB0B2975BF933A425B81DAC2C940E50E7549207E2B3C6B14A9DAB2",
@@ -30324,6 +30359,41 @@
         }
       ],
       "coingecko_id": "hippo-protocol"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "ibc/FD06E4149AA81F2CBD5B603DAF1C711C308650BE2C1CB86D8E2ED21B4E9E6A09",
+          "exponent": 0,
+          "aliases": [
+            "attohyve",
+            "ahyve"
+          ]
+        },
+        {
+          "denom": "HYVE",
+          "exponent": 18
+        }
+      ],
+      "type_asset": "ics20",
+      "base": "ibc/FD06E4149AA81F2CBD5B603DAF1C711C308650BE2C1CB86D8E2ED21B4E9E6A09",
+      "name": "HyveChain",
+      "display": "HYVE",
+      "symbol": "HYVE",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "hyve",
+            "base_denom": "ahyve",
+            "channel_id": "channel-10"
+          },
+          "chain": {
+            "channel_id": "channel-110655",
+            "path": "transfer/channel-110655/ahyve"
+          }
+        }
+      ]
     },
     {
       "denom_units": [
