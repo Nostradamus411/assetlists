@@ -28343,6 +28343,40 @@
     {
       "denom_units": [
         {
+          "denom": "ibc/26201350CB5096C2B8C0585A2871C519BFEBC73EEEC287396934B85F60E7AA5E",
+          "exponent": 0,
+          "aliases": [
+            "ug24"
+          ]
+        },
+        {
+          "denom": "g24",
+          "exponent": 6
+        }
+      ],
+      "type_asset": "ics20",
+      "base": "ibc/26201350CB5096C2B8C0585A2871C519BFEBC73EEEC287396934B85F60E7AA5E",
+      "name": "BLG24",
+      "display": "g24",
+      "symbol": "G24",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "blg24",
+            "base_denom": "ug24",
+            "channel_id": "channel-1"
+          },
+          "chain": {
+            "channel_id": "channel-111099",
+            "path": "transfer/channel-111099/ug24"
+          }
+        }
+      ]
+    },
+    {
+      "denom_units": [
+        {
           "denom": "ibc/FDFCC8A906432FA7EFBA430062DA860883F5DDC77B8D64AFA2EE6CD5DC54B6A2",
           "exponent": 0,
           "aliases": [
@@ -29193,6 +29227,40 @@
       ]
     },
     {
+      "denom_units": [
+        {
+          "denom": "ibc/1AED49E348C429D9AAE900DCAB2C697F731AEE2B1AF6BA6D3664D05D55F81793",
+          "exponent": 0,
+          "aliases": [
+            "uustx-core1rfxrg75fzuq5hgnnymjgsxj70d9w9cs8xuza7x"
+          ]
+        },
+        {
+          "denom": "ustx",
+          "exponent": 6
+        }
+      ],
+      "type_asset": "ics20",
+      "base": "ibc/1AED49E348C429D9AAE900DCAB2C697F731AEE2B1AF6BA6D3664D05D55F81793",
+      "name": "USTX",
+      "display": "ustx",
+      "symbol": "USTX",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "coreum",
+            "base_denom": "uustx-core1rfxrg75fzuq5hgnnymjgsxj70d9w9cs8xuza7x",
+            "channel_id": "channel-2"
+          },
+          "chain": {
+            "channel_id": "channel-2188",
+            "path": "transfer/channel-2188/uustx-core1rfxrg75fzuq5hgnnymjgsxj70d9w9cs8xuza7x"
+          }
+        }
+      ]
+    },
+    {
       "description": "Nether (NTHR) is the utility token of the Underworld NFT ecosystem, issued via tokenfactory on the Cosmos Hub. NTHR powers the NecroVault, a soft-staking platform where holders of Underworld collections earn rewards while keeping their NFTs in their wallets. Fixed supply: 21,000.",
       "extended_description": "Nether is the core utility and value token of the Underworld ecosystem — built around NFTs, soft staking, rewards, and on-chain interaction inside the NecroVault. Forged on Cosmos and tied directly to the Underworld economy, NTHR connects multiple systems together: NFT staking rewards, loot boxes and reward mechanics, vault perks and VIP access, future ecosystem utilities, and liquidity incentives and staking rewards. Unlike passive tokens, NTHR is designed to be used. Holders can stake it inside the NecroVault to unlock deeper rewards, multipliers, and exclusive features tied to the Underworld collections and platform mechanics. The ecosystem currently includes multiple NFT collections that generate rewards through the NecroVault soft staking system, where users can earn tokens like BANE, RUIN, and NTHR while keeping their NFTs liquid in their wallets. With a limited supply of only 21,000 tokens, NTHR acts as the long-term asset of the Underworld — powering future expansions, reward systems, vault mechanics, raffles, ecosystem distributions, and experimental game theory features.",
       "denom_units": [
@@ -29363,7 +29431,8 @@
       ]
     },
     {
-      "description": "pARTy (ART) - where art meets party in the interchain. A fair-launched community art token minted natively on Cosmos Hub via tokenfactory.",
+      "description": "pARTy (ART) - where art meets Cosmos. A fair-launched community token minted natively on Cosmos Hub and used for trading art on inscription.zone",
+      "extended_description": "ART is the main token of pARTy, a project that promotes art in Cosmos and was founded by one of the largest Cosmos art collectors - mosquito. ART token is used for one of pARTy's products - an inscription marketplace. Inscription.zone is a platform for permanent on-chain art inscriptions on the Cosmos Hub. The token is used as the currency to mint and trade artworks.\n\nThe max supply of ART is 2,541. The supply is held in the project's vault and is released through smart-contract staking to holders of pARTy NFT collections. 1% of IZ trading volume is burned. No token supply was assigned to the team and no NFTs were airdropped to anyone, the funds from NFT sales were transferred to artists who participated in pARTy collections. The main website for pARTy (pic.zone) includes our own ART token explorer with many stats. The ecosystem includes also cosmos.zone portal, a place which works as an encyclopedia for Cosmos art with live chat and analytics. On top of this pARTy is running pARTy TV - a Youtube channel for Cosmos art featuring news, reviews and interviews.",
       "denom_units": [
         {
           "denom": "ibc/7D72341AF4AB0B2975BF933A425B81DAC2C940E50E7549207E2B3C6B14A9DAB2",
@@ -29509,6 +29578,41 @@
           "chain": {
             "channel_id": "channel-5",
             "path": "transfer/channel-5/baseXLM"
+          }
+        }
+      ]
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "ibc/F8057955E516D60402EED00C07D17F907CDF40C9BD2C87CBBB2C88EA21442921",
+          "exponent": 0,
+          "aliases": [
+            "sat",
+            "factory/dungeon1wtzjvusmm6r370k0nfwtejywl4qklf7rmhf0ng43tdsqh70cljjqc7gh6q/wbtc"
+          ]
+        },
+        {
+          "denom": "dnbtc",
+          "exponent": 8
+        }
+      ],
+      "type_asset": "ics20",
+      "base": "ibc/F8057955E516D60402EED00C07D17F907CDF40C9BD2C87CBBB2C88EA21442921",
+      "name": "Dungeon Bridged Bitcoin",
+      "display": "dnbtc",
+      "symbol": "dnBTC",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "dungeon",
+            "base_denom": "factory/dungeon1wtzjvusmm6r370k0nfwtejywl4qklf7rmhf0ng43tdsqh70cljjqc7gh6q/wbtc",
+            "channel_id": "channel-5305"
+          },
+          "chain": {
+            "channel_id": "channel-101249",
+            "path": "transfer/channel-101249/factory/dungeon1wtzjvusmm6r370k0nfwtejywl4qklf7rmhf0ng43tdsqh70cljjqc7gh6q/wbtc"
           }
         }
       ]
@@ -30324,6 +30428,41 @@
         }
       ],
       "coingecko_id": "hippo-protocol"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "ibc/FD06E4149AA81F2CBD5B603DAF1C711C308650BE2C1CB86D8E2ED21B4E9E6A09",
+          "exponent": 0,
+          "aliases": [
+            "attohyve",
+            "ahyve"
+          ]
+        },
+        {
+          "denom": "HYVE",
+          "exponent": 18
+        }
+      ],
+      "type_asset": "ics20",
+      "base": "ibc/FD06E4149AA81F2CBD5B603DAF1C711C308650BE2C1CB86D8E2ED21B4E9E6A09",
+      "name": "HyveChain",
+      "display": "HYVE",
+      "symbol": "HYVE",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "hyve",
+            "base_denom": "ahyve",
+            "channel_id": "channel-10"
+          },
+          "chain": {
+            "channel_id": "channel-110655",
+            "path": "transfer/channel-110655/ahyve"
+          }
+        }
+      ]
     },
     {
       "denom_units": [
@@ -35926,6 +36065,76 @@
           "chain": {
             "channel_id": "channel-492",
             "path": "transfer/channel-492/erc20/0x091F9A57A3F58d758b6572E9d41675918EAC7F09"
+          }
+        }
+      ]
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "ibc/924A62CC6911726FA8FB7C8605BA91C312FF3FEB305AD6B302B5929C7A6FF7D3",
+          "exponent": 0,
+          "aliases": [
+            "microylds.fcc",
+            "uylds.fcc"
+          ]
+        },
+        {
+          "denom": "ylds.fcc",
+          "exponent": 6
+        }
+      ],
+      "type_asset": "ics20",
+      "base": "ibc/924A62CC6911726FA8FB7C8605BA91C312FF3FEB305AD6B302B5929C7A6FF7D3",
+      "name": "YLDS",
+      "display": "ylds.fcc",
+      "symbol": "YLDS",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "provenance",
+            "base_denom": "uylds.fcc",
+            "channel_id": "channel-7"
+          },
+          "chain": {
+            "channel_id": "channel-222",
+            "path": "transfer/channel-222/uylds.fcc"
+          }
+        }
+      ]
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "ibc/50963413187B308BB803E08602B6A8ABCB50BA3CF97FD1560F0C34A38C4901C3",
+          "exponent": 0,
+          "aliases": [
+            "nanofgrd",
+            "nfgrd"
+          ]
+        },
+        {
+          "denom": "fgrd",
+          "exponent": 9
+        }
+      ],
+      "type_asset": "ics20",
+      "base": "ibc/50963413187B308BB803E08602B6A8ABCB50BA3CF97FD1560F0C34A38C4901C3",
+      "name": "Figure Technology Solutions Series A Blockchain Common Stock",
+      "display": "fgrd",
+      "symbol": "FGRS",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "provenance",
+            "base_denom": "nfgrd",
+            "channel_id": "channel-7"
+          },
+          "chain": {
+            "channel_id": "channel-222",
+            "path": "transfer/channel-222/nfgrd"
           }
         }
       ]
