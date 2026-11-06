@@ -1604,11 +1604,11 @@
     },
     {
       "base": "ibc/95C9B5870F95E21A242E6AF9ADCB1F212EE4A8855087226C36FBE43FC41A77B8",
-      "name": "XPLA",
+      "name": "CONX",
       "symbol": "XPLA",
       "description": "The native staking token of XPLA.",
       "coingeckoID": "xpla",
-      "websiteURL": "https://xpla.io"
+      "websiteURL": "https://conx.xyz"
     },
     {
       "base": "ibc/98B3DBF1FA79C4C14CC5F08F62ACD5498560FCB515F677526FD200D54EA048B6",
@@ -4351,6 +4351,13 @@
       "description": "[Redacted] a BitSong Music FanToken"
     },
     {
+      "base": "ibc/26201350CB5096C2B8C0585A2871C519BFEBC73EEEC287396934B85F60E7AA5E",
+      "name": "BLG24",
+      "symbol": "G24",
+      "description": "The native token of BLG24, a sovereign Layer 1 blockchain built on Cosmos SDK.",
+      "websiteURL": "https://gold24coin.com"
+    },
+    {
       "base": "ibc/FDFCC8A906432FA7EFBA430062DA860883F5DDC77B8D64AFA2EE6CD5DC54B6A2",
       "name": "ELT",
       "symbol": "ELT",
@@ -4502,6 +4509,16 @@
       "twitterURL": "https://x.com/CoreezyVibes"
     },
     {
+      "base": "ibc/1AED49E348C429D9AAE900DCAB2C697F731AEE2B1AF6BA6D3664D05D55F81793",
+      "name": "USTX",
+      "symbol": "USTX",
+      "description": "USD-backed stablecoin issued by Brale",
+      "websiteURL": "https://tx.org/",
+      "twitterURL": "https://x.com/txEcosystem",
+      "telegramURL": "https://t.me/+q0fGCpknxeRjMTVh",
+      "mediumURL": "https://medium.com/@txEcosystem"
+    },
+    {
       "base": "ibc/EFAAE3AD05AA79647A1587E363A11B6126CC83C8C0593171BB1892A39EB550DF",
       "name": "Nether",
       "symbol": "NTHR",
@@ -4538,7 +4555,7 @@
       "base": "ibc/7D72341AF4AB0B2975BF933A425B81DAC2C940E50E7549207E2B3C6B14A9DAB2",
       "name": "pARTy",
       "symbol": "ART",
-      "description": "pARTy (ART) - where art meets party in the interchain. A fair-launched community art token minted natively on Cosmos Hub via tokenfactory.",
+      "description": "pARTy (ART) - where art meets Cosmos. A fair-launched community token minted natively on Cosmos Hub and used for trading art on inscription.zone\n\nART is the main token of pARTy, a project that promotes art in Cosmos and was founded by one of the largest Cosmos art collectors - mosquito. ART token is used for one of pARTy's products - an inscription marketplace. Inscription.zone is a platform for permanent on-chain art inscriptions on the Cosmos Hub. The token is used as the currency to mint and trade artworks.\n\nThe max supply of ART is 2,541. The supply is held in the project's vault and is released through smart-contract staking to holders of pARTy NFT collections. 1% of IZ trading volume is burned. No token supply was assigned to the team and no NFTs were airdropped to anyone, the funds from NFT sales were transferred to artists who participated in pARTy collections. The main website for pARTy (pic.zone) includes our own ART token explorer with many stats. The ecosystem includes also cosmos.zone portal, a place which works as an encyclopedia for Cosmos art with live chat and analytics. On top of this pARTy is running pARTy TV - a Youtube channel for Cosmos art featuring news, reviews and interviews.",
       "websiteURL": "https://pic.zone",
       "twitterURL": "https://x.com/pARTy_in_Cosmos"
     },
@@ -4561,6 +4578,12 @@
       "description": "Synthetic XLM pegged 1:1 by Crypto.com",
       "websiteURL": "https://stellar.org/",
       "twitterURL": "https://x.com/StellarOrg"
+    },
+    {
+      "base": "ibc/F8057955E516D60402EED00C07D17F907CDF40C9BD2C87CBBB2C88EA21442921",
+      "name": "Dungeon Bridged Bitcoin",
+      "symbol": "dnBTC",
+      "description": "Bitcoin bridged to Dungeon Chain via the Crypto Dungeon FROST Taproot custody bridge (dnBTC)."
     },
     {
       "base": "ibc/759C2B22DFA2D39A9B30BDC053AB59D2376746828B876FD18887F366D3819B11",
@@ -4703,6 +4726,13 @@
       "coingeckoID": "hippo-protocol",
       "websiteURL": "https://hippoprotocol.ai/",
       "twitterURL": "https://x.com/Hippo_Protocol"
+    },
+    {
+      "base": "ibc/FD06E4149AA81F2CBD5B603DAF1C711C308650BE2C1CB86D8E2ED21B4E9E6A09",
+      "name": "HyveChain",
+      "symbol": "HYVE",
+      "description": "The native staking, governance and gas token of HyveChain.\n\nHyveChain is an EVM-compatible Cosmos SDK chain with a fixed supply and a native shielded-pool privacy layer. It settles both Ethereum-style transactions and Cosmos messages on one state machine, and connects to the Interchain over IBC.",
+      "websiteURL": "https://hyvechain.com"
     },
     {
       "base": "ibc/2CDA7CA33077911B2BF5E5D3423B6CC76E1093A7F8A6D876943C2AF69CBC9875",
@@ -5411,6 +5441,22 @@
       "githubURL": "https://github.com/network-lumen/"
     },
     {
+      "base": "ibc/8965A5F178427372659F3DD28D1F40770A905038A48DFB5D9C3800A5D81BE5DD",
+      "name": "LUXA Network",
+      "symbol": "LUXA",
+      "description": "The native sovereign currency and governance token of the LUXA Layer 1 blockchain.",
+      "websiteURL": "https://luxaecosystem.xyz",
+      "twitterURL": "https://x.com/luxaecosystem"
+    },
+    {
+      "base": "ibc/542571FE2192CC1A704752965330FE63DAE9BA85E1B9E6E9B79912F62E1A2203",
+      "name": "LUXA Shard",
+      "symbol": "SHARD",
+      "description": "The utility and energy token of the LUXA Network ecosystem.",
+      "websiteURL": "https://luxaecosystem.xyz",
+      "twitterURL": "https://x.com/luxaecosystem"
+    },
+    {
       "base": "ibc/B1DA72A9BF8F97F0575AB93681D476AFE640A0CD1FB44DD016BE156EEA8B8C7A",
       "name": "Manifest",
       "symbol": "POA",
@@ -5718,6 +5764,19 @@
       "name": "Source Token",
       "symbol": "SRCX.planq",
       "description": "The token of Source Protocol bridged from BSC."
+    },
+    {
+      "base": "ibc/924A62CC6911726FA8FB7C8605BA91C312FF3FEB305AD6B302B5929C7A6FF7D3",
+      "name": "YLDS",
+      "symbol": "YLDS",
+      "description": "YLDS is a yield-bearing tokenized deposit share issued by Figure Certificate Company on the Provenance Blockchain",
+      "websiteURL": "https://www.ylds.com/"
+    },
+    {
+      "base": "ibc/50963413187B308BB803E08602B6A8ABCB50BA3CF97FD1560F0C34A38C4901C3",
+      "name": "Figure Technology Solutions Series A Blockchain Common Stock",
+      "symbol": "FGRS",
+      "description": "FGRS Blockchain Equity"
     },
     {
       "base": "ibc/0D4113BDD4043C13A751E79A9EF099C7DFB2E5EA462343B139F52DA3BDD83F9B",
