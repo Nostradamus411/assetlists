@@ -2843,8 +2843,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/neta.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/neta.svg"
         }
-      ],
-      "coingecko_id": "neta"
+      ]
     },
     {
       "description": "The INJ token is the native governance token for the Injective chain.",
@@ -4039,8 +4038,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/hard.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/hard.svg"
         }
-      ],
-      "coingecko_id": "kava-lend"
+      ]
     },
     {
       "description": "Governance token of Kava Swap Protocol",
@@ -6597,8 +6595,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmst.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmst.svg"
         }
-      ],
-      "coingecko_id": "composite"
+      ]
     },
     {
       "description": "The native EVM, governance and staking token of the Imversed",
@@ -9180,8 +9177,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shd.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shd.svg"
         }
-      ],
-      "coingecko_id": "shade-protocol"
+      ]
     },
     {
       "description": "The native token of Bluzelle",
@@ -14346,8 +14342,7 @@
           },
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astro.png"
         }
-      ],
-      "coingecko_id": "astroport-fi"
+      ]
     },
     {
       "description": "A clan of 11y bad kids crafting chaos on the Cosmos eco. One bad memecoin to rule them all  $BADKID. Airdropped to Badkids NFT holders and $STARS stakers. It's so bad, your wallet's throwing a tantrum for it.",
@@ -16099,8 +16094,7 @@
           },
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astro.png"
         }
-      ],
-      "coingecko_id": "astroport-fi"
+      ]
     },
     {
       "description": "Astroport is a neutral marketplace where anyone, from anywhere in the galaxy, can dock to trade their wares.",
@@ -19409,8 +19403,7 @@
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/routerchain/images/router.svg",
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/routerchain/images/router.png"
         }
-      ],
-      "coingecko_id": "router-protocol-2"
+      ]
     },
     {
       "description": "An alloy of OP asset variants on Osmosis.",
@@ -20825,8 +20818,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kimanetwork/images/kima.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kimanetwork/images/kima.svg"
         }
-      ],
-      "coingecko_id": "kima"
+      ]
     },
     {
       "description": "STOS coin is the native token for the Stratos Blockchain. Stratos is a pioneering decentralized infrastructure service provider, revolutionizing AI and DePIN with advanced decentralized solutions in storage, computing, databases, and blockchain services. We empower Web 3.0 developers and dApps through our scalable, reliable, and high-performance networks.",
@@ -22240,8 +22232,7 @@
           },
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/dATOM.svg"
         }
-      ],
-      "coingecko_id": "drop-staked-atom"
+      ]
     },
     {
       "description": "The Sherpa memecoin",
@@ -28343,6 +28334,36 @@
     {
       "denom_units": [
         {
+          "denom": "ibc/4BE2312A6035CEA0EA6982ECA351E1209214FB46C8B40E392AC8DD5C37A5C8A4",
+          "exponent": 0,
+          "aliases": [
+            "tln"
+          ]
+        }
+      ],
+      "type_asset": "ics20",
+      "base": "ibc/4BE2312A6035CEA0EA6982ECA351E1209214FB46C8B40E392AC8DD5C37A5C8A4",
+      "name": "Blakiston",
+      "display": "tln",
+      "symbol": "TLN",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "blakiston",
+            "base_denom": "tln",
+            "channel_id": "channel-0"
+          },
+          "chain": {
+            "channel_id": "channel-111105",
+            "path": "transfer/channel-111105/tln"
+          }
+        }
+      ]
+    },
+    {
+      "denom_units": [
+        {
           "denom": "ibc/26201350CB5096C2B8C0585A2871C519BFEBC73EEEC287396934B85F60E7AA5E",
           "exponent": 0,
           "aliases": [
@@ -34393,6 +34414,7 @@
       ]
     },
     {
+      "description": "The native sovereign currency and governance token of the LUXA Layer 1 blockchain.",
       "denom_units": [
         {
           "denom": "ibc/8965A5F178427372659F3DD28D1F40770A905038A48DFB5D9C3800A5D81BE5DD",
@@ -34424,9 +34446,25 @@
             "path": "transfer/channel-111100/uluxa"
           }
         }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/luxa/images/luxa.png"
+      },
+      "images": [
+        {
+          "image_sync": {
+            "chain_name": "luxa",
+            "base_denom": "uluxa"
+          },
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/luxa/images/luxa.png",
+          "theme": {
+            "circle": true
+          }
+        }
       ]
     },
     {
+      "description": "The utility and energy token of the LUXA Network ecosystem.",
       "denom_units": [
         {
           "denom": "ibc/542571FE2192CC1A704752965330FE63DAE9BA85E1B9E6E9B79912F62E1A2203",
@@ -34437,11 +34475,7 @@
         },
         {
           "denom": "SHARD",
-          "exponent": 6,
-          "aliases": [
-            "shard",
-            "shards"
-          ]
+          "exponent": 6
         }
       ],
       "type_asset": "ics20",
@@ -34460,6 +34494,21 @@
           "chain": {
             "channel_id": "channel-111100",
             "path": "transfer/channel-111100/ushard"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/luxa/images/ushard.png"
+      },
+      "images": [
+        {
+          "image_sync": {
+            "chain_name": "luxa",
+            "base_denom": "ushard"
+          },
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/luxa/images/ushard.png",
+          "theme": {
+            "circle": true
           }
         }
       ]
@@ -43283,8 +43332,7 @@
             "path": "transfer/channel-78292/uslf"
           }
         }
-      ],
-      "coingecko_id": "self-chain"
+      ]
     },
     {
       "denom_units": [
@@ -45459,6 +45507,40 @@
       "socials": {
         "website": "https://aoe2war.com"
       }
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "ibc/977E0C0764110C8B33E659307AFAA335FE1B64119F8DBAB43F9E379D74838C0F",
+          "exponent": 0,
+          "aliases": [
+            "uxpx"
+          ]
+        },
+        {
+          "denom": "xpx",
+          "exponent": 6
+        }
+      ],
+      "type_asset": "ics20",
+      "base": "ibc/977E0C0764110C8B33E659307AFAA335FE1B64119F8DBAB43F9E379D74838C0F",
+      "name": "XPEX",
+      "display": "xpx",
+      "symbol": "XPX",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "xpex",
+            "base_denom": "uxpx",
+            "channel_id": "channel-1"
+          },
+          "chain": {
+            "channel_id": "channel-111103",
+            "path": "transfer/channel-111103/uxpx"
+          }
+        }
+      ]
     },
     {
       "description": "USD Coin issued natively on Injective by Circle",

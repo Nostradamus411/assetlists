@@ -188,8 +188,7 @@
       "base": "ibc/8061A06D3BD4D52C4A28FFECF7150D370393AF0BA661C3776C54FF32836C3961",
       "name": "pSTAKE Finance",
       "symbol": "PSTAKE",
-      "description": "pSTAKE is a liquid staking protocol unlocking the liquidity of staked assets. Stakers of PoS tokens can stake their assets while maintaining the liquidity of these assets. Users earn staking rewards + receive 1:1 pegged staked representative tokens which can be used to generate additional yield.",
-      "coingeckoID": "pstake-finance"
+      "description": "pSTAKE is a liquid staking protocol unlocking the liquidity of staked assets. Stakers of PoS tokens can stake their assets while maintaining the liquidity of these assets. Users earn staking rewards + receive 1:1 pegged staked representative tokens which can be used to generate additional yield."
     },
     {
       "base": "ibc/1480B8FD20AD5FCAE81EA87584D269547DD4D436843C1D20F15E00EB64743EF4",
@@ -429,8 +428,7 @@
       "base": "ibc/297C64CC42B5A8D8F82FE2EBE208A6FE8F94B86037FA28C4529A23701C228F7A",
       "name": "Neta",
       "symbol": "NETA",
-      "description": "The native token cw20 for Neta on Juno Chain",
-      "coingeckoID": "neta"
+      "description": "The native token cw20 for Neta on Juno Chain"
     },
     {
       "base": "ibc/64BA6E31FE887D66C6F8F31C7B1A80C7CA179239677B4088BB55F5EA07DBE273",
@@ -594,8 +592,7 @@
       "base": "ibc/D6C28E07F7343360AC41E15DDD44D79701DDCA2E0C2C41279739C8D4AE5264BC",
       "name": "Kava Hard",
       "symbol": "HARD",
-      "description": "Governance token of Kava Lend Protocol",
-      "coingeckoID": "kava-lend"
+      "description": "Governance token of Kava Lend Protocol"
     },
     {
       "base": "ibc/70CF1A54E23EA4E480DEDA9E12082D3FD5684C3483CBDCE190C5C807227688C5",
@@ -950,8 +947,7 @@
       "base": "ibc/23CA6C8D1AB2145DD13EB1E089A2E3F960DC298B468CCE034E19E5A78B61136E",
       "name": "CMST",
       "symbol": "CMST",
-      "description": "Stable Token of Harbor protocol on Comdex network",
-      "coingeckoID": "composite"
+      "description": "Stable Token of Harbor protocol on Comdex network"
     },
     {
       "base": "ibc/92B223EBFA74DB99BEA92B23DEAA6050734FEEAABB84689CB8E1AE8F9C9F9AF4",
@@ -1293,8 +1289,7 @@
       "base": "ibc/0B3D528E74E3DEAADF8A68F393887AC7E06028904D02173561B0D27F6E751D0A",
       "name": "Shade",
       "symbol": "SHD",
-      "description": "The native token cw20 for Shade on Secret Network",
-      "coingeckoID": "shade-protocol"
+      "description": "The native token cw20 for Shade on Secret Network"
     },
     {
       "base": "ibc/63CDD51098FD99E04E5F5610A3882CBE7614C441607BA6FCD7F3A3C1CD5325F8",
@@ -2043,7 +2038,6 @@
       "name": "Astroport token (Terra)",
       "symbol": "ASTRO.terra",
       "description": "Astroport is a neutral marketplace where anyone, from anywhere in the galaxy, can dock to trade their wares.",
-      "coingeckoID": "astroport-fi",
       "websiteURL": "https://astroport.fi/",
       "twitterURL": "https://x.com/astroport_fi"
     },
@@ -2323,7 +2317,6 @@
       "name": "Astroport token",
       "symbol": "ASTRO",
       "description": "Astroport is a neutral marketplace where anyone, from anywhere in the galaxy, can dock to trade their wares.",
-      "coingeckoID": "astroport-fi",
       "websiteURL": "https://astroport.fi/",
       "twitterURL": "https://x.com/astroport_fi"
     },
@@ -2825,7 +2818,6 @@
       "name": "Router Protocol",
       "symbol": "ROUTE",
       "description": "The native token of Router Chain\n\nRouter Chain is a PoS L1 that allows stateful bridging–enabling truly omnichain dapps that can abstract chains from the users and aggregate liquidity across multiple chains.",
-      "coingeckoID": "router-protocol-2",
       "websiteURL": "https://www.routerprotocol.com/",
       "twitterURL": "https://x.com/routerprotocol"
     },
@@ -3082,7 +3074,6 @@
       "name": "Kima Network",
       "symbol": "KIMA",
       "description": "Kima is an asset-agnostic interoperability infrastructure that connects blockchain networks and legacy financial systems, enabling secure, scalable cross-chain transactions and seamless communication across ecosystems.\n\nKima is an asset-agnostic interoperability infrastructure designed to bridge the gap between blockchain networks and traditional financial systems. By providing a unified platform for secure and scalable cross-ecosystem  transactions, Kima enables seamless transfers across different ecosystems, including digital assets and legacy financial systems. Its patent-pending architecture eliminates vulnerabilities associated with smart contracts and key management, ensuring a secure environment for high-volume transactions. Kima’s innovative approach provides financial institutions and developers with the tools needed to create interoperable solutions that operate across both traditional and blockchain-based systems, driving the future of decentralized finance and financial services.",
-      "coingeckoID": "kima",
       "websiteURL": "https://www.kima.network/",
       "twitterURL": "https://x.com/KimaNetwork",
       "telegramURL": "https://t.me/kimanetwork",
@@ -3319,7 +3310,6 @@
       "name": "dATOM",
       "symbol": "dATOM",
       "description": "Drop staked ATOM\n\nDrop protocol token for the interchain liquidity",
-      "coingeckoID": "drop-staked-atom",
       "websiteURL": "https://www.drop.money/",
       "twitterURL": "https://x.com/Dropdotmoney"
     },
@@ -4349,6 +4339,14 @@
       "name": "[Redacted] Fantoken (ft3...A00)",
       "symbol": "LDON",
       "description": "[Redacted] a BitSong Music FanToken"
+    },
+    {
+      "base": "ibc/4BE2312A6035CEA0EA6982ECA351E1209214FB46C8B40E392AC8DD5C37A5C8A4",
+      "name": "Blakiston",
+      "symbol": "TLN",
+      "description": "Talon (TLN) is the native staking and fee token of the Blakiston chain. Fixed supply of 2,100,000,000 TLN with 0% inflation.\n\nBlakiston is a Cosmos SDK Layer 1 for real-world money: offline payments, on-chain gold and silver priced by a native oracle, and proof-of-existence for documents. Fixed supply of 2,100,000,000 TLN with 0% inflation.",
+      "websiteURL": "https://blakiston.org",
+      "twitterURL": "https://x.com/BlakistonChain"
     },
     {
       "base": "ibc/26201350CB5096C2B8C0585A2871C519BFEBC73EEEC287396934B85F60E7AA5E",
@@ -7026,7 +7024,6 @@
       "name": "Self Chain",
       "symbol": "SLF",
       "description": "The native staking token of Self Chain.\n\nSelf Chain Is The First Modular Intent-Centric Access Layer L1 Blockchain And Keyless Wallet Infrastructure Service That Uses MPC-TSS/AA For Multi-Chain Web3 Access.",
-      "coingeckoID": "self-chain",
       "websiteURL": "https://selfchain.xyz",
       "twitterURL": "https://x.com/selfchainxyz"
     },
@@ -7378,6 +7375,13 @@
       "symbol": "WOLO",
       "description": "WOLO is the fixed-supply native token of WoloChain.\n\nWOLO powers AoE2WAR betting, staking, rewards, and settlement for Age of Empires II matches.",
       "websiteURL": "https://aoe2war.com"
+    },
+    {
+      "base": "ibc/977E0C0764110C8B33E659307AFAA335FE1B64119F8DBAB43F9E379D74838C0F",
+      "name": "XPEX",
+      "symbol": "XPX",
+      "description": "XPX, the native staking and fee token of XPEX Chain.",
+      "websiteURL": "https://xpexpex.com"
     }
   ]
 }

@@ -222,7 +222,6 @@
           "coinDenom": "NETA",
           "coinMinimalDenom": "ibc/297C64CC42B5A8D8F82FE2EBE208A6FE8F94B86037FA28C4529A23701C228F7A",
           "coinDecimals": 6,
-          "coinGeckoId": "neta",
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/neta.png"
         },
         {
@@ -795,7 +794,6 @@
           "coinDenom": "NETA",
           "coinMinimalDenom": "ibc/297C64CC42B5A8D8F82FE2EBE208A6FE8F94B86037FA28C4529A23701C228F7A",
           "coinDecimals": 6,
-          "coinGeckoId": "neta",
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/neta.png"
         },
         {
@@ -1771,10 +1769,10 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://rpc.osmosis.zone/"
+            "address": "https://rpc-osmosis.keplr.app"
           },
           {
-            "address": "https://rpc-osmosis.keplr.app"
+            "address": "https://rpc.osmosis.zone/"
           },
           {
             "address": "https://rpc.lavenderfive.com:443/osmosis"
@@ -1827,10 +1825,10 @@
         ],
         "rest": [
           {
-            "address": "https://lcd.osmosis.zone/"
+            "address": "https://lcd-osmosis.keplr.app"
           },
           {
-            "address": "https://lcd-osmosis.keplr.app"
+            "address": "https://lcd.osmosis.zone/"
           },
           {
             "address": "https://rest.osmosis.goldenratiostaking.net"
@@ -3308,7 +3306,6 @@
           "coinDenom": "ASTRO",
           "coinMinimalDenom": "cw20:terra1xj49zyqrwpv5k928jwfpfy2ha668nwdgkwlrg3",
           "coinDecimals": 6,
-          "coinGeckoId": "astroport-fi",
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/astro-cw20.svg"
         },
         {
@@ -4029,7 +4026,6 @@
           "coinDenom": "SHD",
           "coinMinimalDenom": "cw20:secret153wu605vvp934xhd4k9dtd640zsep5jkesstdm",
           "coinDecimals": 8,
-          "coinGeckoId": "shade-protocol",
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shd.png"
         },
         {
@@ -4091,13 +4087,13 @@
       "apis": {
         "rpc": [
           {
+            "address": "https://rpc.lavenderfive.com:443/secretnetwork"
+          },
+          {
             "address": "https://rpc-secret.keplr.app"
           },
           {
             "address": "https://scrt.public-rpc.com"
-          },
-          {
-            "address": "https://rpc.lavenderfive.com:443/secretnetwork"
           },
           {
             "address": "https://1rpc.io/scrt-rpc"
@@ -4114,10 +4110,10 @@
         ],
         "rest": [
           {
-            "address": "https://lcd-secret.keplr.app"
+            "address": "https://rest.lavenderfive.com:443/secretnetwork"
           },
           {
-            "address": "https://rest.lavenderfive.com:443/secretnetwork"
+            "address": "https://lcd-secret.keplr.app"
           },
           {
             "address": "http://secretnetwork-mainnet-lcd.autostake.com:1317"
@@ -4182,9 +4178,9 @@
           "coinGeckoId": "akash-network",
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png",
           "gasPriceStep": {
-            "low": 0.025,
-            "average": 0.025,
-            "high": 0.025
+            "low": 0.05,
+            "average": 0.05,
+            "high": 0.05
           }
         }
       ],
@@ -4480,10 +4476,10 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://rpc.sentineldao.com"
+            "address": "https://rpc-sentinel.keplr.app"
           },
           {
-            "address": "https://rpc-sentinel.keplr.app"
+            "address": "https://rpc.sentineldao.com"
           },
           {
             "address": "https://rpc.saudi.dvpn-x.com"
@@ -4542,10 +4538,10 @@
         ],
         "rest": [
           {
-            "address": "https://api.sentineldao.com"
+            "address": "https://lcd-sentinel.keplr.app"
           },
           {
-            "address": "https://lcd-sentinel.keplr.app"
+            "address": "https://api.sentineldao.com"
           },
           {
             "address": "https://api.saudi.dvpn-x.com"
@@ -4642,7 +4638,12 @@
           "coinMinimalDenom": "uxprt",
           "coinDecimals": 6,
           "coinGeckoId": "persistence",
-          "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/xprt.png"
+          "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/xprt.png",
+          "gasPriceStep": {
+            "low": 0.01,
+            "average": 0.025,
+            "high": 0.04
+          }
         }
       ],
       "currencies": [
@@ -4694,16 +4695,13 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://rpc-persistence.keplr.app"
-          },
-          {
             "address": "https://rpc.core.persistence.one"
           },
           {
-            "address": "https://persistence.rpc.m.stavr.tech"
+            "address": "https://rpc-persistence.keplr.app"
           },
           {
-            "address": "https://persistence-rpc.kleomedes.network"
+            "address": "https://persistence.rpc.m.stavr.tech"
           },
           {
             "address": "https://rpc-persistence.architectnodes.com"
@@ -4756,19 +4754,16 @@
         ],
         "rest": [
           {
-            "address": "https://lcd-persistence.keplr.app"
+            "address": "https://rest.core.persistence.one"
           },
           {
-            "address": "https://rest.core.persistence.one"
+            "address": "https://lcd-persistence.keplr.app"
           },
           {
             "address": "https://persistence.api.m.stavr.tech"
           },
           {
             "address": "https://persistence-api.polkachu.com"
-          },
-          {
-            "address": "https://persistence-api.kleomedes.network"
           },
           {
             "address": "https://rest-persistence.architectnodes.com"
@@ -5314,7 +5309,6 @@
           "coinDenom": "NETA",
           "coinMinimalDenom": "cw20:juno168ctmpyppk90d34p3jjy658zf5a5l3w8wk35wht6ccqj4mr0yv8s4j5awr",
           "coinDecimals": 6,
-          "coinGeckoId": "neta",
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/neta.png"
         },
         {
@@ -5944,7 +5938,7 @@
           "coinDecimals": 9,
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/like.png",
           "gasPriceStep": {
-            "low": 1000,
+            "low": 10000,
             "average": 10000,
             "high": 1000000
           }
@@ -6054,6 +6048,9 @@
       "apis": {
         "rpc": [
           {
+            "address": "https://ixo.ibs.team/rpc"
+          },
+          {
             "address": "https://ixo-rpc.ibs.team"
           },
           {
@@ -6067,9 +6064,6 @@
           },
           {
             "address": "https://rpc.lavenderfive.com:443/impacthub"
-          },
-          {
-            "address": "https://ixo.ibs.team/rpc"
           },
           {
             "address": "https://ixo-rpc.bluestake.net:443"
@@ -6167,70 +6161,16 @@
             "address": "https://rpc.bitcanna.io"
           },
           {
-            "address": "https://rpc.bitcanna.io/"
-          },
-          {
-            "address": "https://rpc.bitcanna.sgtstake.com/"
+            "address": "https://rpc.bitcanna.network/"
           },
           {
             "address": "https://bitcanna.rpc.m.anode.team/"
           },
           {
-            "address": "https://bitcanna.rpc.m.stavr.tech/"
-          },
-          {
-            "address": "https://rpc-bcna.kjinc.io/"
-          },
-          {
-            "address": "https://mainnet-bitcanna-rpc.konsortech.xyz/"
-          },
-          {
-            "address": "https://bitcanna.rpc.kjnodes.com/"
-          },
-          {
-            "address": "https://rpc.bitcanna-mainnet.hexnodes.one/"
-          },
-          {
-            "address": "https://rpc.bitcanna.citizenweb3.com/"
-          },
-          {
-            "address": "https://bitcanna-mainnet.rpc.l0vd.com/"
-          },
-          {
-            "address": "https://bitcanna-rpc.polkachu.com"
-          },
-          {
-            "address": "https://bitcanna.nodejumper.io:443"
-          },
-          {
-            "address": "https://rpc.bitcanna.indonode.net/"
-          },
-          {
-            "address": "https://rpc-bitcanna.mms.team:443"
-          },
-          {
-            "address": "https://bitcanna-rpc.validatornode.com"
-          },
-          {
-            "address": "https://bitcanna.rpc.nodex.one"
-          },
-          {
             "address": "https://bcna.rpc.arcturian.tech/"
           },
           {
-            "address": "https://rpc.bitcanna.bh.rocks"
-          },
-          {
             "address": "https://bitcanna-rpc.bluestake.net"
-          },
-          {
-            "address": "https://rpc-bitcanna.cryptech.com.ua"
-          },
-          {
-            "address": "https://bitcanna-rpc.kalia.network/"
-          },
-          {
-            "address": "https://bitcanna_mainnet_rpc.chain.whenmoonwhenlambo.money"
           }
         ],
         "rest": [
@@ -6238,67 +6178,16 @@
             "address": "https://lcd.bitcanna.io"
           },
           {
-            "address": "https://api.bitcanna.sgtstake.com/"
-          },
-          {
-            "address": "https://bitcanna.api.m.stavr.tech"
+            "address": "https://api.bitcanna.network"
           },
           {
             "address": "https://bitcanna.api.m.anode.team"
           },
           {
-            "address": "https://api-bcna.kjinc.io/"
-          },
-          {
-            "address": "https://mainnet-bitcanna-api.konsortech.xyz"
-          },
-          {
-            "address": "https://bitcanna.api.kjnodes.com"
-          },
-          {
-            "address": "https://lcd.bitcanna-mainnet.hexnodes.one"
-          },
-          {
-            "address": "https://bitcanna-mainnet.api.l0vd.com"
-          },
-          {
-            "address": "https://bitcanna-api.polkachu.com"
-          },
-          {
-            "address": "https://bitcanna.nodejumper.io:1317"
-          },
-          {
-            "address": "https://api-bitcanna.mms.team:443"
-          },
-          {
-            "address": "https://bitcanna-api.validatornode.com"
-          },
-          {
-            "address": "https://bitcanna.api.nodex.one"
-          },
-          {
             "address": "https://bcna.api.arcturian.tech/"
           },
           {
-            "address": "https://api.bitcanna.bh.rocks"
-          },
-          {
-            "address": "https://api.bitcanna.indonode.net"
-          },
-          {
             "address": "https://bitcanna-api.bluestake.net"
-          },
-          {
-            "address": "https://api-bitcanna.cryptech.com.ua"
-          },
-          {
-            "address": "https://bitcanna-api.kalia.network"
-          },
-          {
-            "address": "https://api.bitcanna.citizenweb3.com"
-          },
-          {
-            "address": "https://bitcanna_mainnet_api.chain.whenmoonwhenlambo.money"
           }
         ]
       },
@@ -6876,7 +6765,6 @@
           "coinDenom": "CMST",
           "coinMinimalDenom": "ucmst",
           "coinDecimals": 6,
-          "coinGeckoId": "composite",
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmst.png"
         }
       ],
@@ -7535,6 +7423,9 @@
           },
           {
             "address": "https://chihuahua-rpc.polkachu.com:443"
+          },
+          {
+            "address": "https://huahua-srvs.vnodesv.net/rpc"
           }
         ],
         "rest": [
@@ -7558,6 +7449,9 @@
           },
           {
             "address": "https://chihuahua.api.pocket.network"
+          },
+          {
+            "address": "https://huahua-srvs.vnodesv.net/api"
           }
         ]
       },
@@ -7815,10 +7709,10 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://rpc.mainnet.desmos.network"
+            "address": "https://desmos-rpc.staketab.org:443"
           },
           {
-            "address": "https://desmos-rpc.staketab.org:443"
+            "address": "https://rpc.mainnet.desmos.network"
           },
           {
             "address": "https://rpc.desmos.bronbro.io:443"
@@ -8185,13 +8079,13 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://band.ibs.team:443/rpc"
-          },
-          {
             "address": "https://band-rpc.ibs.team"
           },
           {
             "address": "http://rpc.laozi1.bandchain.org:80"
+          },
+          {
+            "address": "https://band.ibs.team:443/rpc"
           },
           {
             "address": "https://bandchain-mainnet-rpc.autostake.com:443"
@@ -8226,10 +8120,10 @@
         ],
         "rest": [
           {
-            "address": "https://laozi1.bandchain.org/api"
+            "address": "https://band-api.ibs.team"
           },
           {
-            "address": "https://band-api.ibs.team"
+            "address": "https://laozi1.bandchain.org/api"
           },
           {
             "address": "https://band.ibs.team:443/api"
@@ -8768,10 +8662,10 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://poseidon.mainnet.decentr.xyz"
+            "address": "https://rpc.decentr.chaintools.tech/"
           },
           {
-            "address": "https://rpc.decentr.chaintools.tech/"
+            "address": "https://poseidon.mainnet.decentr.xyz"
           },
           {
             "address": "https://decentr.rpc.m.stavr.tech:443"
@@ -8788,13 +8682,13 @@
         ],
         "rest": [
           {
+            "address": "https://api.decentr.chaintools.tech/"
+          },
+          {
             "address": "https://rest.mainnet.decentr.xyz"
           },
           {
             "address": "https://decentr.api.m.stavr.tech"
-          },
-          {
-            "address": "https://api.decentr.chaintools.tech/"
           },
           {
             "address": "https://decentr-api.polkachu.com"
@@ -8860,10 +8754,10 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://shenturpc.noopsbycertik.com/"
+            "address": "https://rpc.shentu.org:443"
           },
           {
-            "address": "https://rpc.shentu.org:443"
+            "address": "https://shenturpc.noopsbycertik.com/"
           },
           {
             "address": "https://shentu.rpc.m.stavr.tech:443"
@@ -8904,10 +8798,10 @@
         ],
         "rest": [
           {
-            "address": "https://rest.noopsbycertik.com"
+            "address": "https://rest.shentu.org/"
           },
           {
-            "address": "https://rest.shentu.org/"
+            "address": "https://rest.noopsbycertik.com"
           },
           {
             "address": "https://shentu-api.polkachu.com"
@@ -8991,9 +8885,9 @@
           "coinGeckoId": "switcheo",
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/carbon/images/swth.png",
           "gasPriceStep": {
-            "low": 1,
-            "average": 1,
-            "high": 1
+            "low": 100,
+            "average": 100,
+            "high": 100
           },
           "gasCosts": {
             "cosmosSend": 10000000,
@@ -9006,9 +8900,9 @@
           "coinDecimals": 8,
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/carbon/images/usc.png",
           "gasPriceStep": {
-            "low": 0.0001,
-            "average": 0.0001,
-            "high": 0.0001
+            "low": 0.0033333333334,
+            "average": 0.0033333333334,
+            "high": 0.0033333333334
           },
           "gasCosts": {
             "cosmosSend": 10000000,
@@ -9036,9 +8930,9 @@
           "coinDecimals": 8,
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/carbon/images/bneo.png",
           "gasPriceStep": {
-            "low": 0.0015,
-            "average": 0.0015,
-            "high": 0.0015
+            "low": 0.05,
+            "average": 0.05,
+            "high": 0.05
           },
           "gasCosts": {
             "cosmosSend": 10000000,
@@ -9081,9 +8975,9 @@
           "coinDecimals": 18,
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/carbon/images/carbon-grouped-usd.png",
           "gasPriceStep": {
-            "low": 100000000,
-            "average": 100000000,
-            "high": 100000000
+            "low": 3333333333.3333335,
+            "average": 3333333333.3333335,
+            "high": 3333333333.3333335
           },
           "gasCosts": {
             "cosmosSend": 10000000,
@@ -9143,9 +9037,9 @@
           "coinGeckoId": "milkyway-staked-tia",
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/milktia.png",
           "gasPriceStep": {
-            "low": 0.0000075,
-            "average": 0.0000075,
-            "high": 0.0000075
+            "low": 0.00025,
+            "average": 0.00025,
+            "high": 0.00025
           },
           "gasCosts": {
             "cosmosSend": 10000000,
@@ -9159,9 +9053,9 @@
           "coinGeckoId": "terra-luna-2",
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.png",
           "gasPriceStep": {
-            "low": 0.00005,
-            "average": 0.00005,
-            "high": 0.00005
+            "low": 0.0016666666667,
+            "average": 0.0016666666667,
+            "high": 0.0016666666667
           },
           "gasCosts": {
             "cosmosSend": 10000000,
@@ -9175,9 +9069,9 @@
           "coinGeckoId": "stride",
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/strd.png",
           "gasPriceStep": {
-            "low": 0.00032,
-            "average": 0.00032,
-            "high": 0.00032
+            "low": 0.0106666666667,
+            "average": 0.0106666666667,
+            "high": 0.0106666666667
           },
           "gasCosts": {
             "cosmosSend": 10000000,
@@ -9191,9 +9085,9 @@
           "coinGeckoId": "evmos",
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.png",
           "gasPriceStep": {
-            "low": 300000000,
-            "average": 300000000,
-            "high": 300000000
+            "low": 10000000000,
+            "average": 10000000000,
+            "high": 10000000000
           },
           "gasCosts": {
             "cosmosSend": 10000000,
@@ -9207,9 +9101,9 @@
           "coinGeckoId": "iris-network",
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/irisnet/images/iris.png",
           "gasPriceStep": {
-            "low": 0.0006,
-            "average": 0.0006,
-            "high": 0.0006
+            "low": 0.02,
+            "average": 0.02,
+            "high": 0.02
           },
           "gasCosts": {
             "cosmosSend": 10000000,
@@ -9222,9 +9116,9 @@
           "coinDecimals": 6,
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.png",
           "gasPriceStep": {
-            "low": 0.00015,
-            "average": 0.00015,
-            "high": 0.00015
+            "low": 0.005,
+            "average": 0.005,
+            "high": 0.005
           },
           "gasCosts": {
             "cosmosSend": 10000000,
@@ -9238,9 +9132,9 @@
           "coinGeckoId": "celestia",
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png",
           "gasPriceStep": {
-            "low": 0.0000075,
-            "average": 0.0000075,
-            "high": 0.0000075
+            "low": 0.00025,
+            "average": 0.00025,
+            "high": 0.00025
           },
           "gasCosts": {
             "cosmosSend": 10000000,
@@ -9254,9 +9148,9 @@
           "coinGeckoId": "stride-staked-osmo",
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.png",
           "gasPriceStep": {
-            "low": 0.00015,
-            "average": 0.00015,
-            "high": 0.00015
+            "low": 0.005,
+            "average": 0.005,
+            "high": 0.005
           },
           "gasCosts": {
             "cosmosSend": 10000000,
@@ -9270,9 +9164,9 @@
           "coinGeckoId": "canto",
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/canto/images/canto.png",
           "gasPriceStep": {
-            "low": 200000000,
-            "average": 200000000,
-            "high": 200000000
+            "low": 6666666666.666667,
+            "average": 6666666666.666667,
+            "high": 6666666666.666667
           },
           "gasCosts": {
             "cosmosSend": 10000000,
@@ -9286,9 +9180,9 @@
           "coinGeckoId": "cosmos",
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
           "gasPriceStep": {
-            "low": 0.00001,
-            "average": 0.00001,
-            "high": 0.00001
+            "low": 0.0003333333334,
+            "average": 0.0003333333334,
+            "high": 0.0003333333334
           },
           "gasCosts": {
             "cosmosSend": 10000000,
@@ -9302,9 +9196,9 @@
           "coinGeckoId": "stride-staked-atom",
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.png",
           "gasPriceStep": {
-            "low": 0.00001,
-            "average": 0.00001,
-            "high": 0.00001
+            "low": 0.0003333333334,
+            "average": 0.0003333333334,
+            "high": 0.0003333333334
           },
           "gasCosts": {
             "cosmosSend": 10000000,
@@ -9318,9 +9212,9 @@
           "coinGeckoId": "osmosis",
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png",
           "gasPriceStep": {
-            "low": 0.00015,
-            "average": 0.00015,
-            "high": 0.00015
+            "low": 0.005,
+            "average": 0.005,
+            "high": 0.005
           },
           "gasCosts": {
             "cosmosSend": 10000000,
@@ -9363,9 +9257,9 @@
           "coinDecimals": 12,
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/carbon/images/zil.png",
           "gasPriceStep": {
-            "low": 6000,
-            "average": 6000,
-            "high": 6000
+            "low": 200000,
+            "average": 200000,
+            "high": 200000
           },
           "gasCosts": {
             "cosmosSend": 10000000,
@@ -9618,9 +9512,9 @@
           "coinGeckoId": "injective-protocol",
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.png",
           "gasPriceStep": {
-            "low": 160000000,
-            "average": 160000000,
-            "high": 160000000
+            "low": 500000000,
+            "average": 1000000000,
+            "high": 1500000000
           }
         }
       ],
@@ -9875,13 +9769,13 @@
       "apis": {
         "rpc": [
           {
+            "address": "https://rpc.lavenderfive.com:443/injective"
+          },
+          {
             "address": "https://injective-rpc.polkachu.com"
           },
           {
             "address": "https://injective-rpc.highstakes.ch"
-          },
-          {
-            "address": "https://rpc.lavenderfive.com:443/injective"
           },
           {
             "address": "https://injective-rpc.publicnode.com:443"
@@ -10209,6 +10103,9 @@
       "apis": {
         "rpc": [
           {
+            "address": "https://mantle-rpc.dungeon.games"
+          },
+          {
             "address": "https://rpc.assetmantle.one/"
           },
           {
@@ -10219,9 +10116,6 @@
           },
           {
             "address": "https://assetmantle-rpc.publicnode.com:443"
-          },
-          {
-            "address": "https://mantle-rpc.dungeon.games"
           },
           {
             "address": "https://assetmantle-rpc.polkachu.com:443"
@@ -10775,8 +10669,8 @@
           "coinGeckoId": "terra-luna-2",
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.png",
           "gasPriceStep": {
-            "low": 0.015,
-            "average": 0.015,
+            "low": 0.02,
+            "average": 0.02,
             "high": 0.04
           }
         }
@@ -10793,7 +10687,6 @@
           "coinDenom": "ASTRO.cw20",
           "coinMinimalDenom": "cw20:terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26",
           "coinDecimals": 6,
-          "coinGeckoId": "astroport-fi",
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/astro-cw20.svg"
         },
         {
@@ -11297,7 +11190,6 @@
           "coinDenom": "HARD",
           "coinMinimalDenom": "hard",
           "coinDecimals": 6,
-          "coinGeckoId": "kava-lend",
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/hard.png"
         },
         {
@@ -11324,10 +11216,10 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://rpc-kava.keplr.app"
+            "address": "https://rpc.data.kava.io"
           },
           {
-            "address": "https://rpc.data.kava.io"
+            "address": "https://rpc-kava.keplr.app"
           },
           {
             "address": "https://kava-mainnet-rpc.autostake.com:443"
@@ -11350,10 +11242,10 @@
         ],
         "rest": [
           {
-            "address": "https://lcd-kava.keplr.app"
+            "address": "https://api.data.kava.io/"
           },
           {
-            "address": "https://api.data.kava.io/"
+            "address": "https://lcd-kava.keplr.app"
           },
           {
             "address": "https://kava-api.polkachu.com"
@@ -12886,7 +12778,6 @@
           "coinDenom": "ORAIX",
           "coinMinimalDenom": "cw20:orai1lus0f0rhx8s03gdllx2n6vhkmf0536dv57wfge",
           "coinDecimals": 6,
-          "coinGeckoId": "oraidex",
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/oraix.png"
         },
         {
@@ -12941,7 +12832,6 @@
           "coinDenom": "OCH",
           "coinMinimalDenom": "cw20:orai1hn8w33cqvysun2aujk5sv33tku4pgcxhhnsxmvnkfvdxagcx0p8qa4l98q",
           "coinDecimals": 6,
-          "coinGeckoId": "och",
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/och.png"
         },
         {
@@ -13231,10 +13121,10 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://agoric.rpc.kjnodes.com"
+            "address": "https://main.rpc.agoric.net:443"
           },
           {
-            "address": "https://main.rpc.agoric.net:443"
+            "address": "https://agoric.rpc.kjnodes.com"
           },
           {
             "address": "https://agoric-mainnet-rpc.autostake.com:443"
@@ -14074,9 +13964,9 @@
           "coinDecimals": 9,
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/unification/images/fund.png",
           "gasPriceStep": {
-            "low": 100,
-            "average": 200,
-            "high": 300
+            "low": 300,
+            "average": 400,
+            "high": 500
           }
         }
       ],
@@ -14091,10 +13981,10 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://rpc.unification.chainmasters.ninja"
+            "address": "https://rpc.unification.io:443"
           },
           {
-            "address": "https://rpc.unification.io:443"
+            "address": "https://rpc.unification.chainmasters.ninja"
           },
           {
             "address": "https://rpc.unification.chainmasters.ninja/"
@@ -14158,7 +14048,7 @@
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/jackal/images/jkl.png",
           "gasPriceStep": {
             "low": 0.002,
-            "average": 0.002,
+            "average": 0.004,
             "high": 0.02
           }
         }
@@ -14175,9 +14065,6 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://rpc.jackal.nodestake.org"
-          },
-          {
             "address": "https://rpc.jackalprotocol.com"
           },
           {
@@ -14188,6 +14075,9 @@
           },
           {
             "address": "https://jackal.rpc.bccnodes.com"
+          },
+          {
+            "address": "https://rpc.jackal.nodestake.org"
           },
           {
             "address": "https://rpc-jackal.nodeist.net"
@@ -14230,9 +14120,6 @@
           }
         ],
         "rest": [
-          {
-            "address": "https://jackal.api.pocket.network"
-          },
           {
             "address": "https://api.jackalprotocol.com"
           },
@@ -14280,6 +14167,9 @@
           },
           {
             "address": "https://jackal-api.noders.services"
+          },
+          {
+            "address": "https://jackal.api.pocket.network"
           }
         ]
       },
@@ -14329,8 +14219,8 @@
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/beezee/images/bze.png",
           "gasPriceStep": {
             "low": 0.01,
-            "average": 0.025,
-            "high": 0.04
+            "average": 0.05,
+            "high": 0.1
           }
         }
       ],
@@ -14370,13 +14260,13 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://rpc-2.getbze.com"
-          },
-          {
             "address": "https://rpc.getbze.com"
           },
           {
             "address": "https://rpc-1.getbze.com"
+          },
+          {
+            "address": "https://rpc-2.getbze.com"
           },
           {
             "address": "https://beezee_mainnet_rpc.chain.whenmoonwhenlambo.money"
@@ -14384,10 +14274,10 @@
         ],
         "rest": [
           {
-            "address": "https://rest-1.getbze.com"
+            "address": "https://rest.getbze.com"
           },
           {
-            "address": "https://rest.getbze.com"
+            "address": "https://rest-1.getbze.com"
           },
           {
             "address": "https://rest-2.getbze.com"
@@ -15691,10 +15581,10 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://noble-rpc.polkachu.com"
+            "address": "https://rpc.lavenderfive.com:443/noble"
           },
           {
-            "address": "https://rpc.lavenderfive.com:443/noble"
+            "address": "https://noble-rpc.polkachu.com"
           },
           {
             "address": "https://noble-rpc.owallet.io"
@@ -16655,6 +16545,9 @@
       "apis": {
         "rpc": [
           {
+            "address": "https://gitopia.rpc.stakevillage.net"
+          },
+          {
             "address": "https://rpc-gitopia.keplr.app"
           },
           {
@@ -16710,9 +16603,6 @@
           },
           {
             "address": "https://gitopia.rpc.m.anode.team"
-          },
-          {
-            "address": "https://gitopia.rpc.stakevillage.net"
           },
           {
             "address": "https://gitopia-rpc.enigma-validator.com/"
@@ -16880,8 +16770,8 @@
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nolus/images/nolus.png",
           "gasPriceStep": {
             "low": 0.025,
-            "average": 0.025,
-            "high": 0.05
+            "average": 0.05,
+            "high": 0.075
           }
         },
         {
@@ -16993,10 +16883,10 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://pirin-cl.nolus.network:26657"
+            "address": "https://rpc.nolus.network"
           },
           {
-            "address": "https://rpc.nolus.network"
+            "address": "https://pirin-cl.nolus.network:26657"
           },
           {
             "address": "https://nolus.rpc.liveraven.net"
@@ -17010,10 +16900,10 @@
         ],
         "rest": [
           {
-            "address": "https://pirin-cl.nolus.network:1317"
+            "address": "https://lcd.nolus.network"
           },
           {
-            "address": "https://lcd.nolus.network"
+            "address": "https://pirin-cl.nolus.network:1317"
           },
           {
             "address": "https://nolus.api.liveraven.net"
@@ -17194,7 +17084,6 @@
           "coinDenom": "ASTRO",
           "coinMinimalDenom": "factory/neutron1ffus553eet978k024lmssw0czsxwr97mggyv85lpcsdkft8v9ufsz3sa07/astro",
           "coinDecimals": 6,
-          "coinGeckoId": "astroport-fi",
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astro.png"
         },
         {
@@ -17315,7 +17204,6 @@
           "coinDenom": "dATOM",
           "coinMinimalDenom": "factory/neutron1k6hr0f83e7un2wjf29cspk7j69jrnskk65k3ek2nj9dztrlzpj6q00rtsa/udatom",
           "coinDecimals": 6,
-          "coinGeckoId": "drop-staked-atom",
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/dATOM.svg"
         },
         {
@@ -18463,9 +18351,6 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://rpc-empowerchain.mzonder.com:443"
-          },
-          {
             "address": "https://empower-rpc.polkachu.com"
           },
           {
@@ -18476,6 +18361,9 @@
           },
           {
             "address": "http://empw.rpc.m.stavr.tech:22057"
+          },
+          {
+            "address": "https://rpc-empowerchain.mzonder.com:443"
           },
           {
             "address": "https://empower-rpc.w3coins.io"
@@ -18614,6 +18502,9 @@
       "apis": {
         "rpc": [
           {
+            "address": "https://kyve.ibs.team:443/rpc"
+          },
+          {
             "address": "https://rpc-eu-1.kyve.network"
           },
           {
@@ -18627,9 +18518,6 @@
           },
           {
             "address": "https://rpc-kyve.imperator.co"
-          },
-          {
-            "address": "https://kyve.ibs.team:443/rpc"
           },
           {
             "address": "https://rpc.kyve.nodestake.org"
@@ -18745,9 +18633,9 @@
           "coinGeckoId": "sei-network",
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/sei.png",
           "gasPriceStep": {
-            "low": 0.02,
-            "average": 0.02,
-            "high": 0.04
+            "low": 0.1,
+            "average": 0.2,
+            "high": 0.3
           }
         }
       ],
@@ -18800,10 +18688,10 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://sei-rpc.polkachu.com"
+            "address": "https://rpc.sei-apis.com"
           },
           {
-            "address": "https://rpc.sei-apis.com"
+            "address": "https://sei-rpc.polkachu.com"
           },
           {
             "address": "https://rpc.lavenderfive.com:443/sei"
@@ -18829,10 +18717,10 @@
         ],
         "rest": [
           {
-            "address": "https://sei-api.polkachu.com"
+            "address": "https://rest.sei-apis.com"
           },
           {
-            "address": "https://rest.sei-apis.com"
+            "address": "https://sei-api.polkachu.com"
           },
           {
             "address": "https://rest.lavenderfive.com:443/sei"
@@ -18916,7 +18804,13 @@
       "apis": {
         "rpc": [
           {
+            "address": "https://passage-rpc.stakeandrelax.net"
+          },
+          {
             "address": "https://rpc-passage.ecostake.com"
+          },
+          {
+            "address": "https://rpc.passage.io:443"
           },
           {
             "address": "https://rpc.passage.vitwit.com"
@@ -18928,27 +18822,6 @@
             "address": "https://rpc.lavenderfive.com:443/passage"
           },
           {
-            "address": "https://rpc-passage.d-stake.xyz"
-          },
-          {
-            "address": "https://passage-mainnet-rpc.autostake.com:443"
-          },
-          {
-            "address": "https://passage-rpc.stakerhouse.com"
-          },
-          {
-            "address": "https://passage-rpc.publicnode.com:443"
-          },
-          {
-            "address": "https://passage-rpc.stakeandrelax.net"
-          },
-          {
-            "address": "https://rpc-passage.mainnet.validatrium.club"
-          },
-          {
-            "address": "https://rpc.passage.silentvalidator.com"
-          },
-          {
             "address": "https://passage-rpc.bluestake.net:443"
           },
           {
@@ -18958,6 +18831,9 @@
         "rest": [
           {
             "address": "https://rest-passage.ecostake.com"
+          },
+          {
+            "address": "https://api.passage.io"
           },
           {
             "address": "https://api.passage.vitwit.com"
@@ -18972,25 +18848,7 @@
             "address": "https://passage-api.polkachu.com"
           },
           {
-            "address": "https://api-passage.d-stake.xyz"
-          },
-          {
-            "address": "https://passage-mainnet-lcd.autostake.com:443"
-          },
-          {
-            "address": "https://passage-rest.stakerhouse.com"
-          },
-          {
-            "address": "https://passage-rest.publicnode.com"
-          },
-          {
             "address": "https://passage-api.stakeandrelax.net"
-          },
-          {
-            "address": "https://api-passage.mainnet.validatrium.club"
-          },
-          {
-            "address": "https://api.passage.silentvalidator.com"
           },
           {
             "address": "https://passage-api.bluestake.net"
@@ -19751,9 +19609,6 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://coreum-rpc.publicnode.com:443"
-          },
-          {
             "address": "https://full-node.mainnet-1.coreum.dev:26657"
           },
           {
@@ -19770,6 +19625,9 @@
           },
           {
             "address": "https://coreum.rpc.silknodes.io"
+          },
+          {
+            "address": "https://coreum-rpc.publicnode.com:443"
           },
           {
             "address": "https://rpc.m.core.solonation.io"
@@ -19896,9 +19754,6 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://celestia-rpc.publicnode.com:443"
-          },
-          {
             "address": "https://rpc.lunaroasis.net"
           },
           {
@@ -19915,6 +19770,9 @@
           },
           {
             "address": "https://celestia.rpc.interchain.validao.xyz"
+          },
+          {
+            "address": "https://celestia-rpc.publicnode.com:443"
           },
           {
             "address": "https://celestia.rpc.stakin-nodes.com"
@@ -19979,9 +19837,6 @@
         ],
         "rest": [
           {
-            "address": "https://rest.lavenderfive.com:443/celestia"
-          },
-          {
             "address": "https://public-celestia-lcd.numia.xyz"
           },
           {
@@ -19992,6 +19847,9 @@
           },
           {
             "address": "https://api.celestia.nodestake.org"
+          },
+          {
+            "address": "https://rest.lavenderfive.com:443/celestia"
           },
           {
             "address": "https://celestia.rest.interchain.validao.xyz"
@@ -20137,10 +19995,10 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://dydx-rpc.polkachu.com/"
+            "address": "https://dydx-rpc.kingnodes.com:443"
           },
           {
-            "address": "https://dydx-rpc.kingnodes.com:443"
+            "address": "https://dydx-rpc.polkachu.com/"
           },
           {
             "address": "https://rpc.lavenderfive.com:443/dydx"
@@ -21201,8 +21059,8 @@
           "coinGeckoId": "dymension",
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dymension/images/dymension-logo.png",
           "gasPriceStep": {
-            "low": 5000000000,
-            "average": 5000000000,
+            "low": 20000000000,
+            "average": 20000000000,
             "high": 20000000000
           }
         }
@@ -21449,7 +21307,7 @@
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/heart-dark-mode.svg",
           "gasPriceStep": {
             "low": 80000000000,
-            "average": 100000000000,
+            "average": 120000000000,
             "high": 160000000000
           }
         }
@@ -21466,10 +21324,10 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://rpc.humans.nodestake.top"
+            "address": "https://rpc.humans.nodestake.org"
           },
           {
-            "address": "https://rpc.humans.nodestake.org"
+            "address": "https://rpc.humans.nodestake.top"
           },
           {
             "address": "https://humans.rpc.kjnodes.com"
@@ -21513,6 +21371,9 @@
         ],
         "rest": [
           {
+            "address": "https://humans-mainnet-api.itrocket.net"
+          },
+          {
             "address": "https://api.humans.nodestake.top"
           },
           {
@@ -21520,9 +21381,6 @@
           },
           {
             "address": "https://humans.api.kjnodes.com"
-          },
-          {
-            "address": "https://humans-mainnet-api.itrocket.net"
           },
           {
             "address": "https://humans-rest.staketab.org"
@@ -22642,9 +22500,9 @@
           "coinGeckoId": "shido-2",
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/shido/images/shido.png",
           "gasPriceStep": {
-            "low": 20000000000,
-            "average": 25000000000,
-            "high": 40000000000
+            "low": 80000000000,
+            "average": 80000000000,
+            "high": 80000000000
           }
         }
       ],
@@ -22661,9 +22519,6 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://rpc.shidoscan.net"
-          },
-          {
             "address": "https://tendermint.shidoscan.com/"
           },
           {
@@ -22671,6 +22526,9 @@
           },
           {
             "address": "https://rpc.kenseishido.com"
+          },
+          {
+            "address": "https://rpc.shidoscan.net"
           },
           {
             "address": "https://shidochain_mainnet_rpc.chain.whenmoonwhenlambo.money"
@@ -22696,9 +22554,6 @@
         ],
         "rest": [
           {
-            "address": "https://api.shidoscan.net"
-          },
-          {
             "address": "https://swagger.shidoscan.com/"
           },
           {
@@ -22706,6 +22561,9 @@
           },
           {
             "address": "https://api.kenseishido.com"
+          },
+          {
+            "address": "https://api.shidoscan.net"
           },
           {
             "address": "https://shidochain_mainnet_api.chain.whenmoonwhenlambo.money"
@@ -22793,10 +22651,10 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://cif_node.cifer.ai"
+            "address": "https://rpc.cifer.ai"
           },
           {
-            "address": "https://rpc.cifer.ai"
+            "address": "https://cif_node.cifer.ai"
           },
           {
             "address": "http://119.59.126.109:26657"
@@ -22855,8 +22713,8 @@
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/seda/images/seda.png",
           "gasPriceStep": {
             "low": 10000000000,
-            "average": 10000000000,
-            "high": 14000000000
+            "average": 15000000000,
+            "high": 20000000000
           }
         }
       ],
@@ -22873,6 +22731,9 @@
       "apis": {
         "rpc": [
           {
+            "address": "https://rpc.lavenderfive.com:443/seda"
+          },
+          {
             "address": "https://rpc.mainnet.seda.xyz"
           },
           {
@@ -22880,9 +22741,6 @@
           },
           {
             "address": "https://seda.rpc.kjnodes.com"
-          },
-          {
-            "address": "https://rpc.lavenderfive.com:443/seda"
           },
           {
             "address": "https://rpc.seda.bronbro.io:443"
@@ -23010,7 +22868,12 @@
           "coinMinimalDenom": "uneutaro",
           "coinDecimals": 6,
           "coinGeckoId": "neutaro",
-          "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutaro/images/ntmpi.png"
+          "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutaro/images/ntmpi.png",
+          "gasPriceStep": {
+            "low": 0.01,
+            "average": 0.025,
+            "high": 0.03
+          }
         }
       ],
       "currencies": [
@@ -23092,8 +22955,8 @@
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/firmachain/images/fct.png",
           "gasPriceStep": {
             "low": 0.1,
-            "average": 0.15,
-            "high": 0.2
+            "average": 0.25,
+            "high": 0.3
           }
         }
       ],
@@ -23109,10 +22972,10 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://rpc-explorer-mainnet.firmachain.dev"
+            "address": "https://lcd-mainnet.firmachain.dev:26657"
           },
           {
-            "address": "https://lcd-mainnet.firmachain.dev:26657"
+            "address": "https://rpc-explorer-mainnet.firmachain.dev"
           },
           {
             "address": "https://firma.rpc.m.stavr.tech:443"
@@ -23138,10 +23001,10 @@
         ],
         "rest": [
           {
-            "address": "https://lcd-explorer-mainnet.firmachain.dev"
+            "address": "https://lcd-mainnet.firmachain.dev:1317"
           },
           {
-            "address": "https://lcd-mainnet.firmachain.dev:1317"
+            "address": "https://lcd-explorer-mainnet.firmachain.dev"
           },
           {
             "address": "https://firma.api.m.stavr.tech"
@@ -23225,10 +23088,10 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://lava-rpc.w3coins.io"
+            "address": "https://lava.tendermintrpc.lava.build"
           },
           {
-            "address": "https://lava.tendermintrpc.lava.build"
+            "address": "https://lava-rpc.w3coins.io"
           },
           {
             "address": "https://lava-rpc.w3coins.io:443"
@@ -23397,7 +23260,6 @@
         "coinDenom": "ROUTE",
         "coinMinimalDenom": "route",
         "coinDecimals": 18,
-        "coinGeckoId": "router-protocol-2",
         "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/routerchain/images/router.png"
       },
       "feeCurrencies": [
@@ -23405,7 +23267,6 @@
           "coinDenom": "ROUTE",
           "coinMinimalDenom": "route",
           "coinDecimals": 18,
-          "coinGeckoId": "router-protocol-2",
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/routerchain/images/router.png",
           "gasPriceStep": {
             "low": 7,
@@ -23419,7 +23280,6 @@
           "coinDenom": "ROUTE",
           "coinMinimalDenom": "route",
           "coinDecimals": 18,
-          "coinGeckoId": "router-protocol-2",
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/routerchain/images/router.png"
         }
       ],
@@ -23689,7 +23549,6 @@
         "coinDenom": "KIMA",
         "coinMinimalDenom": "uKIMA",
         "coinDecimals": 6,
-        "coinGeckoId": "kima",
         "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kimanetwork/images/kima.png"
       },
       "feeCurrencies": [
@@ -23697,7 +23556,6 @@
           "coinDenom": "KIMA",
           "coinMinimalDenom": "uKIMA",
           "coinDecimals": 6,
-          "coinGeckoId": "kima",
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kimanetwork/images/kima.png",
           "gasPriceStep": {
             "low": 0.01,
@@ -23711,7 +23569,6 @@
           "coinDenom": "KIMA",
           "coinMinimalDenom": "uKIMA",
           "coinDecimals": 6,
-          "coinGeckoId": "kima",
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kimanetwork/images/kima.png"
         }
       ],
@@ -23982,7 +23839,7 @@
           "coinDenom": "dATOM",
           "coinMinimalDenom": "ibc/EA6E1E8BA2EB9F681C4BD12C8C81A46530A62934F2BD561B120A00F46946CE87",
           "coinDecimals": 6,
-          "coinGeckoId": "drop-staked-atom",
+          "coinGeckoId": "cosmos",
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/dATOM.svg",
           "gasPriceStep": {
             "low": 0.0025,
@@ -24071,7 +23928,7 @@
           "coinDenom": "dATOM",
           "coinMinimalDenom": "ibc/EA6E1E8BA2EB9F681C4BD12C8C81A46530A62934F2BD561B120A00F46946CE87",
           "coinDecimals": 6,
-          "coinGeckoId": "drop-staked-atom",
+          "coinGeckoId": "cosmos",
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/dATOM.svg"
         },
         {
@@ -26021,10 +25878,10 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://dungeon-wallet.rpc.quasarstaking.ai"
+            "address": "https://rpc.dungeongames.io"
           },
           {
-            "address": "https://rpc.dungeongames.io"
+            "address": "https://dungeon-wallet.rpc.quasarstaking.ai"
           },
           {
             "address": "https://rpc.dungeon.chaintools.tech"
@@ -26032,10 +25889,10 @@
         ],
         "rest": [
           {
-            "address": "https://dungeon-wallet.api.quasarstaking.ai"
+            "address": "https://api.dungeongames.io"
           },
           {
-            "address": "https://api.dungeongames.io"
+            "address": "https://dungeon-wallet.api.quasarstaking.ai"
           },
           {
             "address": "https://api.dungeon.chaintools.tech"
@@ -27125,13 +26982,13 @@
       "apis": {
         "rpc": [
           {
+            "address": "https://babylon-rpc.publicnode.com:443"
+          },
+          {
             "address": "https://babylon-rpc.polkachu.com"
           },
           {
             "address": "https://babylon.nodes.guru/rpc"
-          },
-          {
-            "address": "https://babylon-rpc.publicnode.com:443"
           },
           {
             "address": "https://babylon-mainnet-rpc.autostake.com:443"
@@ -27225,13 +27082,13 @@
       "apis": {
         "rpc": [
           {
+            "address": "https://initia-rpc.polkachu.com:443"
+          },
+          {
             "address": "https://rpc.initia.xyz"
           },
           {
             "address": "https://initia-mainnet-rpc.autostake.com:443"
-          },
-          {
-            "address": "https://initia-rpc.polkachu.com:443"
           }
         ],
         "rest": [
@@ -27599,9 +27456,9 @@
           "coinDecimals": 9,
           "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/badge_logo.png",
           "gasPriceStep": {
-            "low": 0.00025,
-            "average": 0.0025,
-            "high": 0.025
+            "low": 0.01,
+            "average": 0.025,
+            "high": 0.03
           }
         }
       ],
@@ -27701,6 +27558,9 @@
           },
           {
             "address": "https://xrp-rpc.polkachu.com:443"
+          },
+          {
+            "address": "https://rpc.xrpl.archive.cumulo.me"
           }
         ],
         "rest": [
@@ -27712,6 +27572,9 @@
           },
           {
             "address": "https://xrp-api.polkachu.com"
+          },
+          {
+            "address": "https://api.xrpl.archive.cumulo.me"
           }
         ]
       },
@@ -28324,9 +28187,6 @@
       "apis": {
         "rpc": [
           {
-            "address": "https://sunrise-rpc.krews.xyz"
-          },
-          {
             "address": "https://a.consensus.sunrise-1.sunriselayer.io"
           },
           {
@@ -28346,6 +28206,9 @@
           },
           {
             "address": "https://rpc.sunrise.nodestake.org"
+          },
+          {
+            "address": "https://sunrise-rpc.krews.xyz"
           },
           {
             "address": "https://sunrise-rpc-2.krews.xyz"
@@ -28725,7 +28588,7 @@
           "gasPriceStep": {
             "low": 20000000000,
             "average": 25000000000,
-            "high": 30000000000
+            "high": 40000000000
           }
         }
       ],
@@ -28767,6 +28630,9 @@
           },
           {
             "address": "https://epix-rpc.tintonode.win"
+          },
+          {
+            "address": "https://rpc.epix.indonode.net"
           }
         ],
         "rest": [
@@ -28796,6 +28662,9 @@
           },
           {
             "address": "https://epix-api.tintonode.win"
+          },
+          {
+            "address": "https://api.epix.indonode.net"
           }
         ]
       },
@@ -29022,13 +28891,13 @@
       "apis": {
         "rpc": [
           {
+            "address": "https://rpc.gnodipowered.com"
+          },
+          {
             "address": "https://rpc.gnodi.zone"
           },
           {
             "address": "https://rpc.gnodi.zone:443"
-          },
-          {
-            "address": "https://rpc.gnodipowered.com"
           },
           {
             "address": "https://rpc-gnodi.vinjan-inc.com"
@@ -29036,13 +28905,13 @@
         ],
         "rest": [
           {
+            "address": "https://api.gnodipowered.com"
+          },
+          {
             "address": "https://api.gnodi.zone"
           },
           {
             "address": "https://api.gnodi.zone:443"
-          },
-          {
-            "address": "https://api.gnodipowered.com"
           },
           {
             "address": "https://api-gnodi.vinjan-inc.com"
@@ -29176,6 +29045,14 @@
       }
     },
     {
+      "chain_name": "blakiston",
+      "prettyName": "Blakiston",
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/blakiston/images/blakiston.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/blakiston/images/blakiston.svg"
+      }
+    },
+    {
       "chain_name": "blg24",
       "prettyName": "BLG24",
       "logo_URIs": {
@@ -29297,6 +29174,13 @@
       "prettyName": "WoloChain",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/wolochain/images/wolo.png"
+      }
+    },
+    {
+      "chain_name": "xpex",
+      "prettyName": "XPEX",
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xpex/images/xpx.png"
       }
     }
   ]
